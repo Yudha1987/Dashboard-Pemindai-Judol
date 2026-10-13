@@ -1,0 +1,53 @@
+name: Scan Website Terjadwal
+
+on:
+  schedule:
+    # 03:00 WIB (UTC+7) = 20:00 UTC hari sebelumnya
+    - cron: "0 20 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan-website
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scan profil DESA
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py --profile desa --once
+
+      - name: Scan profil OPD
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py --profile opd --once
+
+      - name: Commit & push hasil scan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/desa/results_desa.json output/opd/results_opd.json
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan hasil scan."
+          else
+            git commit -m "chore: update hasil scan dashboard"
+            git push
+          fi

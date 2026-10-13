@@ -46,8 +46,13 @@ from src.reporter import (
 )
 from src.scanner import scan_target
 from src.telegram_alert import send_telegram_alert
+from src.wsgi_app import build_wsgi_app
 
 init(autoreset=True)
+
+# Entrypoint untuk Vercel / WSGI (dijalankan saat diimpor sebagai Vercel Function).
+# Vercel mewajibkan variabel top-level "app" / "application" / "handler".
+app = build_wsgi_app()
 
 # Console Windows tidak bisa encode semua karakter Unicode; jangan crash.
 for _stream in (sys.stdout, sys.stderr):
