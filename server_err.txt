@@ -1,0 +1,6 @@
+usage: main.py [-h] [--profile {opd,desa}] [--once] [--watch] [--serve]
+               [--port PORT] [--interval-min INTERVAL_MIN]
+               [--concurrency CONCURRENCY] [--output OUTPUT] [--interactive]
+               [--single URL] [--deep-scan-pages DEEP_SCAN_PAGES]
+               [--no-deep-scan]
+main.py: error: unrecognized arguments: desa

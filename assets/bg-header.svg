@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Gradien Background Latar -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EBF0F5" />
+    </linearGradient>
+
+    <!-- Gradien Merah Kanan -->
+    <linearGradient id="red-grad-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C81E1E" />
+      <stop offset="100%" stop-color="#800A0A" />
+    </linearGradient>
+
+    <!-- Gradien Hitam/Gelap -->
+    <linearGradient id="dark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3748" />
+      <stop offset="100%" stop-color="#1A202C" />
+    </linearGradient>
+
+    <!-- Lines Emas/Aksen -->
+    <linearGradient id="gold-line" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECC94B" />
+      <stop offset="100%" stop-color="#D69E2E" />
+    </linearGradient>
+
+    <!-- Pola Polkadot Kiri -->
+    <pattern id="dot-pattern" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.5" fill="#A0AEC0" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Canvas Latar Utama -->
+  <rect width="1200" height="400" fill="url(#bg-grad)" />
+
+  <!-- ELEMEN GEOMETRIS KIRI -->
+  <polygon points="0,0 220,0 0,160" fill="#FFFFFF" opacity="0.7" />
+  <polygon points="10,60 140,60 40,210 0,210" fill="url(#dot-pattern)" />
+  <polygon points="25,228 100,228 190,360 115,360" fill="url(#dark-grad)" />
+  <polygon points="65,330 110,330 150,400 105,400" fill="#111827" />
+  <polygon points="0,230 80,350 0,400" fill="url(#red-grad-right)" />
+
+  <!-- ELEMEN GEOMETRIS KANAN -->
+  <polygon points="950,0 1200,0 1200,400 1060,400" fill="url(#red-grad-right)" />
+  <polygon points="1040,0 1200,0 1200,260" fill="#9B1C1C" opacity="0.4" />
+  <polygon points="800,0 930,0 1070,215 940,215" fill="url(#dark-grad)" />
+  <polygon points="935,110 1100,305 1092,308 927,113" fill="#C81E1E" />
+  <line x1="930" y1="0" x2="1070" y2="215" stroke="url(#gold-line)" stroke-width="2" />
+</svg>

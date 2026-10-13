@@ -1,0 +1,452 @@
+﻿
+==============================================================================
+  PEMANTAU WEBSITE DESA - INDIKASI SISIPAN JUDI ONLINE / SPAM
+  213 Website Desa Pengguna OpenSID - Kabupaten Ngawi
+==============================================================================
+
+[+] Memulai pemindaian 213 website desa ...
+[+] Waktu mulai : 12/08/2026 12:13:57
+
+
+[1/213] OK Karangjati Ngawi          https://karangjati-ngawi.desa.id
+[2/213] OK Sidokerto Ngawi           https://sidokerto-ngawi.desa.id
+[3/213] OK Sumberbening              https://sumberbening.desa.id
+[4/213] OK Majasem                   https://majasem.desa.id
+[5/213] OK Pakah                     https://pakah.desa.id
+[6/213] OK Rejuno                    https://rejuno.desa.id
+[7/213] OK Jururejo                  https://jururejo.desa.id
+[8/213] OK Gemarang                  https://gemarang.desa.id
+[9/213] OK Karangtengahprandon       https://karangtengahprandon.desa.id
+[10/213] OK Walikukun                 https://walikukun.desa.id
+[11/213] OK Tambakboyo Ngawi          https://tambakboyo-ngawi.desa.id
+[12/213] OK Rejomulyo                 https://rejomulyo.desa.id
+[13/213] OK Banyuurip Ngawi           https://banyuurip-ngawi.desa.id
+[14/213] OK Krompol                   https://krompol.desa.id
+[15/213] OK Pengkol                   https://pengkol.desa.id
+[16/213] OK Jaten                     https://jaten.desa.id
+[17/213] OK Babadan Pangkur           https://babadan-pangkur.desa.id
+[18/213] OK Bringin Ngawi             https://bringin-ngawi.desa.id
+[19/213] OK Wonokerto Ngawi           https://wonokerto-ngawi.desa.id
+[20/213] OK Selopuro                  https://selopuro.desa.id
+[21/213] OK Watualang                 https://watualang.desa.id
+[22/213] OK Legowetan                 https://legowetan.desa.id
+[23/213] OK Kendal Ngawi              https://kendal-ngawi.desa.id
+[24/213] OK Karangmalang Ngawi        https://karangmalang-ngawi.desa.id
+[25/213] OK Kedungprahu               https://kedungprahu.desa.id
+[26/213] OK Karangasri                https://karangasri.desa.id
+[27/213] OK Sumber Ngawi              https://sumber-ngawi.desa.id
+[28/213] OK Dero                      https://dero.desa.id
+[29/213] OK Sukowiyono                https://sukowiyono.desa.id
+[30/213] OK Jatipuro                  https://jatipuro.desa.id
+[31/213] OK Wakah                     https://wakah.desa.id
+[32/213] OK Sekarjati                 https://sekarjati.desa.id
+[33/213] OK Dampit Ngawi              https://dampit-ngawi.desa.id
+[34/213] OK Kartoharjo                https://kartoharjo.desa.id
+[35/213] OK Karanggeneng Ngawi        https://karanggeneng-ngawi.desa.id
+[36/213] OK Campurasri                https://campurasri.desa.id
+[37/213] OK Keraskulon                https://keraskulon.desa.id
+[38/213] OK Budug Ngawi               https://budug-ngawi.desa.id
+[39/213] OK Wonosari Ngawi            https://wonosari-ngawi.desa.id
+[40/213] OK Banyubiru Ngawi           https://banyubiru-ngawi.desa.id
+[41/213] OK Keraswetan                https://keraswetan.desa.id
+[42/213] OK Beran                     https://beran.desa.id
+[43/213] OK Cepoko                    https://cepoko.desa.id
+[44/213] OK Paras Ngawi               https://paras-ngawi.desa.id
+[45/213] OK Sumbersari Ngawi          https://sumbersari-ngawi.desa.id
+[46/213] OK Mangunharjo Ngawi         https://mangunharjo-ngawi.desa.id
+[47/213] OK Wonorejo Ngawi            https://wonorejo-ngawi.desa.id
+[48/213] OK Karangrejo Ngawi          https://karangrejo-ngawi.desa.id
+[49/213] OK Cangakan                  https://cangakan.desa.id
+[50/213] OK Gandong                   https://gandong.desa.id
+[51/213] OK Pandansari Ngawi          https://pandansari-ngawi.desa.id
+[52/213] OK Jatimulyo Ngawi           https://jatimulyo-ngawi.desa.id
+[53/213] OK Brangol                   https://brangol.desa.id
+[54/213] OK Dawung                    https://dawung.desa.id
+[55/213] OK Pocol                     https://pocol.desa.id
+[56/213] OK Pelangkidul               https://pelangkidul.desa.id
+[57/213] OK Kalang                    https://kalang.desa.id
+[58/213] OK Gunungsari Ngawi          https://gunungsari-ngawi.desa.id
+[59/213] OK Jatirejo Ngawi            https://jatirejo-ngawi.desa.id
+[60/213] OK Karangsono Ngawi          https://karangsono-ngawi.desa.id
+[61/213] OK Papungan                  https://papungan.desa.id
+[62/213] OK Mantingan Ngawi           https://mantingan-ngawi.desa.id
+[63/213] OK Bangunrejolor             https://bangunrejolor.desa.id
+[64/213] OK Girikerto Ngawi           https://girikerto-ngawi.desa.id
+[65/213] OK Grudo                     https://grudo.desa.id
+[66/213] OK Gandri Ngawi              https://gandri-ngawi.desa.id
+[67/213] OK Guyung                    https://guyung.desa.id
+[68/213] OK Keniten Ngawi             https://keniten-ngawi.desa.id
+[69/213] OK Kasreman                  https://kasreman.desa.id
+[70/213] OK Klitik                    https://klitik.desa.id
+[71/213] OK Sembung Ngawi             https://sembung-ngawi.desa.id
+[72/213] OK Pangkur                   https://pangkur.desa.id
+[73/213] OK Kersoharjo                https://kersoharjo.desa.id
+[74/213] OK Geneng Ngawi              https://geneng-ngawi.desa.id
+[75/213] OK Kersikan                  https://kersikan.desa.id
+[76/213] OK Sidomakmur Ngawi          https://sidomakmur-ngawi.desa.id
+[77/213] OK Katikan                   https://katikan.desa.id
+[78/213] OK Dungmiri                  https://dungmiri.desa.id
+[79/213] OK Kawu                      https://kawu.desa.id
+[80/213] OK Padas                     https://padas.desa.id
+[81/213] OK Randusongo                https://randusongo.desa.id
+[82/213] OK Legundi                   https://legundi.desa.id
+[83/213] OK Suruh                     https://suruh.desa.id
+[84/213] OK Sekarputih Ngawi          https://sekarputih-ngawi.desa.id
+[85/213] OK Kedunggudel               https://kedunggudel.desa.id
+[86/213] OK Paron                     https://paron.desa.id
+[87/213] OK Sidorejo Geneng           https://sidorejo-geneng.desa.id
+[88/213] OK Ngrambe Ngawi             https://ngrambe-ngawi.desa.id
+[89/213] OK Sidolaju                  https://sidolaju.desa.id
+[90/213] OK Karanggupito              https://karanggupito.desa.id
+[91/213] OK Patalan                   https://patalan.desa.id
+[92/213] OK Sumberejo Ngawi           https://sumberejo-ngawi.desa.id
+[93/213] OK Ngancar                   https://ngancar.desa.id
+[94/213] OK Manisharjo                https://manisharjo.desa.id
+[95/213] OK Jambangan Ngawi           https://jambangan-ngawi.desa.id
+[96/213] OK Jogorogo                  https://jogorogo.desa.id
+[97/213] OK Pleset                    https://pleset.desa.id
+[98/213] OK Tawun                     https://tawun.desa.id
+[99/213] OK Babadan Paron             https://babadan-paron.desa.id
+[100/213] OK Cantel                    https://cantel.desa.id
+[101/213] OK Gempol                    https://gempol.desa.id
+[102/213] OK Dumplengan                https://dumplengan.desa.id
+[103/213] OK Ngawi Ngawi               https://ngawi-ngawi.desa.id
+[104/213] OK Banjaransari              https://banjaransari.desa.id
+[105/213] OK Hargosari                 https://hargosari.desa.id
+[106/213] OK Kiyonten                  https://kiyonten.desa.id
+[107/213] OK Banget                    https://banget.desa.id
+[108/213] OK Ploso                     https://ploso.desa.id
+[109/213] OK Talang                    https://talang.desa.id
+[110/213] OK Kedungharjo               https://kedungharjo.desa.id
+[111/213] OK Bintoyo                   https://bintoyo.desa.id
+[112/213] OK Kwadunganlor              https://kwadunganlor.desa.id
+[113/213] OK Girimulyo                 https://girimulyo.desa.id
+[114/213] OK Pohkonyal                 https://pohkonyal.desa.id
+[115/213] OK Ketanggung                https://ketanggung.desa.id
+[116/213] OK Kedungputri               https://kedungputri.desa.id
+[117/213] OK Ngompro                   https://ngompro.desa.id
+[118/213] OK Sumengko                  https://sumengko.desa.id
+[119/213] OK Ringinanom                https://ringinanom.desa.id
+[120/213] OK Tepas Ngawi               https://tepas-ngawi.desa.id
+[121/213] OK Waruk Tengah              https://waruktengah.desa.id
+[122/213] OK Plosolor                  https://plosolor.desa.id
+[123/213] OK Sine                      https://sine.desa.id
+[124/213] OK Ngrayudan                 https://ngrayudan.desa.id
+[125/213] OK Sambirejo Ngrambe         https://sambirejo-ngrambe.desa.id
+[126/213] OK Dempel                    https://dempel.desa.id
+[127/213] OK Sriwedari Ngawi           https://sriwedari-ngawi.desa.id
+[128/213] OK Pandean                   https://pandean.desa.id
+[129/213] OK Semen                     https://semen.desa.id
+[130/213] OK Tungkulrejo               https://tungkulrejo.desa.id
+[131/213] OK Gendingan                 https://gendingan.desa.id
+[132/213] OK Karangbanyu               https://karangbanyu.desa.id
+[133/213] OK Begal                     https://begal.desa.id
+[134/213] OK Gentong Ngawi             https://gentong-ngawi.desa.id
+[135/213] OK Banjarbanggi              https://banjarbanggi.desa.id
+[136/213] OK Kayutrejo                 https://kayutrejo.desa.id
+[137/213] OK Widodaren Gerih           https://widodaren-gerih.desa.id
+[138/213] OK Tanjungsari Ngawi         https://tanjungsari-ngawi.desa.id
+[139/213] OK Sidorejo Karangjati       https://sidorejo-karangjati.desa.id
+[140/213] OK Jenggrik                  https://jenggrik.desa.id
+[141/213] OK Sirigan                   https://sirigan.desa.id
+[142/213] OK Kandangan Ngawi           https://kandangan-ngawi.desa.id
+[143/213] OK Mengger                   https://mengger.desa.id
+[144/213] OK Dadapan Ngawi             https://dadapan-ngawi.desa.id
+[145/213] OK Giriharjo                 https://giriharjo.desa.id
+[146/213] OK Klampisan                 https://klampisan.desa.id
+[147/213] OK Sambiroto Ngawi           https://sambiroto-ngawi.desa.id
+[148/213] OK Umbulrejo                 https://umbulrejo.desa.id
+[149/213] OK Gendol                    https://gendol.desa.id
+[150/213] OK Kletekan                  https://kletekan.desa.id
+[151/213] OK Mojomanis                 https://mojomanis.desa.id
+[152/213] OK Kebon                     https://kebon.desa.id
+[153/213] OK Legokulon                 https://legokulon.desa.id
+[154/213] OK Karanganyar Ngawi         https://karanganyar-ngawi.desa.id
+[155/213] OK Sidorejo Kendal           https://sidorejo-kendal.desa.id
+[156/213] OK Warukkalong               https://warukkalong.desa.id
+[157/213] OK Mendiro Ngawi             https://mendiro-ngawi.desa.id
+[158/213] OK Brubuh                    https://brubuh.desa.id
+[159/213] OK Dinden                    https://dinden.desa.id
+[160/213] OK Teguhan                   https://teguhan.desa.id
+[161/213] OK Ngrendeng                 https://ngrendeng.desa.id
+[162/213] OK Sekaralas                 https://sekaralas.desa.id
+[163/213] OK Pitu                      https://pitu.desa.id
+[164/213] OK Mojo Ngawi                https://mojo-ngawi.desa.id
+[165/213] OK Baderan                   https://baderan.desa.id
+[166/213] OK Kasreman Geneng           https://kasreman-geneng.desa.id
+[167/213] OK Puhti                     https://puhti.desa.id
+[168/213] OK Danguk                    https://danguk.desa.id
+[169/213] OK Bendo Ngawi               https://bendo-ngawi.desa.id
+[170/213] OK Macanan                   https://macanan.desa.id
+[171/213] OK Bangunrejo Ngawi          https://bangunrejo-ngawi.desa.id
+[172/213] OK Bangunrejokidul           https://bangunrejokidul.desa.id
+[173/213] OK Gelung                    https://gelung.desa.id
+[174/213] OK Pucangan                  https://pucangan.desa.id
+[175/213] OK Pacing                    https://pacing.desa.id
+[176/213] OK Gayam Ngawi               https://gayam-ngawi.desa.id
+[177/213] OK Pojok Ngawi               https://pojok-ngawi.desa.id
+[178/213] OK Kerek                     https://kerek.desa.id
+[179/213] OK Purwosari Ngawi           https://purwosari-ngawi.desa.id
+[180/213] OK Pelanglor                 https://pelanglor.desa.id
+[181/213] OK Kenongorejo               https://kenongorejo.desa.id
+[182/213] OK Babadan Ngrambe           https://babadan-ngrambe.desa.id
+[183/213] OK Jagir                     https://jagir.desa.id
+[184/213] OK Dawu                      https://dawu.desa.id
+[185/213] OK Gerih                     https://gerih.desa.id
+[186/213] OK Tambakromo Geneng         https://tambakromo-geneng.desa.id
+[187/213] OK Soco                      https://soco.desa.id
+[188/213] OK Jatigembol                https://jatigembol.desa.id
+[189/213] OK Simo Kwadungan            https://simo-kwadungan.desa.id
+[190/213] OK Kwadungan                 https://kwadungan.desa.id
+[191/213] OK Gembol                    https://gembol.desa.id
+[192/213] OK Jenangan                  https://jenangan.desa.id
+[193/213] OK Tempuran Ngawi            https://tempuran-ngawi.desa.id
+[194/213] OK Simo Kendal               https://simo-kendal.desa.id
+[195/213] OK Kendung                   https://kendung.desa.id
+[196/213] OK Sambirejo Mantingan       https://sambirejo-mantingan.desa.id
+[197/213] OK Tirak                     https://tirak.desa.id
+[198/213] OK Tambakromo Padas          https://tambakromo-padas.desa.id
+[199/213] OK Ngale                     https://ngale.desa.id
+[200/213] OK Krandegan Ngawi           https://krandegan-ngawi.desa.id
+[201/213] OK Sidomulyo Ngawi           https://sidomulyo-ngawi.desa.id
+[202/213] OK Jeblogan                  https://jeblogan.desa.id
+[203/213] OK Munggut                   https://munggut.desa.id
+[204/213] OK Kauman Sine               https://kauman-sine.desa.id
+[205/213] OK Widodaren                 https://widodaren.desa.id
+[206/213] OK Hargomulyo Ngawi          https://hargomulyo-ngawi.desa.id
+[207/213] OK Setono                    https://setono.desa.id
+[208/213] OK Sawo Ngawi                https://sawo-ngawi.desa.id
+[209/213] OK Kauman Widodaren          https://kauman-widodaren.desa.id
+[210/213] OK Kedunggalar               https://kedunggalar.desa.id
+[211/213] OK Kuniran                   https://kuniran.desa.id
+[212/213] OK Tulakan Ngawi             https://tulakan-ngawi.desa.id
+[213/213] OK Tawangrejo Ngawi          https://tawangrejo-ngawi.desa.id
+
++--------+---------------------+-------------------------------------+--------------------------------------------------------------+------------+----------------------------+
+| STATUS | NAMA DESA           | URL WEBSITE                         | JUDUL POSTINGAN TERAKHIR                                     | TANGGAL    | KETERANGAN / INDIKASI SPAM |
++--------+---------------------+-------------------------------------+--------------------------------------------------------------+------------+----------------------------+
+| AMAN   | Babadan Ngrambe     | https://babadan-ngrambe.desa.id     | Sejarah Desa                                                 | 26/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Babadan Pangkur     | https://babadan-pangkur.desa.id     | KEMENANGAN SEMIFINAL KAPOLSEK GALA DESA CUP 2026             | 31/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Babadan Paron       | https://babadan-paron.desa.id       | HASIL TES PENGISIAN PERANGKAT DESA BABADAN FORMASI JABATAN KASUN JATIS | 24/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Baderan             | https://baderan.desa.id             | Rapat membangun Komitmen antara Karang Taruna Desa Senggigi dengan Tar | 24/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Banget              | https://banget.desa.id              | PENERIMA BANTUAN SOSIAL ( BANSOS ) DESA BANGET               | 27/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Bangunrejo Ngawi    | https://bangunrejo-ngawi.desa.id    | PEMBINAAN LINMAS DAN FKPM DESA BANGUNREJO TINGKATKAN SINERGI KEAMANAN  | 28/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Bangunrejokidul     | https://bangunrejokidul.desa.id     | MUSYAWARAH PENYUSUNAN RENCANA KERJA PEMERINTAH (RKP) DESA BANGUNREJO K | 30/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Bangunrejolor       | https://bangunrejolor.desa.id       | Pelayanan Prima Posyandu di Dusun Cengklik Untuk Mencegah Anak Stuntin | 04/02/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Banjaransari        | https://banjaransari.desa.id        | PELATIHAN PENGELOLAAN KEUANGAN BUMDES RAHAYU WIDODO DESA BANJARANSARI | 27/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Banjarbanggi        | https://banjarbanggi.desa.id        | Transparansi Anggaran APBDesa Semester 1 Desa Banjarbanggi Tahun 2026 | 10/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Banyubiru Ngawi     | https://banyubiru-ngawi.desa.id     | LAPORAN REALISASI APBDES TAHUN 2025                          | 12/01/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Banyuurip Ngawi     | https://banyuurip-ngawi.desa.id     | APRESIASI DUTA GENRE TK. DESA                                | 06/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Begal               | https://begal.desa.id               | DESA BEGAL GELAR MUSDESUS BAHAS DUKUNGAN PENGEMBALIAN PINJAMAN KOPERAS | 04/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Bendo Ngawi         | https://bendo-ngawi.desa.id         | Sejarah Desa                                                 | 26/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Beran               | https://beran.desa.id               | MUSYAWARAH PERENCANAAN PEMBANGUNAN DESA BERAN MEMBAHAS DAN MENYEPAKATI | 23/09/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Bintoyo             | https://bintoyo.desa.id             | WiFi Gratis di Taman Desa Bintoyo sebagai Implementasi Desa Digital | 16/05/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Brangol             | https://brangol.desa.id             | Desa Brangol Laporkan Realisasi APB Desa Tahun Anggaran 2026, Catat Su | 07/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Bringin Ngawi       | https://bringin-ngawi.desa.id       | Wilayah Desa                                                 | 07/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Brubuh              | https://brubuh.desa.id              | Statistik                                                    | 22/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Budug Ngawi         | https://budug-ngawi.desa.id         | PENARIKAN MAHASISWA KKNT - 35 KE UNIVERSITAS PGRI MADIUN     | 08/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Campurasri          | https://campurasri.desa.id          | PEMERINTAH DESA CAMPURASRI SALURKAN BLT DANA DESA KEPADA 14 KPM | 23/09/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Cangakan            | https://cangakan.desa.id            | Puluhan Remaja Cangakan Antusias Ikuti Parenting Bahaya Kesehatan | 29/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Cantel              | https://cantel.desa.id              | BBK 8 Universitas Airlangga Dorong Digitalisasi UMKM melalui Pelatihan | 08/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Cepoko              | https://cepoko.desa.id              | Peringatan HUT RI ke 78 Desa Cepoko                          | 21/08/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Dadapan Ngawi       | https://dadapan-ngawi.desa.id       | Fun Race: Media Edukasi Lingkungan Ceria Pemilahan Sampah Organik dan  | 18/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Dampit Ngawi        | https://dampit-ngawi.desa.id        | BANSOS PATROLI PRESISI KEBANGSAAN                            | 15/08/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Danguk              | https://danguk.desa.id              | Tradisi Methil Desa Danguk jelang panen raya                 | 09/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Dawu                | https://dawu.desa.id                | Sejarah Desa                                                 | 26/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Dawung              | https://dawung.desa.id              | Megengan Tradisi Sambut Datangnya Bulan Ramadhan 1445 H      | 11/03/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Dempel              | https://dempel.desa.id              | KKN UNS 95 Berkolaborasi dengan MI PSM Nglencong Gelar Sosialisasi Ant | 25/02/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Dero                | https://dero.desa.id                | Sentuh Pelosok Ngawi, Peringatan Hari Bhayangkara ke-80 Jadi Simbol Ke | 02/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Dinden              | https://dinden.desa.id              | SENADA DINDEN: SEHAT LANSIA DINAMIS DAN AKTIF UNTUK MEWUJUDKAN LANSIA  | 28/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Dumplengan          | https://dumplengan.desa.id          | BBK 8 UNAIR Gali Peran Paguyuban Sapto Budoyo dalam Melestarikan Karaw | 06/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Dungmiri            | https://dungmiri.desa.id            | Musyawarah Desa Penyusunan Rencana Kerja Pemerintah Desa (RKPDes) Tahu | 29/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Gandong             | https://gandong.desa.id             | BLT DD DESA GANDONG TELAH DISALURKAN                         | 12/12/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Gandri Ngawi        | https://gandri-ngawi.desa.id        | LAPORAN REALISASI APB DESA GANDRI SEMESTER 1 TAHUN 2026      | 15/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Gayam Ngawi         | https://gayam-ngawi.desa.id         | Sinergi Mahasiswa KKN UINSA 2025 dan Pemerintah Desa Gayam Wujudkan Pr | 11/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Gelung              | https://gelung.desa.id              | Sejarah Desa                                                 | 26/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Gemarang            | https://gemarang.desa.id            | Satuan Perlindungan Masyarakat (SATLINMAS) Desa Gemarang     | 10/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Gembol              | https://gembol.desa.id              | PEMERINTAH DESA GEMBOL BAKAL SALURKAN BLT TRIWULAN PERTAMA   | 01/04/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Gempol              | https://gempol.desa.id              | Hadiri Silatnas III, 1150 Perangkat Desa dari Kabupaten Ngawi Berangka | 24/01/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Gendingan           | https://gendingan.desa.id           | Pemdes Gendingan Laporkan Realisasi Penggunaan Anggaran APBDES Semeste | 07/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Gendol              | https://gendol.desa.id              | Pelatihan Srigati                                            | 21/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Geneng Ngawi        | https://geneng-ngawi.desa.id        | Layanan Jemput Bola BPJS Kesehatan Di Desa Geneng            | 03/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Gentong Ngawi       | https://gentong-ngawi.desa.id       | Penetapan APBDes Desa Gentong Tahun 2023 Berjalan Lancar dan Sukses | 02/03/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Gerih               | https://gerih.desa.id               | Syarat Pendaftaran Cerai Gugat                               | 16/02/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Giriharjo           | https://giriharjo.desa.id           | Musyawarah Desa Penetapan APBDES Tahun 2025                  | 13/02/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Girikerto Ngawi     | https://girikerto-ngawi.desa.id     | Tim Penggerak PKK Desa Girikerto raih Juara 3 dalam lomba pembinaan 10 | 11/09/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Girimulyo           | https://girimulyo.desa.id           | SANGAT MENARIK, PASAR JADUL DESA GIRIMULYO DIPADATI PENGUNJUNG | 22/09/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Grudo               | https://grudo.desa.id               | Nyadran di Dusun Cupo: Harmoni Nyepi Tanpa Suara Berakhir dengan Doa d | 09/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Gunungsari Ngawi    | https://gunungsari-ngawi.desa.id    | Masih SD, Tapi Sudah Berani Bermimpi Besar! Mahasiswa UNAIR Tanamkan S | 31/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Guyung              | https://guyung.desa.id              | PKK DESA GUYUNG IKUTI SENAM PERWOSI DI DESA RANDUSONGO       | 06/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Hargomulyo Ngawi    | https://hargomulyo-ngawi.desa.id    | Sejarah Desa                                                 | 26/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Hargosari           | https://hargosari.desa.id           | Mengaji Bersama Ibu-Ibu di Masjid Al-Ikhlas: Membangun Kebersamaan dan | 22/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Jagir               | https://jagir.desa.id               | Manfaat Donor Darah sebagai Perilaku Hidup Sehat             | 02/04/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jambangan Ngawi     | https://jambangan-ngawi.desa.id     | PELANTIKAN DAN PENGAMBILAN SUMPAH JABATAN KEPALA DUSUN PARON DESA JAMB | 02/01/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jaten               | https://jaten.desa.id               | Monitoring dan Evaluasi oleh CamatJogorogo beserta Staf di Desa Jaten | 10/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jatigembol          | https://jatigembol.desa.id          | WUJUDKAN MASYARAKAT SEHAT, POSYANDU SEDAP MALAM 1 DESA JATIGEMBOL GELA | 11/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jatimulyo Ngawi     | https://jatimulyo-ngawi.desa.id     | Pemerintah Desa Jatimulyo Serahkan Laporan Realisasi Semester I APBDes | 08/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jatipuro            | https://jatipuro.desa.id            | Senam Bersama Pemdes, Masyarakat, dan Mahasiswa KKN STKIP Modern Ngawi | 06/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jatirejo Ngawi      | https://jatirejo-ngawi.desa.id      | Transparansi Pengelolaan Keuangan Desa, Pemdes Jatirejo Publikasikan R | 07/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jeblogan            | https://jeblogan.desa.id            | KETUK: Mahasiswa MMD Universitas Brawijaya Kenalkan Ecoprint kepada Ib | 08/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jenangan            | https://jenangan.desa.id            | Mas Bupati Mantu, Gelar Resepsi Untuk 135 Pasangan Pengantin | 27/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Jenggrik            | https://jenggrik.desa.id            | PEMDES JENGGRIK KUKUHKAN 12 RW DAN 55 RT PERIODE TAHUN 2026-2031 | 12/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Jogorogo            | https://jogorogo.desa.id            | ôBersama Perempuan Membangun Masa Depanö                     | 08/08/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Jururejo            | https://jururejo.desa.id            | Rembug Stunting Desa Jururejo Perkuat Validasi Data dan Persiapan Prog | 05/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kalang              | https://kalang.desa.id              | Pemdes Kalang Pitu Gelar Kegiatan Subuh Bergerak di Masjid Nur Ikhlas  | 01/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kandangan Ngawi     | https://kandangan-ngawi.desa.id     | 17 Mahasiswa KKN UIN Sunan Ampel Surabaya Resmi Memulai Pengabdian di  | 17/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karanganyar Ngawi   | https://karanganyar-ngawi.desa.id   | Permudah Akses Warga, Pemdes Karanganyar Realisasikan Infrastruktur Ja | 29/03/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Karangasri          | https://karangasri.desa.id          | NYADRAN DUNGUS....HILANGNYA SEBUAH BATU PRASASTI             | 25/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karangbanyu         | https://karangbanyu.desa.id         | Pembentukan Pengurus Koperasi Merah Putih                    | 21/05/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Karanggeneng Ngawi  | https://karanggeneng-ngawi.desa.id  | PELAPORAN REALISASI APBDes DESA KARANGGENENG SEMESTER 1 TAHUN 2026 | 07/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karanggupito        | https://karanggupito.desa.id        | Musyawarah Desa Penyusunan Rencana Kerja Pemerintah Desa (RKP Desa) Ta | 02/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karangjati Ngawi    | https://karangjati-ngawi.desa.id    | KELAS IBU BALITA                                             | 25/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karangmalang Ngawi  | https://karangmalang-ngawi.desa.id  | Tingkatkan Kesadaran Kesehatan Perempuan: Desa Karangmalang Gelar Laya | 26/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karangrejo Ngawi    | https://karangrejo-ngawi.desa.id    | Sosialisasi RKPDes TA 2027 dan Indeks Desa Tahun 2026        | 03/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karangsono Ngawi    | https://karangsono-ngawi.desa.id    | LAPORAN REALISASI APBDES SEMESTER PERTAMA TAHUN ANGGARAN 2026 | 27/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Karangtengahprandon | https://karangtengahprandon.desa.id | Mari Mengenal Identitas Kependudukan Digital (IKD)           | 04/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kartoharjo          | https://kartoharjo.desa.id          | Publikasi Realisasi APBDes Kartoharjo Tahun 2025             | 22/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Kasreman            | https://kasreman.desa.id            | Pemdes Kasreman Publikasikan Realisasi APBDes Semester 1 T.A. 2026 | 16/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kasreman Geneng     | https://kasreman-geneng.desa.id     | Menuju Desa Digital                                          | 23/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Katikan             | https://katikan.desa.id             | DESA KATIKAN JUARA 2 PELAKSANAAN MUSRENBANGDES TINGKAT KECAMATAN KEDUN | 07/02/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Kauman Sine         | https://kauman-sine.desa.id         | PEMBINAAN PERANGKAT DESA                                     | 18/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kauman Widodaren    | https://kauman-widodaren.desa.id    | Warga Antri Penyaluran Bantuan Beras & Minyak BAPANAS Desa Kauman | 18/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Kawu                | https://kawu.desa.id                | Pelatihan Srigati                                            | 09/11/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Kayutrejo           | https://kayutrejo.desa.id           | Musdes Pertanggungjawaban BUMDes Desa Kayutrejo Th 2022      | 28/02/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Kebon               | https://kebon.desa.id               | Sejarah Desa                                                 | 26/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Kedunggalar         | https://kedunggalar.desa.id         | Realisasi APBDes Tahun 2024 dan Infografis APBDes Desa Kedunggalar Tah | 11/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Kedunggudel         | https://kedunggudel.desa.id         | Pengukuran PTSL 2026 Resmi Dimulai, 300 Bidang Tanah Warga Kedunggudel | 13/04/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kedungharjo         | https://kedungharjo.desa.id         | MUSDES PENYUSUNAN RKP 2027                                   | 30/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kedungprahu         | https://kedungprahu.desa.id         | Gelar Karya Meriah Warnai Penutupan PPM 04 IAI Ngawi di Desa Kedungpra | 05/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kedungputri         | https://kedungputri.desa.id         | Pemerintah Desa Kedungputri Lakukan Pembersihan dan Penebangan Pohon R | 29/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kendal Ngawi        | https://kendal-ngawi.desa.id        | Sosialisasi PHBS dan Cara Menyikat Gigi Sukses Digelar Kelompok KKN 11 | 05/08/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Kendung             | https://kendung.desa.id             | Penyuluhan dan Sosialisasi Tentang TBC                       | 29/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Keniten Ngawi       | https://keniten-ngawi.desa.id       | Penyaluran BLT DD Triwulan ke 3                              | 26/09/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Kenongorejo         | https://kenongorejo.desa.id         | Musdes RKP Tahun 2024 Desa Kenongorejo                       | 27/06/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Keraskulon          | https://keraskulon.desa.id          | Subuh Bergerak Forkopimcam Gerih                             | 08/09/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Keraswetan          | https://keraswetan.desa.id          | Komunitas Indonesia Sehat Kenalkan Pengobatan Holistik kepada Ibu RT d | 31/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Kerek               | https://kerek.desa.id               | Tingkatkan Efisiensi Pemupukan, Mahasiswa KKN 42 UINSA Gelar Workshop  | 10/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kersikan            | https://kersikan.desa.id            | KOPERASI MERAH PUTIH DESA KERSIKAN READY                     | 12/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kersoharjo          | https://kersoharjo.desa.id          | MUSYAWARAH DESA PENYUSUNAN RKP TAHUN 2027                    | 30/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Ketanggung          | https://ketanggung.desa.id          | PEMERINTAH DESA KETANGGUNG MENGUCAPKAN SELAMAT MENUNAIKAN IBADAH PUASA | 17/02/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kiyonten            | https://kiyonten.desa.id            | Usai Taklukan Timor Leste, Timnas Indonesia Puncaki Klasemen Sementara | 31/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Klampisan           | https://klampisan.desa.id           | Sosialisasi PEMILU 2024                                      | 17/02/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Kletekan            | https://kletekan.desa.id            | Rapat membangun Komitmen antara Karang Taruna Desa Senggigi dengan Tar | 24/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Klitik              | https://klitik.desa.id              | Aktivasi IKD (Identitas Kependudukan Digital) sudah bisa dilakukan di  | 22/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Krandegan Ngawi     | https://krandegan-ngawi.desa.id     | TIDAK PERLU KE DISPENDUKCAPIL, CETAK KTP-EL CUKUP DI KECAMATAN MASING  | 08/01/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Krompol             | https://krompol.desa.id             | PENYALURAN BANTUAN LANGSUNG TUNAI (BLT) DESA KROMPOL TAHUN 2026 | 24/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kuniran             | https://kuniran.desa.id             | 7 Hektare Hutan Pohon Pinus Gunung Botak Desa Kuniran Kembali Terbakar | 27/09/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Kwadungan           | https://kwadungan.desa.id           | PENYALURAN BANTUAN PANGAN TAHUN 2026                         | 07/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Kwadunganlor        | https://kwadunganlor.desa.id        | Penyaluran Bantuan Pangan                                    | 01/06/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Legokulon           | https://legokulon.desa.id           | Penyelenggaraan Administasi Pemerintahan Desa melalui Aplikasi Srigati | 31/08/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Legowetan           | https://legowetan.desa.id           | PKK Legowetan Rutin Adakan Rapat Pleno Sekaligus Pembaruan Arisan di T | 20/05/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Legundi             | https://legundi.desa.id             | Pemdes Legundi Gelar Malam Tirakatan Peringati Hari Jadi Ngawi | 07/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Macanan             | https://macanan.desa.id             | Musyawarah Bersih Desa Macanan 2026                          | 07/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Majasem             | https://majasem.desa.id             | Turnamen Bola Voli antar Instansi Se-Kecamatan Kendal Kabupaten Ngawi | 10/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Mangunharjo Ngawi   | https://mangunharjo-ngawi.desa.id   | Penyaluran Bantuan Pangan Alokasi Februari-Maret 2026        | 02/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Manisharjo          | https://manisharjo.desa.id          | Musyawarah Desa Manisharjo, Kecamatan Ngrambe, Kabupaten Ngawi Penetap | 04/02/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Mantingan Ngawi     | https://mantingan-ngawi.desa.id     | Wisuda SOTH di Balai Desa Mantingan                          | 15/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Mendiro Ngawi       | https://mendiro-ngawi.desa.id       | MUSRENGBANG DESA MENDIRO 2025                                | 07/02/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Mengger             | https://mengger.desa.id             | BUMDesa Mengger Asri Laksanakan Tutup Buku Tahun 2024        | 04/03/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Mojo Ngawi          | https://mojo-ngawi.desa.id          | PELATIHAN SRIGATI DI DPMD KABUPATEN NGAWI                    | 24/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Mojomanis           | https://mojomanis.desa.id           | KEGIATAN SERAH TERIMA KKN-T BERDAMPAK DARI UNIVERSITAS PGRI MADIUN | 04/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Munggut             | https://munggut.desa.id             | DESA MUNGGUT DAPAT 2 KENDARAAN RODA TIGA, DLH JATIM ADAKAN BIMBIMBINGA | 09/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Ngale               | https://ngale.desa.id               | Peresmian Pasaran "Pasar Pojok" Jambe Kidul Desa Ngale       | 24/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Ngancar             | https://ngancar.desa.id             | Laporan Realisasi APBDes Semester 1 Tahun 2026 Pemerintah Desa Ngancar | 08/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Ngawi Ngawi         | https://ngawi-ngawi.desa.id         | test pembuatan berita                                        | 11/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Ngompro             | https://ngompro.desa.id             | Pemberian Vitamin A Posyandu Flamboyan 1 Dusun Ngompro       | 10/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Ngrambe Ngawi       | https://ngrambe-ngawi.desa.id       | PELANTIKAN PERANGKAT DESA NGRAMBE 2026 KASI KESEJAHTERAAN DAN KASUN PU | 03/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Ngrayudan           | https://ngrayudan.desa.id           | Musyawarah Desa                                              | 22/06/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Ngrendeng           | https://ngrendeng.desa.id           | PENGUKUHAN WISUDA SOTH DESA NGRENDENG                        | 19/09/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Pacing              | https://pacing.desa.id              | Musyawarah Desa Bahas Kesepakatan Penggunaan Tanah Kas Desa oleh Puske | 02/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Padas               | https://padas.desa.id               | TRANSPARANSI ANGGARAN: Pemdes Padas Sampaikan Laporan Realisasi APBDes | 10/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pakah               | https://pakah.desa.id               | PEMBUKAAN PMT LOKAL                                          | 05/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pandansari Ngawi    | https://pandansari-ngawi.desa.id    | Pemerintah Desa Pandansari Berbagi Takjil di Bulan Ramadhan  | 29/03/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Pandean             | https://pandean.desa.id             | Kelompok Tani Ngrebeng 1 Ikuti Pelatihan Budidaya Tanaman Tembakau | 23/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pangkur             | https://pangkur.desa.id             | Tonggak Sejarah Desa Pangkur Ditetapkan, Tim Literasi Serahkan Naskah  | 26/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Papungan            | https://papungan.desa.id            | Serah Terima Buku Tabungan Program Perbaikan Rumah Tidak Layak Huni di | 20/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Paras Ngawi         | https://paras-ngawi.desa.id         | Upaya Ketahan Pangan : Penanaman jagung tumpang sari cabai, polsek pan | 22/05/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Paron               | https://paron.desa.id               | Latihan posting                                              | 22/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Patalan             | https://patalan.desa.id             | PELANTIKAN DAN PENGAMBILAN SUMPAH JABATAN KEPALA URUSAN PERENCANAAN DE | 21/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pelangkidul         | https://pelangkidul.desa.id         | Monitoring dan Evaluasi Realisasi APBDes Semester I Tahun Anggaran 202 | 28/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pelanglor           | https://pelanglor.desa.id           | INFOGRAFIS APBDES TAHUN 2025 DESA PELANG LOR KECAMATAN KEDUNGGALAR KAB | 11/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Pengkol             | https://pengkol.desa.id             | Apel Pagi Pemdes Pengkol Bahas KDKMP, Inovasi Desa, Indeks Desa dan Pr | 10/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pitu                | https://pitu.desa.id                | Sukses Cetak Generasi Sehat, Pemerintah Desa Pitu Gelar Program Kelas  | 31/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pleset              | https://pleset.desa.id              | Serah Terima KKN-T BERDAMPAK Universitas PGRI Madiun di Desa Pleset | 04/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Ploso               | https://ploso.desa.id               | Pagelaran Wayang Kulit di Desa Ploso                         | 12/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Plosolor            | https://plosolor.desa.id            | Posyandu ILP Desa Plosolor: Pelayanan Kesehatan Terpadu untuk Semua Us | 11/09/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Pocol               | https://pocol.desa.id               | Yuk Nabung dari Sekarang - Literasi Keuangan Seru Bersama KKN Kelompok | 24/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Pohkonyal           | https://pohkonyal.desa.id           | Mas Bupati Mantu 2022                                        | 28/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Pojok Ngawi         | https://pojok-ngawi.desa.id         | RAPAT PLENO PKK                                              | 14/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Pucangan            | https://pucangan.desa.id            | Jalan Sehat HUT ke-80 Republik Indonesia                     | 18/08/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Puhti               | https://puhti.desa.id               | PEMBUKAAN PENDAFTARAN BAKAL CLON PERANGKAT DESA PUHTI TAHUN 2025 | 27/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Purwosari Ngawi     | https://purwosari-ngawi.desa.id     | Pemanfaatan Sosilisasi Website Desa Kecamatan Kwadungan      | 31/08/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Randusongo          | https://randusongo.desa.id          | PEMKAB NGAWI PERKUAT TATA KELOLA PEMERINTAHAN DESA MELALUI APLIKASI SR | 30/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Rejomulyo           | https://rejomulyo.desa.id           | Penyaluran Bantuan Langsung Tunai Bulan Ke Sepuluh, Sebelas Dan Dua Be | 14/12/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Rejuno              | https://rejuno.desa.id              | Pembebasan Pajak Daerah Jawa Timur 2026                      | 03/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Ringinanom          | https://ringinanom.desa.id          | MALAM TIRAKATAN HARI JADI NGAWI, DESA RINGINANOM             | 06/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sambirejo Mantingan | https://sambirejo-mantingan.desa.id | Bimbungan Teknis penyusunan Rancangan Peraturan Desa sehat mata | 07/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sambirejo Ngrambe   | https://sambirejo-ngrambe.desa.id   | Musyawarah Desa Penetapan Perubahan APBDes T.A 2025          | 08/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Sambiroto Ngawi     | https://sambiroto-ngawi.desa.id     | Pemdes Sambiroto Fasilitasi Penyaluran Bantuan Pangan kepada 415 Pener | 28/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Sawo Ngawi          | https://sawo-ngawi.desa.id          | Pelatihan Aplikasi Srigati di Kecamatan Karangjati           | 06/08/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Sekaralas           | https://sekaralas.desa.id           | Pelantikan Perangkat Desa Sekarlas                           | 28/11/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Sekarjati           | https://sekarjati.desa.id           | POKTAN SUMBER WIDODO DESA SEKARJATI KECAMATAN KARANGANYAR MERAIH JUARA | 15/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Sekarputih Ngawi    | https://sekarputih-ngawi.desa.id    | Galeri                                                       | -          | Tidak ditemukan indikasi   |
+| AMAN   | Selopuro            | https://selopuro.desa.id            | Wujud Transparansi dan Akuntabilitas Pengelolaan Keuangan Desa | 10/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sembung Ngawi       | https://sembung-ngawi.desa.id       | Pelatihan TTG Pertanian Dukung Ketahanan Pangan              | 05/05/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Semen               | https://semen.desa.id               | Pengumuman Tahapan Hasil Ujian Tulis dan Praktek Penjaringan Dan Penya | 03/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Setono              | https://setono.desa.id              | Rapat membangun Komitmen antara Karang Taruna Desa Senggigi dengan Tar | 24/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Sidokerto Ngawi     | https://sidokerto-ngawi.desa.id     | PERINGATAN HARI JADI NGAWI YANG KE 668 DI DESA SIDOKERTO BERLANGSUNG K | 06/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sidolaju            | https://sidolaju.desa.id            | Rapat Anggota Tahunan Ke-1 Koperasi Desa Merah Putih Desa Sidolaju | 16/02/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sidomakmur Ngawi    | https://sidomakmur-ngawi.desa.id    | Penyelenggaraan Kegiatan Posyandu Remaja Desa Sidomakmur     | 11/11/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Sidomulyo Ngawi     | https://sidomulyo-ngawi.desa.id     | PEMBANGUNAN TALUD JALAN USAHA TANI TINGKATKAN KETAHANAN PANGAN DESA SI | 24/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sidorejo Geneng     | https://sidorejo-geneng.desa.id     | TP-PKK Desa Sidorejo Tampilkan Inovasi Kuliner pada Lomba Memasak Ting | 20/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sidorejo Karangjati | https://sidorejo-karangjati.desa.id | Kemeriahan Pawai Budaya Kecamatan Karangjati                 | 25/08/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Sidorejo Kendal     | https://sidorejo-kendal.desa.id     | Penyaluran Bantuan BLT Dana Bagi Hasil Cukai Hasil Tembakau (DBHCHT) d | 08/10/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Simo Kendal         | https://simo-kendal.desa.id         | DESA SIMO MENGADAKAN MUSDESUS PERUBAHAN RKPDes DAN PRIORITAS DD 2026 | 04/03/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Simo Kwadungan      | https://simo-kwadungan.desa.id      | Pelatihan Aplikasi Srigati                                   | 01/09/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Sine                | https://sine.desa.id                | Semarak HUT RI ke-80, Desa Sine Rayakan dengan Penuh Kebersamaan dan S | 31/08/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Sirigan             | https://sirigan.desa.id             | Malam Tirakatan Hari Jadi Kabupaten Ngawi ke-668 Tahun Desa Sirigan Ke | 06/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Soco                | https://soco.desa.id                | HUJAN TAK KUNJUNG REDA, BANJIR MELANDA                       | 01/12/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Sriwedari Ngawi     | https://sriwedari-ngawi.desa.id     | 2 SISWI SMK KARANGANYAR MENGIKUTI KEGIATAN PKL/PRAKERIN DI KANTOR DESA | 30/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sukowiyono          | https://sukowiyono.desa.id          | Penutupan PPM IAI Ngawi di Desa Sukowiyono: Sebulan Mengabdi, Tinggalk | 06/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sumber Ngawi        | https://sumber-ngawi.desa.id        | LAPORAN REALISASI APBDES SEMESTER PERTAMA TAHUN ANGGARAN 2026 | 08/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sumberbening        | https://sumberbening.desa.id        | Semangat Pramuka Membara Di Lapangan Desa Sumberbening       | 12/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Sumberejo Ngawi     | https://sumberejo-ngawi.desa.id     | HUT KORPRI 2022                                              | 01/12/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Sumbersari Ngawi    | https://sumbersari-ngawi.desa.id    | Sejarah Desa                                                 | 26/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Sumengko            | https://sumengko.desa.id            | Realisasi APBDesa Tahun 2022 Desa Sumengko                   | 01/03/2023 | Tidak ditemukan indikasi   |
+| AMAN   | Suruh               | https://suruh.desa.id               | Semangat dan Antusias Kader Desa Sehat "SURUH BERSERI" Dalam Menyambut | 18/06/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Talang              | https://talang.desa.id              | BIMTEK PERANGKAT DESA DI SOLO                                | 27/07/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Tambakboyo Ngawi    | https://tambakboyo-ngawi.desa.id    | test pembuatan berita                                        | 11/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Tambakromo Geneng   | https://tambakromo-geneng.desa.id   | Monitoring dan Evaluasi Pengelolaan Keuangan dan Aset Desa Semester I  | 29/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Tambakromo Padas    | https://tambakromo-padas.desa.id    | Bantuan Langsung Tunai ( BLT) DD Triwulan Pertama Tahun 2026 Disalurka | 07/05/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Tanjungsari Ngawi   | https://tanjungsari-ngawi.desa.id   | SAFARI JUM'AT FORKOPINCAM JOGOROGO DI MASJID AL AMIN TANJUNGSARI | 24/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Tawangrejo Ngawi    | https://tawangrejo-ngawi.desa.id    | Pelatihan Operator SID Se Kecamatan Ngrambe                  | 20/08/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Tawun               | https://tawun.desa.id               | TURNAMEN VOLLY HUT RI KE-81 KECAMATAN KASREMAN               | 11/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Teguhan             | https://teguhan.desa.id             | Kelompok 48 MMD UB Membuat Visualisasi Peta Persebaran UMKM di Desa Te | 31/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Tempuran Ngawi      | https://tempuran-ngawi.desa.id      | Statistik                                                    | -          | Tidak ditemukan indikasi   |
+| AMAN   | Tepas Ngawi         | https://tepas-ngawi.desa.id         | Infografis Standar Pelayanan Publik di Kantor Desa Tepas     | 30/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Tirak               | https://tirak.desa.id               | Monitoring dan evaluasi Tahun Anggaran 2025                  | 22/07/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Tulakan Ngawi       | https://tulakan-ngawi.desa.id       | Sidang Luar Di Desa Tulakan Oleh Pengadilan Negeri Ngawi     | 13/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Tungkulrejo         | https://tungkulrejo.desa.id         | Rutinan KP-ASI                                               | 09/03/2024 | Tidak ditemukan indikasi   |
+| AMAN   | Umbulrejo           | https://umbulrejo.desa.id           | Rapat membangun Komitmen antara Karang Taruna Desa Senggigi dengan Tar | 24/08/2016 | Tidak ditemukan indikasi   |
+| AMAN   | Wakah               | https://wakah.desa.id               | Realisasi APBDES 2025                                        | 08/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Walikukun           | https://walikukun.desa.id           | Edukasi Pola Hidup Sehat, 200 Kader Kesehatan Se-Kecamatan Widodaren I | 04/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Waruk Tengah        | https://waruktengah.desa.id         | Musyawarah Desa Khusus Wujudkan Program Pemerintah Pembetukan Koperasi | 23/05/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Warukkalong         | https://warukkalong.desa.id         | SOSIALISASI PEMANFAATAN WESITE DESA                          | 01/09/2022 | Tidak ditemukan indikasi   |
+| AMAN   | Watualang           | https://watualang.desa.id           | Pemerintah Desa Watualang Gelar Sosialisasi Pengisian Calon Sekretaris | 10/07/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Widodaren           | https://widodaren.desa.id           | Penyaluran BLT-DD Triwulan IV Desa Widodaren Tahun 2025      | 10/12/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Widodaren Gerih     | https://widodaren-gerih.desa.id     | PKK Desa Widodaren Memperingati Hari Kartini Dalam Warna-Warni Kebahag | 21/04/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Wonokerto Ngawi     | https://wonokerto-ngawi.desa.id     | Bebas Pajak 2026                                             | 12/08/2026 | Tidak ditemukan indikasi   |
+| AMAN   | Wonorejo Ngawi      | https://wonorejo-ngawi.desa.id      | Meningkatkan Potensi Pelaku UMKM Di Desa Wonorejo Melalui Pelatihan Pe | 23/05/2025 | Tidak ditemukan indikasi   |
+| AMAN   | Wonosari Ngawi      | https://wonosari-ngawi.desa.id      | MUSDES TAHUN 2023                                            | 18/02/2023 | Tidak ditemukan indikasi   |
++--------+---------------------+-------------------------------------+--------------------------------------------------------------+------------+----------------------------+
+
+=== RINGKASAN ===
+Total target          : 213
+TERINDIKASI JUDI/SPAM: 0
+AMAN                  : 213
+OFFLINE / TIMEOUT     : 0
+
+[+] Dashboard HTML : C:\Users\komin\Documents\Default Project\desa-opensid-monitor\output\dashboard.html
+[+] Snapshot JSON  : C:\Users\komin\Documents\Default Project\desa-opensid-monitor\output\last_scan.json
+[+] Snapshot CSV   : C:\Users\komin\Documents\Default Project\desa-opensid-monitor\output\last_scan.csv
+
