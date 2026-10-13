@@ -1,0 +1,34 @@
+2026-08-21 13:13:37 [ERROR] PENDING_AUDIT | https://brangol.desa.id | count=None | method=none | retries=2 | Redirected to login
+2026-08-21 13:14:01 [INFO] VALID | https://brangol.desa.id | count=766 | method=widget_login | retries=4 | OK
+2026-08-21 13:14:26 [ERROR] PENDING_AUDIT | https://nonexistent-xyz123.desa.id | count=None | method=none | retries=1 | Connection Error: ConnectionError
+2026-08-21 13:15:04 [ERROR] TIMEOUT | https://nonexistent-xyz123.desa.id | count=None | method=none | retries=1 | Connection Error: ConnectionError
+2026-08-21 13:16:30 [ERROR] TIMEOUT | https://beran.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:16:33 [ERROR] TIMEOUT | https://begal.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:16:33 [ERROR] TIMEOUT | https://cantel.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:16:38 [WARNING] VALID_ZERO | https://hargomulyo-ngawi.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:38 [WARNING] VALID_ZERO | https://gerih.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:38 [ERROR] TIMEOUT | https://bangunrejo-lor.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:16:39 [ERROR] TIMEOUT | https://gembol.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:16:43 [WARNING] VALID_ZERO | https://jatigembol.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:43 [WARNING] VALID_ZERO | https://kauman-sine.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:44 [WARNING] VALID_ZERO | https://kauman-widodaren.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:49 [WARNING] VALID_ZERO | https://kendung.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:50 [WARNING] VALID_ZERO | https://kedunggalar.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:50 [WARNING] VALID_ZERO | https://kenongorejo.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:51 [ERROR] TIMEOUT | https://genmarang.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:16:56 [WARNING] VALID_ZERO | https://krandegan-ngawi.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:56 [ERROR] TIMEOUT | https://karanggupito.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:16:57 [WARNING] VALID_ZERO | https://munggut.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:16:59 [WARNING] VALID_ZERO | https://kwadungan.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:02 [WARNING] VALID_ZERO | https://purwosari-ngawi.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:02 [WARNING] VALID_ZERO | https://sambirejo-mantingan.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:03 [WARNING] VALID_ZERO | https://sidomulyo-ngawi.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:06 [WARNING] VALID_ZERO | https://simo-kwadungan.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:06 [WARNING] VALID_ZERO | https://simo-kendal.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:09 [ERROR] TIMEOUT | https://kiyonten.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:17:11 [WARNING] VALID_ZERO | https://tambakromo-padas.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:11 [WARNING] VALID_ZERO | https://tawangrejo-ngawi.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:13 [WARNING] VALID_ZERO | https://tulakan-ngawi.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:14 [ERROR] TIMEOUT | https://rejomulyo.desa.id | count=None | method=none | retries=6 | Login gagal
+2026-08-21 13:17:15 [WARNING] VALID_ZERO | https://widodaren.desa.id | count=0 | method=widget_login | retries=6 | OK
+2026-08-21 13:17:18 [ERROR] TIMEOUT | https://tambakromo-geneng.desa.id | count=None | method=none | retries=6 | Login gagal
