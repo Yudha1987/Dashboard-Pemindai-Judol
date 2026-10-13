@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "main.py": {
+      "maxDuration": 60,
+      "includeFiles": [
+        "output/desa/results_desa.json",
+        "output/desa/logo.png",
+        "output/desa/logo_ngawi.png",
+        "output/opd/results_opd.json",
+        "output/opd/logo.png",
+        "output/opd/logo_ngawi.png",
+        "assets/**"
+      ]
+    }
+  }
+}
