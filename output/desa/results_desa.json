@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-10-14T23:09:36.292764",
+  "scanned_at": "2026-10-15T23:03:04.493538",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -9,6 +9,34 @@
     "critical": 0
   },
   "results": [
+    {
+      "name": "Sumber Ngawi",
+      "category": "DESA",
+      "kecamatan": "Pangkur",
+      "url": "https://sumber-ngawi.desa.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2405.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://sumber-ngawi.desa.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Sumber Kecamatan Pangkur Kabupaten Ngawi",
+      "last_post": {
+        "title": "MUSDESUS DAN MUSRENBANGDESUS BAHAS PERUBAHAN PRIORITAS PENGGUNAAN DANA DESA DAN PERUBAHAN RKPDESA TAHUN 2026",
+        "href": "https://sumber-ngawi.desa.id/artikel/2026/10/15/musdesus-dan-musrenbangdesus-bahas-perubahan-prioritas-penggunaan-dana-desa-dan-perubahan-rkpdesa-tahun-2026",
+        "date": "2026-10-15 14:20:53"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Sukowiyono",
       "category": "DESA",
@@ -759,34 +787,6 @@
         "title": "Monitoring dan Evaluasi oleh CamatJogorogo beserta Staf di Desa Jaten",
         "href": "https://jaten.desa.id/artikel/2026/7/10/monitoring-dan-evaluasi-oleh-camatjogorogo-beserta-staf-di-desa-jaten",
         "date": "2026-07-10 20:57:28"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Sumber Ngawi",
-      "category": "DESA",
-      "kecamatan": "Pangkur",
-      "url": "https://sumber-ngawi.desa.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2405.0.0",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://sumber-ngawi.desa.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Sumber Kecamatan Pangkur Kabupaten Ngawi",
-      "last_post": {
-        "title": "LAPORAN REALISASI APBDES SEMESTER PERTAMA TAHUN ANGGARAN 2026",
-        "href": "https://sumber-ngawi.desa.id/artikel/2026/7/8/laporan-realisasi-apbdes-semester-pertama-tahun-anggaran-2026",
-        "date": "2026-07-08 14:42:43"
       },
       "repeated_posts": [],
       "keywords": [],
