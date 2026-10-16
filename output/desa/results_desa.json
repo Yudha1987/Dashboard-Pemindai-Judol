@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-10-15T23:03:04.493538",
+  "scanned_at": "2026-10-16T22:47:48.657064",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -721,10 +721,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://sidorejo-geneng.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi DESA Sidorejo",
       "last_post": {
