@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-10-18T22:24:09.991302",
+  "scanned_at": "2026-10-19T23:34:14.405277",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -9,6 +9,34 @@
     "critical": 0
   },
   "results": [
+    {
+      "name": "Kedungputri",
+      "category": "DESA",
+      "kecamatan": "Paron",
+      "url": "https://kedungputri.desa.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2403.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://kedungputri.desa.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Kedungputri",
+      "last_post": {
+        "title": "Tim Verifikasi dan Validasi Koperasi Desa Merah Putih Kunjungi KDKMP Kedungputri, Pastikan Kesiapan Launching Serentak di Kabupaten Ngawi",
+        "href": "https://kedungputri.desa.id/artikel/2026/10/19/tim-verifikasi-dan-validasi-koperasi-desa-merah-putih-kunjungi-kdkmp-kedungputri-pastikan-kesiapan-launching-serentak-di-kabupaten-ngawi",
+        "date": "2026-10-19 12:20:20"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Sumber Ngawi",
       "category": "DESA",
@@ -283,34 +311,6 @@
         "title": "PENCAIRAN BLT DD DESA GUYUNG TRIWULAN TIGA TAHUN 2026",
         "href": "https://guyung.desa.id/artikel/2026/9/24/pencairan-blt-dd-desa-guyung-triwulan-tiga-tahun-2026",
         "date": "2026-09-24 10:24:05"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Kedungputri",
-      "category": "DESA",
-      "kecamatan": "Paron",
-      "url": "https://kedungputri.desa.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2403.0.0",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://kedungputri.desa.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Kedungputri",
-      "last_post": {
-        "title": "BLT DD Tahap III 2026 Disalurkan, Pemerintah Desa Kedungputri Pastikan Bantuan Tepat Sasaran",
-        "href": "https://kedungputri.desa.id/artikel/2026/9/24/blt-dd-tahap-iii-2026-disalurkan-pemerintah-desa-kedungputri-pastikan-bantuan-tepat-sasaran",
-        "date": "2026-09-24 09:01:21"
       },
       "repeated_posts": [],
       "keywords": [],
