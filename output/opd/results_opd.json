@@ -1,11 +1,11 @@
 {
-  "scanned_at": "2026-10-19T23:45:06.932711",
+  "scanned_at": "2026-10-20T23:18:52.355862",
   "profile": "opd",
   "summary": {
     "total": 76,
     "detected": 0,
-    "safe": 69,
-    "offline": 7,
+    "safe": 70,
+    "offline": 6,
     "critical": 0
   },
   "results": [
@@ -28,9 +28,65 @@
       },
       "title": "Kecamatan Bringin | Kab. Ngawi - Website Resmi Kecamatan Bringin Kabupaten Ngawi",
       "last_post": {
-        "title": "KECAMATAN BRINGIN IKUTI SOSIALISASI PENDATAAN DIGITAL PAJAK DAERAH",
-        "href": "https://bringin.ngawikab.go.id/2026/10/kecamatan-bringin-ikuti-sosialisasi-pendataan-digital-pajak-daerah/",
-        "date": "2026-10-19 14:12:25"
+        "title": "KECAMATAN BRINGIN DAMPINGI VERVAL KDMP",
+        "href": "https://bringin.ngawikab.go.id/2026/10/kecamatan-bringin-dampingi-verval-kdmp/",
+        "date": "2026-10-20 14:34:45"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "DUKCAPIL",
+      "category": "OPD",
+      "kecamatan": "",
+      "url": "http://dukcapil.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://dukcapil.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Dukcapil Ngawi - Dinas Kependudukan Dan Pencatatan Sipil Ngawi",
+      "last_post": {
+        "title": "Penggunaan SPTJM Pasangan Suami Istri Dalam Pengajuan Akta Kelahiran",
+        "href": "https://dukcapil.ngawikab.go.id/penggunaan-sptjm-pasangan-suami-istri/",
+        "date": "2026-10-20 02:55:49"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "SATPOLPP",
+      "category": "OPD",
+      "kecamatan": "",
+      "url": "https://satpolpp.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://satpolpp.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "SATUAN POLISI PAMONG PRAJA KABUPATEN NGAWI – Jl. Teuku Umar No.12 Kab. Ngawi",
+      "last_post": {
+        "title": "DAMKARMAT NGAWI BANTU PELEPASAN CINCIN WARGA DESA BABADAN PARON, DI POSKO INDUK DAMKAR",
+        "href": "https://satpolpp.ngawikab.go.id/damkarmat-ngawi-bantu-pelepasan-cincin-warga-desa-babadan-paron-di-posko-induk-damkar/?utm_source=rss&utm_medium=rss&utm_campaign=damkarmat-ngawi-bantu-pelepasan-cincin-warga-desa-babadan-paron-di-posko-induk-damkar",
+        "date": "2026-10-20 02:09:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -255,34 +311,6 @@
         "title": "Pemberitahuan Layanan Kepesertaan JKN BPJS PBI",
         "href": "https://pitu.ngawikab.go.id/2026/10/pemberitahuan-layanan-kepesertaan-jkn-bpjs-pbi/",
         "date": "2026-10-13 01:20:02"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "SATPOLPP",
-      "category": "OPD",
-      "kecamatan": "",
-      "url": "https://satpolpp.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://satpolpp.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "SATUAN POLISI PAMONG PRAJA KABUPATEN NGAWI – Jl. Teuku Umar No.12 Kab. Ngawi",
-      "last_post": {
-        "title": "Satpol PP Ngawi Lakukan Pemantauan Reklame di Dua Kecamatan",
-        "href": "https://satpolpp.ngawikab.go.id/satpol-pp-ngawi-lakukan-pemantauan-reklame-di-dua-kecamatan/?utm_source=rss&utm_medium=rss&utm_campaign=satpol-pp-ngawi-lakukan-pemantauan-reklame-di-dua-kecamatan",
-        "date": "2026-10-12 06:10:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -525,9 +553,9 @@
       "opensid_version": null,
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
+        "has_comments": true,
         "system": "wordpress",
-        "akismet": false,
+        "akismet": true,
         "comment_admin_url": "https://pkmkedunggalar.ngawikab.go.id/wp-admin/edit-comments.php"
       },
       "title": "Puskesmas Kedunggalar | Kabupaten Ngawi - Selamat Datang Di Website Resmi Puskesmas Kedunggalar",
@@ -553,9 +581,9 @@
       "opensid_version": null,
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
+        "has_comments": true,
         "system": "wordpress",
-        "akismet": false,
+        "akismet": true,
         "comment_admin_url": "https://pkmngawipurba.ngawikab.go.id/wp-admin/edit-comments.php"
       },
       "title": "Puskesmas Ngawi Purba | Kabupaten Ngawi -",
@@ -654,34 +682,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "PUSKESMAS PARON",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmparon.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmparon.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "puskesmas paron",
-      "last_post": {
-        "title": "PENGUMUMAN HASIL AKHIR SELEKSI PENGADAAN PEGAWAI BLUD NON ASN PUSKESMAS PARON TAHUN 2026",
-        "href": "https://pkmparon.ngawikab.go.id/pengumuman-hasil-seleksi-pengadaan-pegawai-blud-non-asn/",
-        "date": "2026-10-02 03:25:20"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "PUSKESMAS PADAS",
       "category": "PUSKESMAS",
       "kecamatan": "",
@@ -693,9 +693,9 @@
       "opensid_version": null,
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
+        "has_comments": false,
         "system": "wordpress",
-        "akismet": true,
+        "akismet": false,
         "comment_admin_url": "https://pkmpadas.ngawikab.go.id/wp-admin/edit-comments.php"
       },
       "title": "Puskesmas Padas | Kabupaten Ngawi – Selamat Datang Di Website Resmi Puskesmas Padas",
@@ -721,9 +721,9 @@
       "opensid_version": null,
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
+        "has_comments": false,
         "system": "wordpress",
-        "akismet": true,
+        "akismet": false,
         "comment_admin_url": "https://pkmjogorogo.ngawikab.go.id/wp-admin/edit-comments.php"
       },
       "title": "Puskesmas Jogorogo | Kabupaten Ngawi - Website Resmi Puskesmas Jogorogo Kabupaten Ngawi",
@@ -843,34 +843,6 @@
         "title": "Perkuat Kesiapsiagaan Bencana, Kasi Trantib Kecamatan Ngawi Pantau Pengisian Aplikasi Satlinmas",
         "href": "https://ngawi.ngawikab.go.id/2026/09/perkuat-kesiapsiagaan-bencana-kasi-trantib-kecamatan-ngawi-pantau-pengisian-aplikasi-satlinmas/",
         "date": "2026-09-30 05:09:19"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "DUKCAPIL",
-      "category": "OPD",
-      "kecamatan": "",
-      "url": "http://dukcapil.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://dukcapil.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Dukcapil Ngawi - Dinas Kependudukan Dan Pencatatan Sipil Ngawi",
-      "last_post": {
-        "title": "Akta Kematian",
-        "href": "https://dukcapil.ngawikab.go.id/akta-kematian/",
-        "date": "2026-09-29 04:09:18"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1382,34 +1354,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "PUSKESMAS GEMARANG",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmgemarang.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmgemarang.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Gemarang | Kabupaten Ngawi - Jln RAYA NGAWI-SOLO KM 9, KEDUNGGALAR, NGAWI",
-      "last_post": {
-        "title": "NILAI IKM PUSKESMAS GEMARANG TW 1 2026",
-        "href": "https://pkmgemarang.ngawikab.go.id/nilai-ikm-puskesmas-gemarang-tw-1-2026/",
-        "date": "2026-07-07 06:41:57"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "INSPEKTORAT",
       "category": "OPD",
       "kecamatan": "",
@@ -1774,6 +1718,62 @@
       "foreign_scripts": []
     },
     {
+      "name": "PUSKESMAS PITU",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmpitu.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://pkmpitu.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Puskesmas Pitu | Kabupaten Ngawi - Selamat Datang Di Website Resmi Puskesmas Pitu",
+      "last_post": {
+        "title": "PERINGATAN HARI KESEHATAN NASIONAL KE 61 DI PENDOPO WEDYA GRAHA KABUPATEN NGAWI",
+        "href": "https://pkmpitu.ngawikab.go.id/peringatan-hari-kesehatan-nasional-ke-61-di-pendopo-wedya-graha-kabupaten-ngawi/",
+        "date": "2025-11-13 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PUSKESMAS PARON",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmparon.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://pkmparon.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "puskesmas paron",
+      "last_post": {
+        "title": "BIMBINGAN TEKNIS PENGUATAN IMPLEMENTASI SISTEM INFORMASI KESEHATAN PADA PUSKESMAS DI KABUPATEN NGAWI",
+        "href": "https://pkmparon.ngawikab.go.id/bimbingan-teknis-penguatan-implementasi-sistem-informasi-kesehatan-pada-puskesmas-di-kabupaten-ngawi/",
+        "date": "2025-11-04 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "GENENG",
       "category": "KECAMATAN",
       "kecamatan": "",
@@ -1886,6 +1886,34 @@
       "foreign_scripts": []
     },
     {
+      "name": "PUSKESMAS GEMARANG",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmgemarang.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://pkmgemarang.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Puskesmas Gemarang | Kabupaten Ngawi - Jln RAYA NGAWI-SOLO KM 9, KEDUNGGALAR, NGAWI",
+      "last_post": {
+        "title": "NILAI IKM PUSKESMAS GEMARANG TW 1 2026",
+        "href": "https://pkmgemarang.ngawikab.go.id/nilai-ikm-puskesmas-gemarang-tw-1-2026/",
+        "date": null
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "DPMPTSP",
       "category": "OPD",
       "kecamatan": "",
@@ -1976,25 +2004,6 @@
       "category": "PUSKESMAS",
       "kecamatan": "",
       "url": "https://pkmtambakboyo.ngawikab.go.id",
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PUSKESMAS PITU",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmpitu.ngawikab.go.id",
       "status": "OFFLINE",
       "http_status": null,
       "error": "Offline / Connection Timeout",
