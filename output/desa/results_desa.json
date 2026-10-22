@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-10-21T23:12:53.422607",
+  "scanned_at": "2026-10-22T23:13:20.979225",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -28,9 +28,9 @@
       },
       "title": "Website Resmi Desa Sukowiyono",
       "last_post": {
-        "title": "Tingkatkan Kesiapsiagaan Warga, Pemdes Sukowiyono Gelar Kegiatan Mitigasi Bencana Bersama Damkar Ngawi",
-        "href": "https://sukowiyono.desa.id/artikel/2026/10/21/tingkatkan-kesiapsiagaan-warga-pemdes-sukowiyono-gelar-kegiatan-mitigasi-bencana-bersama-damkar-ngawi",
-        "date": "2026-10-21 19:25:36"
+        "title": "Cegah Bahaya Judi Online, Pemdes Sukowiyono Gelar Sosialisasi Keluarga Sadar Hukum",
+        "href": "https://sukowiyono.desa.id/artikel/2026/10/22/cegah-bahaya-judi-online-pemdes-sukowiyono-gelar-sosialisasi-keluarga-sadar-hukum",
+        "date": "2026-10-22 19:06:31"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -56,8 +56,8 @@
       },
       "title": "Website Resmi Desa Sumberbening Kecamatan Bringin Kabupaten Ngawi",
       "last_post": {
-        "title": "Bazar Dan Pasar Murah Bersama Ibu Gubernur Jawa Timur",
-        "href": "https://sumberbening.desa.id/artikel/2026/10/21/bazar-dan-pasar-murah-bersama-ibu-gubernur-jawa-timur",
+        "title": "Bazar Dan Pasar Murah Bersama Ibu Gubernur Jawa Timur Di Desa Dero Kecamatan Bringin",
+        "href": "https://sumberbening.desa.id/artikel/2026/10/21/bazar-dan-pasar-murah-bersama-ibu-gubernur-jawa-timur-di-desa-dero-kecamatan-bringin",
         "date": "2026-10-21 12:58:11"
       },
       "repeated_posts": [],
@@ -105,10 +105,10 @@
       "opensid_version": "2403.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://kedungputri.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Kedungputri",
       "last_post": {
