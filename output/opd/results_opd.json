@@ -1,14 +1,98 @@
 {
-  "scanned_at": "2026-10-28T00:02:00.976140",
+  "scanned_at": "2026-10-29T00:18:12.824063",
   "profile": "opd",
   "summary": {
     "total": 76,
     "detected": 0,
-    "safe": 59,
-    "offline": 17,
+    "safe": 53,
+    "offline": 23,
     "critical": 0
   },
   "results": [
+    {
+      "name": "BRINGIN",
+      "category": "KECAMATAN",
+      "kecamatan": "",
+      "url": "https://bringin.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://bringin.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Kecamatan Bringin | Kab. Ngawi - Website Resmi Kecamatan Bringin Kabupaten Ngawi",
+      "last_post": {
+        "title": "PEMBUKAAN KOMPETISI INOVASI KEBIJAKAN JAWA TIMUR",
+        "href": "https://bringin.ngawikab.go.id/2026/10/pembukaan-kompetisi-inovasi-kebijakan-jawa-timur/",
+        "date": "2026-10-28 14:16:17"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PANGKUR",
+      "category": "KECAMATAN",
+      "kecamatan": "",
+      "url": "https://pangkur.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://pangkur.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Kecamatan Pangkur | Kab. Ngawi – Website Resmi Kecamatan Pangkur Kabupaten Ngawi",
+      "last_post": {
+        "title": "MEWUJUDKAN PANGKUR AMAN, NYAMAN, RAPI DAN ASRI",
+        "href": "https://pangkur.ngawikab.go.id/2026/10/mewujudkan-pangkur-aman-nyaman-rapi-dan-asri/",
+        "date": "2026-10-28 07:14:43"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "DPRD",
+      "category": "OPD",
+      "kecamatan": "",
+      "url": "https://dprd.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": true,
+        "comment_admin_url": "https://dprd.ngawikab.go.id/index.php/comment"
+      },
+      "title": "DPRD Kab. Ngawi",
+      "last_post": {
+        "title": "DPRD Kabupaten Ngawi Gelar Rapat Paripurna Penyampaian Nota Keuangan dan Pandangan Umum Fraksi terhadap RAPBD T.A 2027",
+        "href": "https://dprd.ngawikab.go.id/dprd-kabupaten-ngawi-gelar-rapat-paripurna-penyampaian-nota-keuangan-dan-pandangan-umum-fraksi-terhadap-rapbd-t-a-2027/",
+        "date": "2026-10-28 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "KOMINFO",
       "category": "OPD",
@@ -31,34 +115,6 @@
         "title": "Dukung Kebijakan Tepat Sasaran, Diskominfo SP Ngawi Evaluasi Metadata Statistik Sektoral",
         "href": "https://kominfo.ngawikab.go.id/dukung-kebijakan-tepat-sasaran-diskominfo-sp-ngawi-evaluasi-metadata-statistik-sektoral/",
         "date": "2026-10-27 11:51:57"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "BRINGIN",
-      "category": "KECAMATAN",
-      "kecamatan": "",
-      "url": "https://bringin.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://bringin.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Kecamatan Bringin | Kab. Ngawi - Website Resmi Kecamatan Bringin Kabupaten Ngawi",
-      "last_post": {
-        "title": "PERKUAT KELEMBAGAAN HINGGA SANITASI MELALUI PENGEMBANGAN KAPASITAS FORUM KECAMATAN SEHAT",
-        "href": "https://bringin.ngawikab.go.id/2026/10/perkuat-kelembagaan-hingga-sanitasi-melalui-pengembangan-kapasitas-forum-kecamatan-sehat/",
-        "date": "2026-10-27 05:52:31"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -115,34 +171,6 @@
         "title": "Dinas PUPR Ngawi Gelar Sosialisasi Percepatan SLF Bangunan Pemerintah Desa",
         "href": "https://pupr.ngawikab.go.id/dinas-pupr-ngawi-gelar-sosialisasi-percepatan-slf-bangunan-pemerintah-desa/",
         "date": "2026-10-27 04:10:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PUSKESMAS KASREMAN",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmkasreman.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmkasreman.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Kasreman | Kabupaten Ngawi - Selamat Datang Di Website Resmi Puskesmas Kasreman",
-      "last_post": {
-        "title": "Kunjungan Kesehatan Jiwa (Keswa) dalam Fasilitasi Pembuatan KTP bagi ODGJ di Desa Kiyonten, Kecamatan Kasreman, Kabupaten Ngawi",
-        "href": "https://pkmkasreman.ngawikab.go.id/kunjungan-kesehatan-jiwa-keswa-dalam-fasilitasi-pembuatan-ktp-bagi-odgj-di-desa-kiyonten-kecamatan-kasreman-kabupaten-ngawi/",
-        "date": "2026-10-27 00:00:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -402,34 +430,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "PANGKUR",
-      "category": "KECAMATAN",
-      "kecamatan": "",
-      "url": "https://pangkur.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pangkur.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Kecamatan Pangkur | Kab. Ngawi – Website Resmi Kecamatan Pangkur Kabupaten Ngawi",
-      "last_post": {
-        "title": "Rancangan Peraturan Kepala DaerahInsentif dan Disinsentif Pemanfaatan RuangKabupaten Ngawi",
-        "href": "https://pangkur.ngawikab.go.id/2026/10/rancangan-peraturan-kepala-daerahinsentif-dan-disinsentif-pemanfaatan-ruangkabupaten-ngawi/",
-        "date": "2026-10-15 04:37:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "SETDA",
       "category": "OPD",
       "kecamatan": "",
@@ -486,62 +486,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "PUSKESMAS NGAWI PURBA",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmngawipurba.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmngawipurba.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Ngawi Purba | Kabupaten Ngawi -",
-      "last_post": {
-        "title": "Pengumuman Hasil Seleksi Rekruitmen Tenaga BLUD Non ASN 2026",
-        "href": "https://pkmngawipurba.ngawikab.go.id/pengumuman-hasil-seleksi-rekruitmen-tenaga-blud-non-asn-2026/",
-        "date": "2026-10-02 06:23:01"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PUSKESMAS SINE",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmsine.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "wordpress",
-        "akismet": true,
-        "comment_admin_url": "https://pkmsine.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Sine | Kabupaten Ngawi - Website Resmi Puskesmas Sine Kabupaten Ngawi",
-      "last_post": {
-        "title": "PENGUMUMAN HASIL SELEKSI AKHIR PENGADAAN TENAGA BADAN LAYANAN UMUM DAERAH (BLUD) NON ASN PADA PUSKESMAS SINE TAHUN 2026",
-        "href": "https://pkmsine.ngawikab.go.id/pengumuman-hasil-seleksi-akhir-pengadaan-tenaga-badan-layanan-umum-daerah-blud-non-asn-pada-puskesmas-sine-tahun-2026/",
-        "date": "2026-10-02 06:20:36"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "DISHUB",
       "category": "OPD",
       "kecamatan": "",
@@ -570,10 +514,10 @@
       "foreign_scripts": []
     },
     {
-      "name": "PUSKESMAS PADAS",
+      "name": "PUSKESMAS SINE",
       "category": "PUSKESMAS",
       "kecamatan": "",
-      "url": "https://pkmpadas.ngawikab.go.id",
+      "url": "https://pkmsine.ngawikab.go.id",
       "status": "AMAN",
       "http_status": 200,
       "error": null,
@@ -584,13 +528,13 @@
         "has_comments": false,
         "system": "wordpress",
         "akismet": false,
-        "comment_admin_url": "https://pkmpadas.ngawikab.go.id/wp-admin/edit-comments.php"
+        "comment_admin_url": "https://pkmsine.ngawikab.go.id/wp-admin/edit-comments.php"
       },
-      "title": "Puskesmas Padas | Kabupaten Ngawi – Selamat Datang Di Website Resmi Puskesmas Padas",
+      "title": "Puskesmas Sine | Kabupaten Ngawi - Website Resmi Puskesmas Sine Kabupaten Ngawi",
       "last_post": {
-        "title": "HASIL SELEKSI PENGADAAN TENAGA BADAN LAYANAN UMUM DAERAH (BLUD) NON-ASN PUSKESMAS PADAS TAHUN 2026",
-        "href": "https://pkmpadas.ngawikab.go.id/hasil-seleksi-pengadaan-tenaga-badan-layanan-umum-daerah-blud-non-asn-puskesmas-padas-tahun-2026/",
-        "date": "2026-10-02 03:20:27"
+        "title": "PENGUMUMAN HASIL SELEKSI AKHIR PENGADAAN TENAGA BADAN LAYANAN UMUM DAERAH (BLUD) NON ASN PADA PUSKESMAS SINE TAHUN 2026",
+        "href": "https://pkmsine.ngawikab.go.id/pengumuman-hasil-seleksi-akhir-pengadaan-tenaga-badan-layanan-umum-daerah-blud-non-asn-pada-puskesmas-sine-tahun-2026/",
+        "date": "2026-10-02 00:00:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -618,34 +562,6 @@
       "last_post": {
         "title": "PENGUMUMAN HASIL SELEKSI PENGADAAN TENAGA BLUD NON ASN",
         "href": "https://pkmjogorogo.ngawikab.go.id/pengumuman-hasil-seleksi-pengadaan-tenaga-blud-non-asn/",
-        "date": "2026-10-02 02:43:17"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PUSKESMAS MANTINGAN",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmmantingan.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmmantingan.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "PUSKESMAS MANTINGAN | KABUPATEN NGAWI - Selamat Datang Di Website Resmi Puskesmas Mantingan",
-      "last_post": {
-        "title": "Pengumuman Hasil Seleksi Pengadaan Tenaga BLUD NON ASN Pada Puskesmas Mantingan Tahun 2026",
-        "href": "https://pkmmantingan.ngawikab.go.id/pengumuman-hasil-seleksi-pengadaan-tenaga-blud-non-asn-pada-puskesmas-mantingan-tahun-2026/",
         "date": "2026-10-02 00:00:00"
       },
       "repeated_posts": [],
@@ -674,34 +590,6 @@
       "last_post": {
         "title": "Perkuat Layanan Kesehatan Mata Inklusif, Stakeholder Kabupaten Ngawi Bersama Yayasan Para Mitra Evaluasi Program I-SEE",
         "href": "https://pkmkarangjati.ngawikab.go.id/perkuat-layanan-kesehatan-mata-inklusif-stakeholder-kabupaten-ngawi-bersama-yayasan-para-mitra-evaluasi-program-i-see/",
-        "date": "2026-10-01 00:00:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "DPRD",
-      "category": "OPD",
-      "kecamatan": "",
-      "url": "https://dprd.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://dprd.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "DPRD Kab. Ngawi",
-      "last_post": {
-        "title": "Kunjungan Mahasiswa UMS Terkait Penyusunan Perda di DPRD Kabupaten Ngawi",
-        "href": "https://dprd.ngawikab.go.id/kunjungan-mahasiswa-ums-terkait-penyusunan-perda-di-dprd-kabupaten-ngawi/",
         "date": "2026-10-01 00:00:00"
       },
       "repeated_posts": [],
@@ -749,44 +637,16 @@
       "opensid_version": null,
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": true,
-        "comment_admin_url": "https://kesehatan.ngawikab.go.id/index.php/comment"
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://kesehatan.ngawikab.go.id/wp-admin/edit-comments.php"
       },
       "title": "Dinas Kesehatan Kabupaten Ngawi – Semesta Berencana",
       "last_post": {
         "title": "Aksi Bumil Sehat di RSUD Mantingan",
         "href": "https://kesehatan.ngawikab.go.id/2026/09/28/aksi-bumil-sehat-di-rsud-mantingan/",
         "date": "2026-09-28 02:17:18"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PUSKESMAS NGRAMBE",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmngrambe.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmngrambe.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Ngrambe | Kabupaten Ngawi - Selamat Datang Di Website Resmi Puskesmas Ngrambe",
-      "last_post": {
-        "title": "Pengumuman Seleksi Kompetensi dan Tes Praktek/Wawancara Rekrutmen Tenaga BLUD Puskesmas Ngrambe Tahun 2026",
-        "href": "https://pkmngrambe.ngawikab.go.id/pengumuman-seleksi-kompetensi-dan-tes-praktek-wawancara-rekrutmen-tenaga-blud-puskesmas-ngrambe-tahun-2026/",
-        "date": "2026-09-25 14:58:51"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -815,34 +675,6 @@
         "title": "SOSIALISASI PENGAWASAN ORANG ASING DI WILAYAH KABUPATEN NGAWI TAHUN 2026",
         "href": "https://kesbang.ngawikab.go.id/2026/09/24/sosialisasi-pengawasan-orang-asing-di-wilayah-kabupaten-ngawi-tahun-2026/",
         "date": "2026-09-24 08:30:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PUSKESMAS KENDAL",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmkendal.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmkendal.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Kendal | Kabupaten Ngawi - Website Resmi Puskesmas Kendal Kabupaten Ngawi",
-      "last_post": {
-        "title": "PENGUMUMAN JADWAL PELAKSANAAN SELEKSI KOMPETENSI BIDANG PENGADAAN TENAGA BLUD PUSKESMAS KENDAL",
-        "href": "https://pkmkendal.ngawikab.go.id/pengumuman-jadwal-pelaksanaan-seleksi-kompetensi-bidang-pengadaan-tenaga-blud-puskesmas-kendal/",
-        "date": "2026-09-24 00:00:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1262,7 +1094,7 @@
       "last_post": {
         "title": "PEMBINAAN 10 PROGRAM PKK OLEH TIM PENGGERAK PKK KABUPATEN NGAWI DI DESA KARANGBANYU",
         "href": "https://widodaren.ngawikab.go.id/pembinaan-10-program-pkk-oleh-tim-penggerak-pkk-kabupaten-ngawi-di-desa-karangbanyu/",
-        "date": "2026-06-11 03:04:35"
+        "date": "2026-06-11 00:00:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1806,6 +1638,63 @@
       "foreign_scripts": []
     },
     {
+      "name": "PUSKESMAS PADAS",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmpadas.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PUSKESMAS NGRAMBE",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmngrambe.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PUSKESMAS NGAWI PURBA",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmngawipurba.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "PUSKESMAS NGAWI",
       "category": "PUSKESMAS",
       "kecamatan": "",
@@ -1825,10 +1714,48 @@
       "foreign_scripts": []
     },
     {
+      "name": "PUSKESMAS MANTINGAN",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmmantingan.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "PUSKESMAS KWADUNGAN",
       "category": "PUSKESMAS",
       "kecamatan": "",
       "url": "https://pkmkwadungan.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PUSKESMAS KENDAL",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmkendal.ngawikab.go.id",
       "status": "OFFLINE",
       "http_status": null,
       "error": "Offline / Connection Timeout",
@@ -1867,6 +1794,25 @@
       "category": "PUSKESMAS",
       "kecamatan": "",
       "url": "https://pkmkauman.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PUSKESMAS KASREMAN",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmkasreman.ngawikab.go.id",
       "status": "OFFLINE",
       "http_status": null,
       "error": "Offline / Connection Timeout",
