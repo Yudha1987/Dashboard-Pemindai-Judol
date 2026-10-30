@@ -1,11 +1,11 @@
 {
-  "scanned_at": "2026-10-29T00:18:12.824063",
+  "scanned_at": "2026-10-30T00:13:23.252345",
   "profile": "opd",
   "summary": {
     "total": 76,
     "detected": 0,
-    "safe": 53,
-    "offline": 23,
+    "safe": 51,
+    "offline": 25,
     "critical": 0
   },
   "results": [
@@ -28,9 +28,9 @@
       },
       "title": "Kecamatan Bringin | Kab. Ngawi - Website Resmi Kecamatan Bringin Kabupaten Ngawi",
       "last_post": {
-        "title": "PEMBUKAAN KOMPETISI INOVASI KEBIJAKAN JAWA TIMUR",
-        "href": "https://bringin.ngawikab.go.id/2026/10/pembukaan-kompetisi-inovasi-kebijakan-jawa-timur/",
-        "date": "2026-10-28 14:16:17"
+        "title": "PERSIAPAN PENYUSUNAN RHK 2027 MELALUI E-KINERJA BKN",
+        "href": "https://bringin.ngawikab.go.id/2026/10/persiapan-penyusunan-rhk-2027-melalui-e-kinerja-bkn/",
+        "date": "2026-10-29 23:02:26"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -56,9 +56,9 @@
       },
       "title": "Kecamatan Pangkur | Kab. Ngawi – Website Resmi Kecamatan Pangkur Kabupaten Ngawi",
       "last_post": {
-        "title": "MEWUJUDKAN PANGKUR AMAN, NYAMAN, RAPI DAN ASRI",
-        "href": "https://pangkur.ngawikab.go.id/2026/10/mewujudkan-pangkur-aman-nyaman-rapi-dan-asri/",
-        "date": "2026-10-28 07:14:43"
+        "title": "Rapat Paripurna DPRD Kabupaten Ngawi, dalam acara jawaban Bupati atas pandangan umum fraksi – fraksi DPRD.",
+        "href": "https://pangkur.ngawikab.go.id/2026/10/rapat-paripurna-dprd-kabupaten-ngawi-dalam-acara-jawaban-bupati-atas-pandangan-umum-fraksi-fraksi-dprd/",
+        "date": "2026-10-29 06:06:20"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -84,9 +84,37 @@
       },
       "title": "DPRD Kab. Ngawi",
       "last_post": {
-        "title": "DPRD Kabupaten Ngawi Gelar Rapat Paripurna Penyampaian Nota Keuangan dan Pandangan Umum Fraksi terhadap RAPBD T.A 2027",
-        "href": "https://dprd.ngawikab.go.id/dprd-kabupaten-ngawi-gelar-rapat-paripurna-penyampaian-nota-keuangan-dan-pandangan-umum-fraksi-terhadap-rapbd-t-a-2027/",
-        "date": "2026-10-28 00:00:00"
+        "title": "Bupati Ngawi Sampaikan Jawaban atas Pandangan Umum Fraksi terhadap RAPBD Tahun Anggaran 2027",
+        "href": "https://dprd.ngawikab.go.id/bupati-ngawi-sampaikan-jawaban-atas-pandangan-umum-fraksi-terhadap-rapbd-tahun-anggaran-2027/",
+        "date": "2026-10-29 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "SETDA",
+      "category": "OPD",
+      "kecamatan": "",
+      "url": "https://setda.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://setda.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Sekretariat Daerah Kabupaten Ngawi",
+      "last_post": {
+        "title": "Wabup Dwi Rianto Jatmiko Hadiri Rapat Paripurna DPRD Ngawi Bahas RAPBD 2027 dan Pandangan Umum Fraksi",
+        "href": "https://setda.ngawikab.go.id/wabup-dwi-rianto-jatmiko-hadiri-rapat-paripurna-dprd-ngawi-bahas-rapbd-2027-dan-pandangan-umum-fraksi/",
+        "date": "2026-10-28 06:59:35"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -150,6 +178,34 @@
       "foreign_scripts": []
     },
     {
+      "name": "GERIH",
+      "category": "KECAMATAN",
+      "kecamatan": "",
+      "url": "https://gerih.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://gerih.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Kecamatan Gerih | Kab. Ngawi – Website Resmi Kecamatan Gerih Kabupaten Ngawi",
+      "last_post": {
+        "title": "Sosialisasi Pembebasan Pajak Daerah",
+        "href": "https://gerih.ngawikab.go.id/2026/10/sosialisasi-pembebasan-pajak-daerah/",
+        "date": "2026-10-27 04:30:20"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "PUPR",
       "category": "OPD",
       "kecamatan": "",
@@ -171,34 +227,6 @@
         "title": "Dinas PUPR Ngawi Gelar Sosialisasi Percepatan SLF Bangunan Pemerintah Desa",
         "href": "https://pupr.ngawikab.go.id/dinas-pupr-ngawi-gelar-sosialisasi-percepatan-slf-bangunan-pemerintah-desa/",
         "date": "2026-10-27 04:10:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "GERIH",
-      "category": "KECAMATAN",
-      "kecamatan": "",
-      "url": "https://gerih.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://gerih.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Kecamatan Gerih | Kab. Ngawi – Website Resmi Kecamatan Gerih Kabupaten Ngawi",
-      "last_post": {
-        "title": "Sosialisasi Pendataan Digital Pajak Daerah Berbasis Desa",
-        "href": "https://gerih.ngawikab.go.id/2026/10/sosialisasi-pendataan-digital-pajak-daerah-berbasis/",
-        "date": "2026-10-26 07:39:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -255,34 +283,6 @@
         "title": "DKPP Kabupaten Ngawi Laksanakan Pemeriksaan Kesehatan bagi Karyawan dan Karyawati",
         "href": "https://pertanian.ngawikab.go.id/2026/10/26/dkpp-kabupaten-ngawi-laksanakan-pemeriksaan-kesehatan-bagi-karyawan-dan-karyawati/",
         "date": "2026-10-26 00:52:25"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PITU",
-      "category": "KECAMATAN",
-      "kecamatan": "",
-      "url": "https://pitu.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pitu.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "KECAMATAN PITU - Website Resmi Kecamatan Pitu Kabupaten Ngawi",
-      "last_post": {
-        "title": "Rembuk Bersama: Sarasehan Camat Dan Kades Pitu Cari Solusi Isu Wilayah",
-        "href": "https://pitu.ngawikab.go.id/2026/10/rembuk-bersama-sarasehan-camat-dan-kades-pitu-cari-solusi-isu-wilayah/",
-        "date": "2026-10-24 14:03:22"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -430,34 +430,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "SETDA",
-      "category": "OPD",
-      "kecamatan": "",
-      "url": "https://setda.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://setda.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Sekretariat Daerah Kabupaten Ngawi",
-      "last_post": {
-        "title": "BUPATI NGAWI ONY ANWAR HARSONO PIMPIN UPACARA PERINGATAN HARI JADI KE-81 PROVINSI JAWA TIMUR DI PENDOPO WEDYA GRAHA",
-        "href": "https://setda.ngawikab.go.id/bupati-ngawi-ony-anwar-harsono-pimpin-upacara-peringatan-hari-jadi-ke-81-provinsi-jawa-timur-di-pendopo-wedya-graha/",
-        "date": "2026-10-12 04:14:37"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "DINSOS",
       "category": "OPD",
       "kecamatan": "",
@@ -479,6 +451,34 @@
         "title": "Dinas Sosial Kabupaten Ngawi Bersama TAGANA Gelar Kegiatan TAGANA Masuk Sekolah di SMP Negeri 4 Ngawi",
         "href": "https://dinsos.ngawikab.go.id/2026/10/09/dinas-sosial-kabupaten-ngawi-bersama-tagana-gelar-kegiatan-tagana-masuk-sekolah-di-smp-negeri-4-ngawi/",
         "date": "2026-10-09 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PUSKESMAS SINE",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmsine.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://pkmsine.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Puskesmas Sine | Kabupaten Ngawi - Website Resmi Puskesmas Sine Kabupaten Ngawi",
+      "last_post": {
+        "title": "PENGUMUMAN HASIL SELEKSI AKHIR PENGADAAN TENAGA BADAN LAYANAN UMUM DAERAH (BLUD) NON ASN PADA PUSKESMAS SINE TAHUN 2026",
+        "href": "https://pkmsine.ngawikab.go.id/pengumuman-hasil-seleksi-akhir-pengadaan-tenaga-badan-layanan-umum-daerah-blud-non-asn-pada-puskesmas-sine-tahun-2026/",
+        "date": "2026-10-02 06:20:36"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -514,34 +514,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "PUSKESMAS SINE",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmsine.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmsine.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Sine | Kabupaten Ngawi - Website Resmi Puskesmas Sine Kabupaten Ngawi",
-      "last_post": {
-        "title": "PENGUMUMAN HASIL SELEKSI AKHIR PENGADAAN TENAGA BADAN LAYANAN UMUM DAERAH (BLUD) NON ASN PADA PUSKESMAS SINE TAHUN 2026",
-        "href": "https://pkmsine.ngawikab.go.id/pengumuman-hasil-seleksi-akhir-pengadaan-tenaga-badan-layanan-umum-daerah-blud-non-asn-pada-puskesmas-sine-tahun-2026/",
-        "date": "2026-10-02 00:00:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "PUSKESMAS JOGOROGO",
       "category": "PUSKESMAS",
       "kecamatan": "",
@@ -563,34 +535,6 @@
         "title": "PENGUMUMAN HASIL SELEKSI PENGADAAN TENAGA BLUD NON ASN",
         "href": "https://pkmjogorogo.ngawikab.go.id/pengumuman-hasil-seleksi-pengadaan-tenaga-blud-non-asn/",
         "date": "2026-10-02 00:00:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "PUSKESMAS KARANGJATI",
-      "category": "PUSKESMAS",
-      "kecamatan": "",
-      "url": "https://pkmkarangjati.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": "wordpress",
-        "akismet": false,
-        "comment_admin_url": "https://pkmkarangjati.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Puskesmas Karangjati | Kabupaten Ngawi - Selamat Datang Di Website Resmi Puskesmas Karangjati",
-      "last_post": {
-        "title": "Perkuat Layanan Kesehatan Mata Inklusif, Stakeholder Kabupaten Ngawi Bersama Yayasan Para Mitra Evaluasi Program I-SEE",
-        "href": "https://pkmkarangjati.ngawikab.go.id/perkuat-layanan-kesehatan-mata-inklusif-stakeholder-kabupaten-ngawi-bersama-yayasan-para-mitra-evaluasi-program-i-see/",
-        "date": "2026-10-01 00:00:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1094,7 +1038,7 @@
       "last_post": {
         "title": "PEMBINAAN 10 PROGRAM PKK OLEH TIM PENGGERAK PKK KABUPATEN NGAWI DI DESA KARANGBANYU",
         "href": "https://widodaren.ngawikab.go.id/pembinaan-10-program-pkk-oleh-tim-penggerak-pkk-kabupaten-ngawi-di-desa-karangbanyu/",
-        "date": "2026-06-11 00:00:00"
+        "date": "2026-06-11 03:04:35"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1214,6 +1158,34 @@
       "foreign_scripts": []
     },
     {
+      "name": "KARANGJATI",
+      "category": "KECAMATAN",
+      "kecamatan": "",
+      "url": "https://karangjati.ngawikab.go.id",
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "Website Lain",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": "wordpress",
+        "akismet": false,
+        "comment_admin_url": "https://karangjati.ngawikab.go.id/wp-admin/edit-comments.php"
+      },
+      "title": "Pemerintah Kecamatan Karangjati – Selamat Datang Di Website Resmi Kecamatan Karangjati",
+      "last_post": {
+        "title": "SUBUH BERSAMA DI AWAL TAHUN",
+        "href": "https://karangjati.ngawikab.go.id/2026/01/09/subuh-bersama-di-awal-tahun/",
+        "date": "2026-01-09 09:36:03"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "SINE",
       "category": "KECAMATAN",
       "kecamatan": "",
@@ -1234,35 +1206,7 @@
       "last_post": {
         "title": "Monev Pembangunan Infrastruktur Desa di Kecamatan Sine Berjalan Lancar",
         "href": "https://sine.ngawikab.go.id/2026/01/monev-pembangunan-infrastruktur-desa-di-kecamatan-sine-berjalan-lancar/",
-        "date": "2026-01-14 02:39:52"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "KARANGJATI",
-      "category": "KECAMATAN",
-      "kecamatan": "",
-      "url": "https://karangjati.ngawikab.go.id",
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "Website Lain",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "wordpress",
-        "akismet": true,
-        "comment_admin_url": "https://karangjati.ngawikab.go.id/wp-admin/edit-comments.php"
-      },
-      "title": "Pemerintah Kecamatan Karangjati – Selamat Datang Di Website Resmi Kecamatan Karangjati",
-      "last_post": {
-        "title": "SUBUH BERSAMA DI AWAL TAHUN",
-        "href": "https://karangjati.ngawikab.go.id/2026/01/09/subuh-bersama-di-awal-tahun/",
-        "date": "2026-01-09 09:36:03"
+        "date": "2026-01-01 00:00:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1828,6 +1772,25 @@
       "foreign_scripts": []
     },
     {
+      "name": "PUSKESMAS KARANGJATI",
+      "category": "PUSKESMAS",
+      "kecamatan": "",
+      "url": "https://pkmkarangjati.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "PUSKESMAS KARANGANYAR",
       "category": "PUSKESMAS",
       "kecamatan": "",
@@ -1889,6 +1852,25 @@
       "category": "PUSKESMAS",
       "kecamatan": "",
       "url": "https://pkmbringin.ngawikab.go.id",
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "PITU",
+      "category": "KECAMATAN",
+      "kecamatan": "",
+      "url": "https://pitu.ngawikab.go.id",
       "status": "OFFLINE",
       "http_status": null,
       "error": "Offline / Connection Timeout",
