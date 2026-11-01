@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-10-31T23:21:31.256276",
+  "scanned_at": "2026-11-01T23:34:55.726217",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -49,10 +49,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://gemarang.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Gemarang",
       "last_post": {
@@ -133,10 +133,10 @@
       "opensid_version": null,
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://sukowiyono.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Sukowiyono",
       "last_post": {
@@ -189,10 +189,10 @@
       "opensid_version": "2403.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://kedungputri.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Kedungputri",
       "last_post": {
@@ -357,10 +357,10 @@
       "opensid_version": "2401.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://guyung.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Guyung Kecamatan Gerih Kabupaten Ngawi",
       "last_post": {
@@ -413,10 +413,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://karangtengahprandon.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Karangtengah Prandon",
       "last_post": {
@@ -581,10 +581,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://tepas-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Tepas Kecamatan Geneng Kabupaten Ngawi",
       "last_post": {
@@ -609,10 +609,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://jatirejo-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Jatirejo Kecamatan Kasreman Kabupaten Ngawi",
       "last_post": {
@@ -637,10 +637,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://karangmalang-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Karangmalang Kecamatan Kasreman Kabupaten Ngawi",
       "last_post": {
@@ -693,10 +693,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://ngrambe-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Ngrambe Kecamatan Ngrambe Kabupaten Ngawi",
       "last_post": {
@@ -721,10 +721,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://sidorejo-geneng.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi DESA Sidorejo",
       "last_post": {
@@ -805,10 +805,10 @@
       "opensid_version": "2310.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://wakah.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Wakah Kecamatan Ngrambe Kabupaten Ngawi",
       "last_post": {
@@ -833,10 +833,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://karanggeneng-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Karanggeneng Kecamatan Pitu Kabupaten Ngawi",
       "last_post": {
@@ -973,10 +973,10 @@
       "opensid_version": "2404.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://pocol.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Pocol Kecamatan Sine Kabupaten Ngawi",
       "last_post": {
