@@ -154,13 +154,50 @@ class TestFetchTargetDetection(unittest.TestCase):
             "<body>OpenSID</body></html>",
             url="https://jururejo.desa.id/",
         )
-        with mock.patch.object(scanner, "_fetch_with_retry",
-                               return_value=healthy) as fetch:
+        with mock.patch.dict("os.environ", {"MIGRATION_PROBE_ALWAYS": "0"}), \
+                mock.patch.object(scanner, "_fetch_with_retry",
+                                  return_value=healthy) as fetch:
             resp, used_url, migrated_host = scanner._fetch_target(target)
         self.assertIs(resp, healthy)
         self.assertEqual(used_url, "https://jururejo.desa.id")
         self.assertIsNone(migrated_host)
         self.assertEqual(fetch.call_count, 1)
+
+    def test_proactive_detection_when_old_site_still_healthy(self):
+        """Domain baru tetap ditemukan walau desa.id lama masih menampilkan situs."""
+        target = _target("babadan-paron", "Babadan Paron", "Paron")
+        healthy_old = FakeResponse(
+            "<html><head><title>Website Resmi Desa Babadan "
+            "Paron</title></head><body>OpenSID</body></html>",
+            url="https://babadan-paron.desa.id/",
+        )
+        forbidden = FakeResponse("<html>403 Forbidden</html>", status_code=403,
+                                 url="https://babadan-paron.kabngawi.id/")
+        valid = FakeResponse(
+            "<html><head><title>Website Resmi Desa Babadan Kecamatan "
+            "Paron</title></head><body>OpenSID</body></html>",
+            url="https://babadan.kabngawi.id/",
+        )
+
+        def fake_fetch(url):
+            if "babadan.kabngawi.id" in url:
+                return valid
+            if "babadan-paron.kabngawi.id" in url:
+                return forbidden
+            if "babadan-paron.desa.id" in url:
+                return healthy_old
+            raise AssertionError("URL tak terduga: %s" % url)
+
+        with mock.patch.dict("os.environ", {"MIGRATION_PROBE_ALWAYS": "1"}), \
+                mock.patch.object(scanner, "_fetch_with_retry",
+                                  side_effect=fake_fetch), \
+                mock.patch.object(scanner, "record_migration",
+                                  return_value=True):
+            resp, used_url, migrated_host = scanner._fetch_target(target)
+
+        self.assertIs(resp, valid)
+        self.assertEqual(used_url, "https://babadan.kabngawi.id")
+        self.assertEqual(migrated_host, "babadan.kabngawi.id")
 
 
 if __name__ == "__main__":

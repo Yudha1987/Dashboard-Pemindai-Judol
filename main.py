@@ -19,6 +19,7 @@ Konfigurasi environment:
   TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID   (atau file .env)
   CONCURRENCY=10  TIMEOUT=25  RETRIES=2
   DEEP_SCAN_ENABLED=1  DEEP_SCAN_PAGES=20  DEEP_SCAN_THREADS=3
+  MIGRATION_PROBE_ALWAYS=1  (cek kandidat *.kabngawi.id setiap scan)
 """
 
 import argparse

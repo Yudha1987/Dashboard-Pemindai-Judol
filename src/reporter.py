@@ -578,6 +578,7 @@ def render_html(results, meta, auto_refresh=0, profile=None):
     ver_uptodate = sum(1 for r in results if r.get("opensid_version") and _ver_tuple(r["opensid_version"]) >= VER_THRESHOLD)
     ver_below = sum(1 for r in results if r.get("opensid_version") and _ver_tuple(r["opensid_version"]) < VER_THRESHOLD)
     ver_unknown = sum(1 for r in results if not r.get("opensid_version"))
+    migrated_count = sum(1 for r in results if r.get("domain_migrated"))
 
     rows = []
     for idx, r in enumerate(results):
@@ -592,6 +593,9 @@ def render_html(results, meta, auto_refresh=0, profile=None):
         link = r["url"]
         if last and last.get("href"):
             link = last["href"]
+        url_html = _esc(r["url"])
+        if r.get("domain_migrated"):
+            url_html += ' <span class="tag">kabngawi.id</span>'
         group_val = r.get("kecamatan") if by_kecamatan else r.get("category")
         danger = " row-spam" if r.get("critical") else (
             " row-repeated" if (r.get("repeated_posts") and r["status"] == "DETECTED")
@@ -615,7 +619,8 @@ def render_html(results, meta, auto_refresh=0, profile=None):
 
         rows.append(
             "<tr class=\"%s\" data-status=\"%s\" data-group=\"%s\" "
-            "data-date=\"%s\" data-index=\"%d\" data-monthly='%s'>"
+            "data-migrated=\"%d\" data-date=\"%s\" data-index=\"%d\" "
+            "data-monthly='%s'>"
             "<td>%s</td>"
             "<td>%s<span class=\"tag\">%s</span></td>"
             "<td>%s</td>"
@@ -631,6 +636,7 @@ def render_html(results, meta, auto_refresh=0, profile=None):
                 danger,
                 r["status"],
                 _esc(group_val or ""),
+                1 if r.get("domain_migrated") else 0,
                 _esc(date_sort),
                 idx,
                 _esc(mo_json),
@@ -640,7 +646,7 @@ def render_html(results, meta, auto_refresh=0, profile=None):
                 ('<span class="name name-link" onclick="openSuratModal(this.closest(\'tr\'))">%s</span>' % _esc(r["name"])) if surat_map else ('<span class="name">%s</span>' % _esc(r["name"])),
                 _esc(r["category"]),
                 _esc(group_val or "-"),
-                _esc(r["url"]),
+                url_html,
                 ver_td,
                 surat_td,
                 post_title,
@@ -758,6 +764,7 @@ def render_html(results, meta, auto_refresh=0, profile=None):
     <div class="stat"><div class="num" style="color:#ffe2a1;">%d</div><div class="lbl">Offline / Timeout</div></div>
     %s
     %s
+    %s
   </div>
   <div class="logo-wrap">
     <img src="/logo.png" alt="Logo Dinas Kominfo">
@@ -773,6 +780,7 @@ def render_html(results, meta, auto_refresh=0, profile=None):
     <button class="fbtn" data-filter="DETECTED" onclick="setFilter('DETECTED')">&#128680; Terindikasi <span class="cnt" id="c-detected">(%d)</span></button>
     <button class="fbtn" data-filter="AMAN" onclick="setFilter('AMAN')">Aman <span class="cnt" id="c-safe">(%d)</span></button>
     <button class="fbtn" data-filter="OFFLINE" onclick="setFilter('OFFLINE')">Offline <span class="cnt" id="c-offline">(%d)</span></button>
+    <button class="fbtn" data-migrated-filter="1" onclick="setMigratedFilter()">&#127760; Domain Baru <span class="cnt">(%d)</span></button>
   </div>
   <div class="toolbar group-toolbar">
     %s
@@ -836,6 +844,13 @@ def render_html(results, meta, auto_refresh=0, profile=None):
 <script>
 let currentFilter = 'all';
 let currentGroup = 'all';
+let onlyMigrated = false;
+function setMigratedFilter() {
+  onlyMigrated = !onlyMigrated;
+  const btn = document.querySelector('.fbtn[data-migrated-filter]');
+  if (btn) { btn.classList.toggle('active', onlyMigrated); }
+  applyFilter();
+}
 function setFilter(f) {
   currentFilter = f;
   document.querySelectorAll('.fbtn[data-filter]').forEach(b => b.classList.remove('active'));
@@ -860,9 +875,10 @@ function applyFilter() {
     const okStatus = currentFilter === 'all' || st === currentFilter;
     const okGroup = currentGroup === 'all' || gr === currentGroup;
     const okVer = currentVerFilter === 'all' || getVerStatus(ver) === currentVerFilter;
+    const okMigrated = !onlyMigrated || tr.getAttribute('data-migrated') === '1';
     const text = tr.textContent.toLowerCase();
     const okQ = !q || text.indexOf(q) !== -1;
-    tr.style.display = (okStatus && okGroup && okVer && okQ) ? '' : 'none';
+    tr.style.display = (okStatus && okGroup && okVer && okMigrated && okQ) ? '' : 'none';
   });
 }
 let currentDateSort = 'none';
@@ -1121,6 +1137,7 @@ function exportVerCSV() {
         meta["detected"],
         meta["safe"],
         meta["offline"],
+        '<div class="stat"><div class="num" style="color:#93c5fd;">%d</div><div class="lbl">Domain Baru (kabngawi.id)</div></div>' % migrated_count if by_kecamatan else '',
         '<div class="stat"><div class="num" style="color:#60a5fa;">%d</div><div class="lbl">Total Surat Tercetak</div></div>' % total_surat if surat_map else '',
         '<div class="stat ver-stat" onclick="document.getElementById(\'ver-filter\').value=\'below\';setVerFilter(\'below\')"><div class="num" style="color:#ea580c;">%d</div><div class="lbl">Versi Below v2406</div></div>' % ver_below if by_kecamatan else '',
         alarm_block,
@@ -1129,6 +1146,7 @@ function exportVerCSV() {
         meta["detected"],
         meta["safe"],
         meta["offline"],
+        migrated_count,
         group_toolbar,
         date_toolbar,
         _esc(p["col_label"]),

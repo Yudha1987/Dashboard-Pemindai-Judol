@@ -175,6 +175,18 @@ def _is_migration_page(resp, host, tokens):
     return bool(tokens) and all(token in normalized for token in tokens)
 
 
+def _probe_migration_always():
+    """True bila kandidat domain baru dicek pada setiap scan.
+
+    Default aktif supaya perpindahan domain baru (mis. di server VM76)
+    langsung terlihat pada klik "Scan", walaupun domain lama masih hidup.
+    Set MIGRATION_PROBE_ALWAYS=0 untuk kembali ke mode probe hemat
+    (hanya saat domain lama bermasalah).
+    """
+    return os.environ.get("MIGRATION_PROBE_ALWAYS", "1").strip().lower() not in (
+        "0", "false", "no", "off")
+
+
 def _detect_migration(target):
     """Cari domain baru <desa>.kabngawi.id untuk desa yang baru pindah.
 
@@ -207,8 +219,10 @@ def _fetch_target(target):
     Urutan:
       1. Domain baru (*.kabngawi.id) bila sudah diketahui (peta manual atau
          hasil deteksi otomatis sebelumnya).
-      2. Domain lama (*.desa.id) sebagai fallback.
-      3. Bila domain lama sudah dialihkan ke landing Kominfo / tidak bisa
+      2. Probe kandidat <desa>.kabngawi.id pada setiap scan (default aktif)
+         agar perpindahan baru langsung terlihat walau domain lama masih hidup.
+      3. Domain lama (*.desa.id) sebagai fallback.
+      4. Bila domain lama sudah dialihkan ke landing Kominfo / tidak bisa
          diakses, coba deteksi <desa>.kabngawi.id lalu simpan hasilnya.
     """
     primary = target["url"]
@@ -221,6 +235,15 @@ def _fetch_target(target):
         if host and "https://" + host != primary:
             primary = "https://" + host
             migrated_host = host
+
+    # Probe proaktif: situs baru di VM76 bisa saja sudah hidup sementara
+    # domain lama masih menampilkan situs lama. Cek kandidat lebih dulu.
+    if (not target.get("domain_migrated")
+            and not migrated_host
+            and _probe_migration_always()):
+        detected = _detect_migration(target)
+        if detected is not None:
+            return detected
 
     candidates = [primary]
     for candidate in target.get("fallback_urls") or []:
