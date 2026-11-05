@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-05T10:46:59.638913",
+  "scanned_at": "2026-11-05T11:10:38.937294",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -644,10 +644,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://sumber-ngawi.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Sumber Kecamatan Pangkur Kabupaten Ngawi",
       "last_post": {

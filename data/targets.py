@@ -8,7 +8,10 @@ setelah deduplikasi). Entri baru dapat ditambahkan langsung ke RAW_HOSTS
 didefinisikan di NAME_OVERRIDES.
 """
 
+import json
+import os
 import re
+import threading
 
 RAW_HOSTS = """https://jururejo.desa.id
 https://sumberbening.desa.id
@@ -325,6 +328,90 @@ KABNGAWI_HOSTS = {
     "wonosari-ngawi": "wonosari.kabngawi.id",
 }
 
+# ---------------------------------------------------------------------------
+# Perpindahan domain hasil deteksi otomatis
+# ---------------------------------------------------------------------------
+# Scanner memeriksa kandidat <desa>.kabngawi.id ketika domain lama sudah
+# dialihkan ke landing Kominfo / tidak bisa diakses. Temuan disimpan di sini
+# agar scan berikutnya (dan skrip surat/lomba) langsung memakai domain baru
+# tanpa perlu menambah entri manual ke KABNGAWI_HOSTS.
+DISCOVERED_HOSTS_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "domain_migrations.json")
+
+_discovered_lock = threading.Lock()
+
+
+def _load_discovered_hosts():
+    try:
+        with open(DISCOVERED_HOSTS_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    result = {}
+    for key, host in data.items():
+        key = str(key or "").strip().lower()
+        host = str(host or "").strip().lower()
+        if key and host.endswith(".kabngawi.id"):
+            result[key] = host
+    return result
+
+
+_discovered_hosts = _load_discovered_hosts()
+
+
+def kabngawi_hosts():
+    """Peta gabungan domain baru: manual (KABNGAWI_HOSTS) + hasil deteksi."""
+    with _discovered_lock:
+        merged = dict(_discovered_hosts)
+    merged.update(KABNGAWI_HOSTS)  # pemetaan manual selalu menang
+    return merged
+
+
+def discovered_hosts():
+    """Salinan entri hasil deteksi otomatis (untuk diagnosa/CLI)."""
+    with _discovered_lock:
+        return dict(_discovered_hosts)
+
+
+def record_migration(key, host, persist=True):
+    """Simpan satu perpindahan domain baru hasil deteksi otomatis.
+
+    Return True bila entri benar-benar baru. Entri manual di KABNGAWI_HOSTS
+    tidak pernah ditimpa.
+    """
+    key = (key or "").strip().lower()
+    if "://" in key:
+        key = key.split("://", 1)[1]
+    key = key.split("/", 1)[0].strip()
+    host = (host or "").strip().lower()
+    if "://" in host:
+        host = host.split("://", 1)[1]
+    host = host.split("/", 1)[0].rstrip(".")
+    if not key or key in KABNGAWI_HOSTS or not host.endswith(".kabngawi.id"):
+        return False
+
+    with _discovered_lock:
+        if _discovered_hosts.get(key) == host:
+            return False
+        _discovered_hosts[key] = host
+        if persist:
+            # Tulis di dalam lock agar beberapa thread tidak saling menimpa
+            # file sementara dengan isi yang sudah usang.
+            tmp = DISCOVERED_HOSTS_PATH + ".tmp"
+            try:
+                with open(tmp, "w", encoding="utf-8") as f:
+                    json.dump(_discovered_hosts, f, indent=2,
+                              ensure_ascii=False, sort_keys=True)
+                    f.write("\n")
+                os.replace(tmp, DISCOVERED_HOSTS_PATH)
+            except OSError:
+                # Sistem file read-only (mis. Vercel): tetap tersimpan di memori.
+                pass
+    return True
+
+
 # Domain lama yang sudah dialihkan ke landing Kominfo. Dipakai scanner untuk
 # menghindari fallback yang justru mengembalikan halaman "Situs Dalam
 # Pengawasan" seolah-olah website desa masih hidup.
@@ -585,7 +672,7 @@ def canonical_key(value):
             break
     # Kembalikan ke kunci lama bila subdomain kabngawi.id tidak sama dengan
     # kunci di RAW_HOSTS (mis. bangunrejo -> bangunrejo-ngawi).
-    for old_key, new_host in KABNGAWI_HOSTS.items():
+    for old_key, new_host in kabngawi_hosts().items():
         if key == new_host.split(".kabngawi.id")[0]:
             return old_key
     return key
@@ -594,8 +681,10 @@ def canonical_key(value):
 def resolve_url(value, prefer_new=True):
     """URL target yang tepat untuk sebuah desa (domain baru bila sudah pindah)."""
     key = canonical_key(value)
-    if prefer_new and key in KABNGAWI_HOSTS:
-        return "https://" + KABNGAWI_HOSTS[key]
+    if prefer_new:
+        new_host = kabngawi_hosts().get(key)
+        if new_host:
+            return "https://" + new_host
     if key:
         return "https://" + key + LEGACY_DESA_SUFFIX
     return ""
@@ -604,6 +693,7 @@ def resolve_url(value, prefer_new=True):
 def _build():
     targets = []
     seen = set()
+    hosts_baru = kabngawi_hosts()
     for line in RAW_HOSTS.splitlines():
         host = (line or "").strip()
         if not host:
@@ -618,7 +708,7 @@ def _build():
         full = host if host.endswith(LEGACY_DESA_SUFFIX) else host + LEGACY_DESA_SUFFIX
         key = host[: -len(LEGACY_DESA_SUFFIX)] if host.endswith(LEGACY_DESA_SUFFIX) else host
         old_url = "https://" + full
-        new_host = KABNGAWI_HOSTS.get(key)
+        new_host = hosts_baru.get(key)
         if new_host:
             primary_url = "https://" + new_host
             fallback_urls = [old_url]

@@ -28,6 +28,7 @@ from urllib3.exceptions import InsecureRequestWarning
 from config.config import (
     RETRIES, RETRY_DELAY, TIMEOUT,
 )
+from data.targets import canonical_key, record_migration, resolve_url
 from src.detector import (
     CRITICAL_LABEL, REPEATED_POSTS_CRITICAL, analyze, detect_repeated_posts,
     scan_comments,
@@ -60,6 +61,23 @@ _BLOCKED_LANDING_MARKERS = (
 _DEFAULT_SERVER_MARKERS = (
     "http server test page powered by centos-webpanel",
 )
+
+# Deteksi perpindahan otomatis desa.id -> <desa>.kabngawi.id.
+_KABNGAWI_SUFFIX = ".kabngawi.id"
+_OPENSID_MARKERS = (
+    "opensid",
+    "website resmi desa",
+    "/siteman",
+    "theme_asset",
+)
+# Akhiran pembeda pada nama host lama, biasanya nama kecamatan atau "ngawi".
+_DISAMBIG_SUFFIXES = (
+    "bringin", "geneng", "gerih", "jogorogo", "karanganyar", "karangjati",
+    "kasreman", "kedunggalar", "kendal", "kwadungan", "mantingan", "ngawi",
+    "ngrambe", "padas", "pangkur", "paron", "pitu", "sine", "widodaren",
+)
+_TOKEN_CLEAN_RE = re.compile(r"[^a-z0-9]")
+_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.S | re.I)
 
 _SKIP_EXT = (
     ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".ico", ".bmp",
@@ -103,15 +121,107 @@ def _looks_like_default_server_page(html):
     return any(m in text for m in _DEFAULT_SERVER_MARKERS)
 
 
-def _fetch_target(target):
-    """Ambil halaman target dengan fallback ke domain lama bila perlu.
+def _normalize_token(value):
+    return _TOKEN_CLEAN_RE.sub("", (value or "").lower())
 
-    Domain baru (*.kabngawi.id) dipakai lebih dulu. Fallback hanya dicoba
-    ketika domain baru gagal secara jaringan atau masih halaman default
-    server. Fallback yang berakhir di landing Kominfo tidak dipakai karena
-    bukan website desa.
+
+def _base_key(key):
+    """Buang akhiran pembeda kecamatan/\"ngawi\" dari kunci host lama."""
+    for suffix in _DISAMBIG_SUFFIXES:
+        tail = "-" + suffix
+        if key.endswith(tail) and len(key) > len(tail):
+            return key[: -len(tail)]
+    return key
+
+
+def _migration_candidates(key):
+    """Kandidat domain baru untuk sebuah kunci host lama."""
+    hosts = [key + _KABNGAWI_SUFFIX]
+    base = _base_key(key)
+    if base != key:
+        hosts.append(base + _KABNGAWI_SUFFIX)
+    result = []
+    for host in hosts:
+        if host not in result:
+            result.append(host)
+    return result
+
+
+def _migration_tokens(target, key):
+    """Token yang wajib muncul di halaman domain baru (nama desa + kecamatan)."""
+    base = _base_key(key)
+    tokens = [_normalize_token(base)]
+    if base != key:
+        tokens.append(_normalize_token(target.get("kecamatan", "")))
+    return [token for token in tokens if token]
+
+
+def _is_migration_page(resp, host, tokens):
+    """Validasi bahwa kandidat benar-benar website OpenSID desa yang dimaksud."""
+    if resp.status_code != 200:
+        return False
+    final_host = (urlparse(getattr(resp, "url", "") or "").netloc or "").lower()
+    if final_host and final_host not in (host, "www." + host):
+        return False
+    html = getattr(resp, "text", "") or ""
+    low = html.lower()
+    if _looks_like_blocked_landing(resp) or _looks_like_default_server_page(html):
+        return False
+    if not any(marker in low for marker in _OPENSID_MARKERS):
+        return False
+    # Nama desa (+ kecamatan bila nama host lama memakai akhiran pembeda)
+    # harus disebut di halaman agar tidak salah mengenali desa lain.
+    normalized = _normalize_token(low[:400000])
+    return bool(tokens) and all(token in normalized for token in tokens)
+
+
+def _detect_migration(target):
+    """Cari domain baru <desa>.kabngawi.id untuk desa yang baru pindah.
+
+    Return (response, url, host) bila ditemukan dan tervalidasi, else None.
+    """
+    key = canonical_key(target.get("url_lama") or target.get("url") or "")
+    if not key:
+        return None
+    tokens = _migration_tokens(target, key)
+    if not tokens:
+        return None
+    for host in _migration_candidates(key):
+        url = "https://" + host
+        try:
+            resp = _fetch_with_retry(url)
+        except Exception:  # noqa: BLE001 - kandidat berikutnya
+            continue
+        if not _is_migration_page(resp, host, tokens):
+            continue
+        if record_migration(key, host):
+            _audit_logger.info(
+                "Migrasi domain terdeteksi: %s -> %s", key, host)
+        return resp, url, host
+    return None
+
+
+def _fetch_target(target):
+    """Ambil halaman target dengan fallback + deteksi perpindahan domain.
+
+    Urutan:
+      1. Domain baru (*.kabngawi.id) bila sudah diketahui (peta manual atau
+         hasil deteksi otomatis sebelumnya).
+      2. Domain lama (*.desa.id) sebagai fallback.
+      3. Bila domain lama sudah dialihkan ke landing Kominfo / tidak bisa
+         diakses, coba deteksi <desa>.kabngawi.id lalu simpan hasilnya.
     """
     primary = target["url"]
+    migrated_host = None
+
+    # Hasil deteksi pada scan sebelumnya (runtime/JSON) langsung dipakai.
+    resolved = resolve_url(target.get("url_lama") or primary)
+    if not target.get("domain_migrated") and resolved.endswith(_KABNGAWI_SUFFIX):
+        host = (urlparse(resolved).netloc or "").lower()
+        if host and "https://" + host != primary:
+            primary = "https://" + host
+            migrated_host = host
+
     candidates = [primary]
     for candidate in target.get("fallback_urls") or []:
         if candidate and candidate not in candidates:
@@ -132,6 +242,13 @@ def _fetch_target(target):
 
         if index == 0:
             primary_resp = resp
+
+        # Domain lama error: jangan langsung pulang, coba deteksi dulu.
+        if (index == 0 and resp.status_code >= 400
+                and not target.get("domain_migrated")):
+            last_resp = resp
+            break
+
         unusable = (_looks_like_blocked_landing(resp)
                     or _looks_like_default_server_page(resp.text))
         if unusable:
@@ -139,7 +256,19 @@ def _fetch_target(target):
             if index < len(candidates) - 1:
                 continue
             break
-        return resp, candidate
+        return resp, candidate, migrated_host
+
+    # Domain lama tidak lagi menampilkan website desa -> deteksi perpindahan.
+    if (not target.get("domain_migrated")
+            and (last_exc is not None
+                 or (last_resp is not None
+                     and (_looks_like_blocked_landing(last_resp)
+                          or _looks_like_default_server_page(last_resp.text)
+                          or last_resp.status_code >= 400)))):
+        detected = _detect_migration(target)
+        if detected is not None:
+            resp, url, host = detected
+            return resp, url, host
 
     if last_resp is not None:
         # Jika domain baru hanya menampilkan halaman default server dan domain
@@ -148,12 +277,12 @@ def _fetch_target(target):
         if (primary_resp is not None
                 and _looks_like_blocked_landing(last_resp)
                 and primary_resp is not last_resp):
-            return primary_resp, candidates[0]
+            return primary_resp, candidates[0], migrated_host
         # Domain baru gagal di level jaringan dan fallback hanya landing
         # Kominfo: laporkan kegagalan domain baru, bukan landing lama.
         if primary_exc is not None and _looks_like_blocked_landing(last_resp):
             raise primary_exc
-        return last_resp, candidates[-1]
+        return last_resp, candidates[-1], migrated_host
     if last_exc is not None:
         raise last_exc
     raise requests.exceptions.ConnectionError("Tidak ada URL target")
@@ -282,10 +411,18 @@ def scan_target(target):
     }
 
     try:
-        resp, used_url = _fetch_target(target)
+        resp, used_url, migrated_host = _fetch_target(target)
         url = used_url
         result["url"] = used_url
         result["http_status"] = resp.status_code
+        if migrated_host:
+            # Perpindahan baru terdeteksi pada scan ini.
+            result["url_lama"] = target.get("url_lama") or result.get("url_lama")
+            result["domain"] = "kabngawi.id"
+            result["domain_migrated"] = True
+            target["url"] = used_url
+            target["domain"] = "kabngawi.id"
+            target["domain_migrated"] = True
 
         # Domain lama sudah dialihkan ke landing Kominfo, bukan website desa.
         if _looks_like_blocked_landing(resp):

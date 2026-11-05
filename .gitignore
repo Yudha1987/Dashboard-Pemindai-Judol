@@ -22,8 +22,9 @@ output/opd/*
 !output/opd/logo_ngawi.png
 output/lomba/
 
-# File runtime (PID)
+# File runtime (PID & log)
 *.pid
+*.log
 
 # Log
 logs/
