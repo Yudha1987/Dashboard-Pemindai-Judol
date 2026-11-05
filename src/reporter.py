@@ -383,6 +383,13 @@ header { background-image: url('/assets/bg-header.svg'); background-size: cover;
 @media (max-width: 760px) { .logo-wrap { position: static; margin: 14px auto 0; } .logo-wrap.left { margin-top: 0; } header h1, header p { padding-left: 0; } }
 header h1 { margin: 0 0 4px; font-size: 23px; padding-left: 76px; color: #0F172A; }
 header p { margin: 4px 0 0; font-size: 13px; padding-left: 76px; color: #334155; }
+.public-access { display: none; align-items: center; gap: 10px; flex-wrap: wrap; margin: 10px 0 0 76px; font-size: 13px; color: #0f172a; }
+.public-access a { color: #0b4a8f; font-weight: 700; text-decoration: none; word-break: break-all; }
+.public-access a:hover { text-decoration: underline; }
+.pa-copy { background: #0f3d5e; color: #fff; border: 0; border-radius: 6px; padding: 4px 10px; font-size: 12px; cursor: pointer; }
+.pa-copy:hover { background: #155e8a; }
+.pa-note { color: #475569; font-size: 12px; }
+@media (max-width: 760px) { .public-access { margin-left: 0; } }
 .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 18px; }
 .stat { background: rgba(255,255,255,0.85); backdrop-filter: blur(4px); border: 1px solid rgba(255,255,255,.6); border-radius: 10px; padding: 12px 20px; min-width: 140px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
 .stat .num { font-size: 30px; font-weight: 800; color: #1E293B; }
@@ -754,6 +761,12 @@ def render_html(results, meta, auto_refresh=0, profile=None):
 <header>
   <h1>Pemantau Website - Indikasi Konten Judi Online / Spam</h1>
   <p>%s &bull; %d Target &bull; Update by date: <strong><span id="update-time">%s</span></strong></p>
+  <div class="public-access" id="public-access">
+    <span>&#127760; Akses dari luar:</span>
+    <a id="public-url" href="#" target="_blank" rel="noopener"></a>
+    <button type="button" class="pa-copy" onclick="copyPublicUrl()">Salin</button>
+    <span class="pa-note" id="public-url-note"></span>
+  </div>
   <div class="logo-wrap left">
     <img src="/logo_ngawi.png" alt="Logo Kabupaten Ngawi">
   </div>
@@ -1123,6 +1136,41 @@ function exportVerCSV() {
   a.download = 'upgrade_opensid_' + new Date().toISOString().slice(0,10) + '.csv';
   a.click();
 }
+function copyPublicUrl() {
+  const a = document.getElementById('public-url');
+  if (!a || !a.href || a.href === '#') return;
+  const text = a.href;
+  const done = () => {
+    const btn = document.querySelector('.pa-copy');
+    if (btn) { btn.textContent = 'Tersalin'; setTimeout(() => { btn.textContent = 'Salin'; }, 1500); }
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done).catch(() => {});
+    return;
+  }
+  const t = document.createElement('textarea');
+  t.value = text; document.body.appendChild(t); t.select();
+  try { document.execCommand('copy'); done(); } catch (e) {}
+  document.body.removeChild(t);
+}
+function loadPublicUrl() {
+  const box = document.getElementById('public-access');
+  const link = document.getElementById('public-url');
+  const note = document.getElementById('public-url-note');
+  if (!box || !link) return;
+  fetch('/api/public-url', {cache: 'no-store'}).then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }).then(d => {
+    if (!d || !d.dashboard_url) { box.style.display = 'none'; return; }
+    link.href = d.dashboard_url;
+    link.textContent = d.dashboard_url;
+    box.style.display = 'flex';
+    if (note) note.textContent = d.updated_at ? ('aktif sejak ' + d.updated_at) : '';
+  }).catch(() => { box.style.display = 'none'; });
+}
+loadPublicUrl();
+setInterval(loadPublicUrl, 60000);
 </script>
 </body>
 </html>

@@ -307,6 +307,16 @@ def make_handler(state, concurrency, output_dir, profile=None):
                     self._schedule_scan()
                 with state.lock:
                     html = state.html
+                # Pakai versi terbaru di disk (mis. hasil regenerate manual)
+                # tanpa perlu restart server.
+                try:
+                    with open(os.path.join(output_dir, p["html_name"]),
+                              "r", encoding="utf-8") as f:
+                        disk_html = f.read()
+                    if disk_html:
+                        html = disk_html
+                except OSError:
+                    pass
                 if not html:
                     html = ("<html><body><h3>Memindai pertama kali, "
                             "silahkan reload dalam beberapa saat...</h3></body></html>")
@@ -323,6 +333,25 @@ def make_handler(state, concurrency, output_dir, profile=None):
                         "summary": state.summary,
                         "progress": dict(state.progress),
                     })
+            elif path == "/api/public-url":
+                # URL publik hasil Cloudflare Quick Tunnel (ditulis watchdog).
+                state_path = os.path.join(self._lomba_dir(),
+                                          "tunnel_url_state.json")
+                data = {}
+                try:
+                    with open(state_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                except (OSError, ValueError):
+                    data = {}
+                base = (data.get("url") or "").rstrip("/")
+                self._send_json({
+                    "tunnel_url": base or None,
+                    "dashboard_url": (base + "/dashboard.html") if base else None,
+                    "lomba_url": (base + "/lomba") if base else None,
+                    "updated_at": data.get("updated_at"),
+                    "restarts": data.get("restarts", 0),
+                    "port": self.server.server_port,
+                })
             elif path == "/api/scan":
                 started = self._schedule_scan()
                 self._send_json({"status": "started" if started else "already_scanning"})

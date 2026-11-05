@@ -130,7 +130,10 @@ def read_state():
 def save_state(url, restarts):
     os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
     with open(STATE_FILE, "w", encoding="utf-8") as f:
-        json.dump({"url": url, "restarts": restarts,
+        json.dump({"url": url,
+                   "dashboard_url": (url + "/dashboard.html") if url else None,
+                   "lomba_url": (url + "/lomba") if url else None,
+                   "restarts": restarts,
                    "updated_at": now()}, f, ensure_ascii=False, indent=2)
 
 
@@ -179,18 +182,23 @@ while True:
             ok = False
             if ta.BOT_TOKEN and ta.CHAT_ID:
                 ok = ta._send_sync(
-                    ("\U0001F3D5 \u2b50 *LOMBA DASHBOARD%s*\n"
+                    ("\U0001F310 \u2b50 *DASHBOARD PEMINDAI NGAWI%s*\n"
                      "----------------------------\n"
-                     "URL: %s/lomba\n"
-                     "Login: user `admin`"
-                     % (" - Link Aktif" if first else " - Link Berubah", url)))
+                     "Pemindai: %s/dashboard.html\n"
+                     "Lomba: %s/lomba\n"
+                     "Login lomba: user `admin`\n"
+                     "_Link berubah otomatis bila tunnel restart._"
+                     % (" - Link Aktif" if first else " - Link Berubah",
+                        url, url)))
             wlog("URL -> %s (first=%s) telegram_ok=%s" % (url, first, ok))
         except Exception as exc:  # noqa: BLE001
             wlog("gagal kirim telegram: %s" % exc)
         save_state(url, restarts)
     else:
-        # tidak ada perubahan; simpan reset count jika berbeda tapi url sama
-        if state.get("restarts") != restarts:
-            save_state(url or last, restarts) if url else None
+        # tidak ada perubahan; simpan reset count / lengkapi field jika perlu
+        target = url or last
+        if target and (state.get("restarts") != restarts
+                       or state.get("dashboard_url") != target + "/dashboard.html"):
+            save_state(target, restarts)
 
     time.sleep(POLL_SEC)
