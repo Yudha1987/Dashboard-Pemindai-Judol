@@ -30,6 +30,7 @@ os.chdir(r"C:\Users\komin\Documents\Default Project\desa-opensid-monitor")
 requests.packages.urllib3.disable_warnings()
 
 from src.reporter import _load_surat_data  # noqa: E402
+from data.targets import resolve_url  # noqa: E402
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 PESERTA_PATH = os.path.join(BASE, "output", "lomba", "peserta.json")
@@ -135,7 +136,7 @@ def main():
     output = {}
     for p in peserta:
         desa = p["desa"]
-        url = p["url"]
+        url = resolve_url(p["url"]) or p["url"]
         key = url.rstrip("/").lower()
         rec = {
             "no": p["no"],

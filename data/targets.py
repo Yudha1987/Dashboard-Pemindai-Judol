@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Daftar target website Desa (.desa.id) Kabupaten Ngawi — platform OpenSID.
+Daftar target website Desa (.desa.id / .kabngawi.id) Kabupaten Ngawi — OpenSID.
 
 Daftar ini adalah daftar otoritatif dari pengelola (212 entri; 211 unik
 setelah deduplikasi). Entri baru dapat ditambahkan langsung ke RAW_HOSTS
@@ -224,6 +224,111 @@ https://kauman-widodaren.desa.id
 https://sawo-ngawi.desa.id
 https://setono.desa.id
 https://kuniran.desa.id"""
+
+# ---------------------------------------------------------------------------
+# Migrasi domain: desa.id -> kabngawi.id
+# ---------------------------------------------------------------------------
+# Sebagian desa sudah dipindahkan ke server baru dan memakai subdomain
+# <nama-desa>.kabngawi.id. Domain lama *.desa.id sekarang dialihkan ke
+# landing.domain.go.id ("Situs Dalam Pengawasan"), sehingga tidak bisa lagi
+# dipakai sebagai target pemindaian.
+#
+# Sumber: daftar vhost server baru (alma76.kabngawi.id), dipetakan kembali ke
+# kunci host lama di RAW_HOSTS. Tambahkan entri baru di sini setiap kali ada
+# desa yang pindah domain.
+KABNGAWI_HOSTS = {
+    "bangunrejo-ngawi": "bangunrejo.kabngawi.id",
+    "banjarbanggi": "banjarbanggi.kabngawi.id",
+    "banyuurip-ngawi": "banyuurip.kabngawi.id",
+    "bendo-ngawi": "bendo-ngawi.kabngawi.id",
+    "bintoyo": "bintoyo.kabngawi.id",
+    "brangol": "brangol.kabngawi.id",
+    "brubuh": "brubuh.kabngawi.id",
+    "campurasri": "campurasri.kabngawi.id",
+    "cangakan": "cangakan.kabngawi.id",
+    "cepoko": "cepoko.kabngawi.id",
+    "danguk": "danguk.kabngawi.id",
+    "dempel": "dempel.kabngawi.id",
+    "dero": "dero.kabngawi.id",
+    "dungmiri": "dungmiri.kabngawi.id",
+    "gayam-ngawi": "gayam.kabngawi.id",
+    "gembol": "gembol.kabngawi.id",
+    "gendingan": "gendingan.kabngawi.id",
+    "giriharjo": "giriharjo.kabngawi.id",
+    "grudo": "grudo.kabngawi.id",
+    "gunungsari-ngawi": "gunungsari.kabngawi.id",
+    "hargosari": "hargosari.kabngawi.id",
+    "jagir": "jagir.kabngawi.id",
+    "jambangan-ngawi": "jambangan.kabngawi.id",
+    "jatigembol": "jatigembol.kabngawi.id",
+    "jatipuro": "jatipuro.kabngawi.id",
+    "jeblogan": "jeblogan.kabngawi.id",
+    "jogorogo": "jogorogo.kabngawi.id",
+    "kandangan-ngawi": "kandangan.kabngawi.id",
+    "karangasri": "karangasri.kabngawi.id",
+    "karangbanyu": "karangbanyu.kabngawi.id",
+    "karanggupito": "karanggupito.kabngawi.id",
+    "karangrejo-ngawi": "karangrejo.kabngawi.id",
+    "kartoharjo": "kartoharjo.kabngawi.id",
+    "kasreman": "kasreman.kabngawi.id",
+    "kauman-sine": "kauman-sine.kabngawi.id",
+    "kayutrejo": "kayutrejo.kabngawi.id",
+    "kedunggudel": "kedunggudel.kabngawi.id",
+    "kedungharjo": "kedungharjo.kabngawi.id",
+    "ketanggung": "ketanggung.kabngawi.id",
+    "kiyonten": "kiyonten.kabngawi.id",
+    "klitik": "klitik.kabngawi.id",
+    "krandegan-ngawi": "krandegan.kabngawi.id",
+    "kwadungan": "kwadungan.kabngawi.id",
+    "kwadunganlor": "kwadunganlor.kabngawi.id",
+    "legokulon": "legokulon.kabngawi.id",
+    "legowetan": "legowetan.kabngawi.id",
+    "legundi": "legundi.kabngawi.id",
+    "macanan": "macanan.kabngawi.id",
+    "mangunharjo-ngawi": "mangunharjo.kabngawi.id",
+    "manisharjo": "manisharjo.kabngawi.id",
+    "ngawi-ngawi": "ngawi-purba.kabngawi.id",
+    "ngrayudan": "ngrayudan.kabngawi.id",
+    "padas": "padas.kabngawi.id",
+    "pandansari-ngawi": "pandansari.kabngawi.id",
+    "pandean": "pandean.kabngawi.id",
+    "paras-ngawi": "paras-ngawi.kabngawi.id",
+    "pengkol": "pengkol.kabngawi.id",
+    "pitu": "pitu.kabngawi.id",
+    "pleset": "pleset.kabngawi.id",
+    "ploso": "ploso.kabngawi.id",
+    "plosolor": "plosolor.kabngawi.id",
+    "pohkonyal": "pohkonyal.kabngawi.id",
+    "pojok-ngawi": "pojok.kabngawi.id",
+    "pucangan": "pucangan.kabngawi.id",
+    "puhti": "puhti.kabngawi.id",
+    "purwosari-ngawi": "purwosari.kabngawi.id",
+    "randusongo": "randusongo.kabngawi.id",
+    "sambirejo-mantingan": "sambirejo-mantingan.kabngawi.id",
+    "sambiroto-ngawi": "sambiroto.kabngawi.id",
+    "setono": "setono.kabngawi.id",
+    "sidolaju": "sidolaju.kabngawi.id",
+    "sidorejo-karangjati": "sidorejo-karangjati.kabngawi.id",
+    "sirigan": "sirigan.kabngawi.id",
+    "soco": "soco.kabngawi.id",
+    "suruh": "suruh.kabngawi.id",
+    "tambakromo-geneng": "tambakromo-geneng.kabngawi.id",
+    "tanjungsari-ngawi": "tanjungsari.kabngawi.id",
+    "tawun": "tawun.kabngawi.id",
+    "tirak": "tirak.kabngawi.id",
+    "tungkulrejo": "tungkulrejo.kabngawi.id",
+    "umbulrejo": "umbulrejo.kabngawi.id",
+    "warukkalong": "warukkalong.kabngawi.id",
+    "waruktengah": "waruktengah.kabngawi.id",
+    "watualang": "watualang.kabngawi.id",
+    "widodaren": "widodaren.kabngawi.id",
+    "wonosari-ngawi": "wonosari.kabngawi.id",
+}
+
+# Domain lama yang sudah dialihkan ke landing Kominfo. Dipakai scanner untuk
+# menghindari fallback yang justru mengembalikan halaman "Situs Dalam
+# Pengawasan" seolah-olah website desa masih hidup.
+LEGACY_DESA_SUFFIX = ".desa.id"
 
 # Nama tampilan khusus (mis. host berisi spasi pada daftar asli).
 NAME_OVERRIDES = {
@@ -462,6 +567,40 @@ def _derive_name(host):
     return " ".join(w.capitalize() for w in words) or host
 
 
+def canonical_key(value):
+    """Kembalikan kunci host lama (tanpa domain) dari URL/host/nama desa.
+
+    Contoh: "https://hargosari.desa.id" -> "hargosari",
+            "hargosari.kabngawi.id"     -> "hargosari",
+            "bangunrejo.kabngawi.id"    -> "bangunrejo-ngawi".
+    """
+    key = (value or "").strip().lower()
+    if "://" in key:
+        key = key.split("://", 1)[1]
+    key = key.split("/", 1)[0]
+    key = re.sub(r"\s+", "", key)
+    for suffix in (".kabngawi.id", LEGACY_DESA_SUFFIX):
+        if key.endswith(suffix):
+            key = key[: -len(suffix)]
+            break
+    # Kembalikan ke kunci lama bila subdomain kabngawi.id tidak sama dengan
+    # kunci di RAW_HOSTS (mis. bangunrejo -> bangunrejo-ngawi).
+    for old_key, new_host in KABNGAWI_HOSTS.items():
+        if key == new_host.split(".kabngawi.id")[0]:
+            return old_key
+    return key
+
+
+def resolve_url(value, prefer_new=True):
+    """URL target yang tepat untuk sebuah desa (domain baru bila sudah pindah)."""
+    key = canonical_key(value)
+    if prefer_new and key in KABNGAWI_HOSTS:
+        return "https://" + KABNGAWI_HOSTS[key]
+    if key:
+        return "https://" + key + LEGACY_DESA_SUFFIX
+    return ""
+
+
 def _build():
     targets = []
     seen = set()
@@ -476,12 +615,24 @@ def _build():
         if not host or host in seen:
             continue
         seen.add(host)
-        full = host if host.endswith(".desa.id") else host + ".desa.id"
-        key = host[: -len(".desa.id")] if host.endswith(".desa.id") else host
+        full = host if host.endswith(LEGACY_DESA_SUFFIX) else host + LEGACY_DESA_SUFFIX
+        key = host[: -len(LEGACY_DESA_SUFFIX)] if host.endswith(LEGACY_DESA_SUFFIX) else host
+        old_url = "https://" + full
+        new_host = KABNGAWI_HOSTS.get(key)
+        if new_host:
+            primary_url = "https://" + new_host
+            fallback_urls = [old_url]
+        else:
+            primary_url = old_url
+            fallback_urls = []
         targets.append(
             {
                 "name": NAME_OVERRIDES.get(key, _derive_name(host)),
-                "url": "https://" + full,
+                "url": primary_url,
+                "url_lama": old_url,
+                "fallback_urls": fallback_urls,
+                "domain_migrated": bool(new_host),
+                "domain": "kabngawi.id" if new_host else "desa.id",
                 "category": "DESA",
                 "kecamatan": KECAMATAN_BY_HOST.get(key, ""),
             }

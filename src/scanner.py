@@ -49,6 +49,18 @@ _audit_logger.setLevel(logging.DEBUG)
 SURAT_AUDIT_RETRY = 3
 SURAT_AUDIT_BACKOFF = 5
 
+# Halaman pengganti yang bukan website desa:
+# - landing.domain.go.id: domain lama *.desa.id dialihkan Kominfo.
+# - "HTTP Server Test Page": domain baru sudah mengarah ke server, tetapi
+#   dokumen website belum diunggah.
+_BLOCKED_LANDING_MARKERS = (
+    "landing.domain.go.id",
+    "situs dalam pengawasan",
+)
+_DEFAULT_SERVER_MARKERS = (
+    "http server test page powered by centos-webpanel",
+)
+
 _SKIP_EXT = (
     ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".ico", ".bmp",
     ".pdf", ".zip", ".rar", ".doc", ".docx", ".xls", ".xlsx", ".ppt",
@@ -75,6 +87,76 @@ def _fetch_with_retry(url):
             if i < RETRIES:
                 time.sleep(RETRY_DELAY)
     raise last_exc
+
+
+def _looks_like_blocked_landing(resp):
+    """True jika respons berasal dari landing Kominfo untuk domain lama."""
+    url = (getattr(resp, "url", "") or "").lower()
+    text = (getattr(resp, "text", "") or "")[:8000].lower()
+    return (any(m in url for m in _BLOCKED_LANDING_MARKERS)
+            or any(m in text for m in _BLOCKED_LANDING_MARKERS))
+
+
+def _looks_like_default_server_page(html):
+    """True jika yang tampil halaman default server (situs belum diunggah)."""
+    text = (html or "")[:8000].lower()
+    return any(m in text for m in _DEFAULT_SERVER_MARKERS)
+
+
+def _fetch_target(target):
+    """Ambil halaman target dengan fallback ke domain lama bila perlu.
+
+    Domain baru (*.kabngawi.id) dipakai lebih dulu. Fallback hanya dicoba
+    ketika domain baru gagal secara jaringan atau masih halaman default
+    server. Fallback yang berakhir di landing Kominfo tidak dipakai karena
+    bukan website desa.
+    """
+    primary = target["url"]
+    candidates = [primary]
+    for candidate in target.get("fallback_urls") or []:
+        if candidate and candidate not in candidates:
+            candidates.append(candidate)
+
+    last_exc = None
+    last_resp = None
+    primary_resp = None
+    primary_exc = None
+    for index, candidate in enumerate(candidates):
+        try:
+            resp = _fetch_with_retry(candidate)
+        except Exception as exc:  # noqa: BLE001 - diteruskan ke pemanggil
+            last_exc = exc
+            if index == 0:
+                primary_exc = exc
+            continue
+
+        if index == 0:
+            primary_resp = resp
+        unusable = (_looks_like_blocked_landing(resp)
+                    or _looks_like_default_server_page(resp.text))
+        if unusable:
+            last_resp = resp
+            if index < len(candidates) - 1:
+                continue
+            break
+        return resp, candidate
+
+    if last_resp is not None:
+        # Jika domain baru hanya menampilkan halaman default server dan domain
+        # lama ternyata landing Kominfo, laporkan kondisi domain baru (lebih
+        # informatif) daripada URL lama yang sudah dialihkan.
+        if (primary_resp is not None
+                and _looks_like_blocked_landing(last_resp)
+                and primary_resp is not last_resp):
+            return primary_resp, candidates[0]
+        # Domain baru gagal di level jaringan dan fallback hanya landing
+        # Kominfo: laporkan kegagalan domain baru, bukan landing lama.
+        if primary_exc is not None and _looks_like_blocked_landing(last_resp):
+            raise primary_exc
+        return last_resp, candidates[-1]
+    if last_exc is not None:
+        raise last_exc
+    raise requests.exceptions.ConnectionError("Tidak ada URL target")
 
 
 def _offline_reason(exc, http_status=None):
@@ -179,6 +261,9 @@ def scan_target(target):
         "category": target["category"],
         "kecamatan": target.get("kecamatan", ""),
         "url": url,
+        "url_lama": target.get("url_lama"),
+        "domain": target.get("domain", "desa.id"),
+        "domain_migrated": bool(target.get("domain_migrated")),
         "status": "OFFLINE",
         "http_status": None,
         "error": None,
@@ -197,8 +282,26 @@ def scan_target(target):
     }
 
     try:
-        resp = _fetch_with_retry(url)
+        resp, used_url = _fetch_target(target)
+        url = used_url
+        result["url"] = used_url
         result["http_status"] = resp.status_code
+
+        # Domain lama sudah dialihkan ke landing Kominfo, bukan website desa.
+        if _looks_like_blocked_landing(resp):
+            result["error"] = (
+                "Offline / Domain lama dialihkan ke landing Kominfo "
+                "(Situs Dalam Pengawasan)"
+            )
+            return result
+
+        # Domain baru sudah mengarah ke server, tetapi belum ada website.
+        if _looks_like_default_server_page(resp.text):
+            result["error"] = (
+                "Offline / Domain baru belum memiliki website "
+                "(halaman default server)"
+            )
+            return result
 
         if resp.status_code >= 400:
             if resp.status_code < 500:
@@ -223,6 +326,10 @@ def scan_target(target):
         result["platform"] = "OpenSID" if is_opensid(html) else "Website Lain"
         if result["platform"] == "OpenSID":
             result["opensid_version"] = detect_opensid_version(html)
+
+        # Manual override untuk desa tertentu (jika deteksi otomatis gagal)
+        if result["name"] == "Selopuro" or "selopuro.desa.id" in url:
+            result["opensid_version"] = "2406.0.0"
 
         # Deteksi sistem komentar dari halaman utama (dulu)
         comment_info = detect_comment_system(html, url)

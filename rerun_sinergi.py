@@ -15,6 +15,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE)
 
 import gen_lomba_checker as chk
+from data.targets import resolve_url
 
 OUT_PATH = os.path.join(BASE, "output", "lomba", "check_profil.json")
 data = json.load(open(OUT_PATH, encoding="utf-8"))
@@ -22,7 +23,9 @@ data = json.load(open(OUT_PATH, encoding="utf-8"))
 for desa, rec in data.items():
     url = rec.get("url") or rec.get("domain") or rec.get("website")
     if not url:
-        url = "https://" + desa.lower().replace(" ", "-") + ".desa.id"
+        url = resolve_url(desa) or ("https://" + desa.lower().replace(" ", "-") + ".desa.id")
+    else:
+        url = resolve_url(url) or url
 
     html = chk.fetch(url)
     if not html:

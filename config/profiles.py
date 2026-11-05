@@ -36,7 +36,7 @@ PROFILES = {
         "json_name": "results_desa.json",
         "csv_name": "results_desa.csv",
         "html_name": "dashboard.html",
-        "subject": "Website Desa Pengguna OpenSID Kabupaten Ngawi (.desa.id)",
+        "subject": "Website Desa Pengguna OpenSID Kabupaten Ngawi (.desa.id / .kabngawi.id)",
         "entity": "Desa",
         "col_label": "Nama Desa",
         "scope": "DESA (OpenSID)",

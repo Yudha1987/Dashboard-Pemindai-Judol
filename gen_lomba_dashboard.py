@@ -30,6 +30,8 @@ import sys
 BASE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(BASE)
 
+from data.targets import resolve_url  # noqa: E402
+
 LOGO_LOMBA = "/logo_ngawi.png"
 
 # --- Definisi parameter penilaian ---
@@ -171,7 +173,7 @@ def manual_score(desa):
 rows = []
 for p in peserta:
     desa = p["desa"]
-    url = p["url"]
+    url = resolve_url(p["url"]) or p["url"]
     key = url.rstrip("/").lower()
     rec = auto.get(key, {})
     chkrec = chk.get(desa) if isinstance(chk, dict) else None

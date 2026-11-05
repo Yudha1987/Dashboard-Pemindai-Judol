@@ -21,6 +21,8 @@ from bs4 import BeautifulSoup
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+from data.targets import resolve_url
+
 warnings.filterwarnings("ignore")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
@@ -38,7 +40,8 @@ def load_desa_list(csv_path, snapshot_path):
     snap = json.load(open(snapshot_path, encoding="utf-8"))
     url_by_name = {}
     for r in snap["results"]:
-        if r["url"].endswith(".desa.id"):
+        # Termasuk desa yang sudah pindah ke *.kabngawi.id.
+        if r["url"].endswith((".desa.id", ".kabngawi.id")):
             url_by_name[r["name"]] = r["url"]
 
     name_variants = {}
@@ -67,8 +70,12 @@ def load_desa_list(csv_path, snapshot_path):
                 if variant and variant in url_by_name:
                     url = url_by_name[variant]
                 else:
-                    slug = csv_name.lower().replace(" ", "-")
-                    url = f"https://{slug}.desa.id"
+                    # resolve_url otomatis memakai *.kabngawi.id jika desa
+                    # sudah pindah domain.
+                    url = resolve_url(csv_name)
+                    if not url:
+                        slug = csv_name.lower().replace(" ", "-")
+                        url = f"https://{slug}.desa.id"
 
             desa_list.append({"name": csv_name, "url": url, "user": user, "passwords": passwords})
 

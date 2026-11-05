@@ -5,7 +5,7 @@ Pemantau & Scanner Website Kabupaten Ngawi
 
 Mendukung 2 profil independen (--profile):
   opd  : OPD, Kecamatan, Puskesmas & RS (domain *.ngawikab.go.id), port 8000
-  desa : Website Desa Pengguna OpenSID (*.desa.id), port 8001
+  desa : Website Desa Pengguna OpenSID (*.desa.id / *.kabngawi.id), port 8001
 
 Cara pakai:
   python main.py --profile=desa --once            # scan desa sekali lalu keluar
@@ -46,8 +46,13 @@ from src.reporter import (
 )
 from src.scanner import scan_target
 from src.telegram_alert import send_telegram_alert
+from src.wsgi_app import build_wsgi_app
 
 init(autoreset=True)
+
+# Entrypoint untuk Vercel / WSGI (dijalankan saat diimpor sebagai Vercel Function).
+# Vercel mewajibkan variabel top-level "app" / "application" / "handler".
+app = build_wsgi_app()
 
 # Console Windows tidak bisa encode semua karakter Unicode; jangan crash.
 for _stream in (sys.stdout, sys.stderr):
@@ -522,8 +527,8 @@ def main():
         description="Pemantau website indikasi judi online / spam - Kab. Ngawi"
     )
     parser.add_argument("--profile", choices=["opd", "desa"], default="desa",
-                        help="profil target: desa (*.desa.id) atau opd "
-                             "(*.ngawikab.go.id) (default: desa)")
+                        help="profil target: desa (*.desa.id / *.kabngawi.id) "
+                             "atau opd (*.ngawikab.go.id) (default: desa)")
     parser.add_argument("--once", action="store_true", help="scan satu kali lalu keluar")
     parser.add_argument("--watch", action="store_true", help="mode pemantauan terjadwal")
     parser.add_argument("--serve", action="store_true",
