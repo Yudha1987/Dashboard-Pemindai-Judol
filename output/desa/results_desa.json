@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-05T14:20:24.165488",
+  "scanned_at": "2026-11-06T06:20:41.951910",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -1047,10 +1047,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://jururejo.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Jururejo",
       "last_post": {
@@ -1388,10 +1388,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://pakah.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Pakah Kecamatan Mantingan Kabupaten Ngawi",
       "last_post": {
@@ -1481,10 +1481,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://sidokerto-ngawi.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Sidokerto Kecamatan Karangjati Kabupaten Ngawi",
       "last_post": {
@@ -1791,10 +1791,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://keraswetan.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Keraswetan Kecamatan Geneng Kabupaten Ngawi",
       "last_post": {
@@ -2535,10 +2535,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://budug-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Budug Kecamatan Kwadungan Kabupaten Ngawi",
       "last_post": {
@@ -3434,10 +3434,10 @@
       "opensid_version": "2401.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://keraskulon.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Keraskulon Kecamatan Gerih Kabupaten Ngawi",
       "last_post": {
