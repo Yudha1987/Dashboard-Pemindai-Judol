@@ -1,14 +1,138 @@
 {
-  "scanned_at": "2026-11-06T01:08:49.968206",
+  "scanned_at": "2026-11-07T00:14:48.052310",
   "profile": "desa",
   "summary": {
     "total": 213,
     "detected": 0,
-    "safe": 119,
-    "offline": 94,
+    "safe": 127,
+    "offline": 86,
     "critical": 0
   },
   "results": [
+    {
+      "name": "Rejuno",
+      "category": "DESA",
+      "kecamatan": "Karangjati",
+      "url": "https://rejuno.desa.id",
+      "url_lama": "https://rejuno.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2406.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://rejuno.desa.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Rejuno",
+      "last_post": {
+        "title": "Mahasiswa KKN Universitas Soerya Ngawi sambanhi kantor Desa Rejuno, Paparkan Sejumlah Program Kerja untuk Masyarakat",
+        "href": "https://rejuno.desa.id/artikel/2026/11/7/mahasiswa-kkn-universitas-soerya-ngawi-sambanhi-kantor-desa-rejuno-paparkan-sejumlah-program-kerja-untuk-masyarakat",
+        "date": "2026-11-07 01:04:24"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Kiyonten",
+      "category": "DESA",
+      "kecamatan": "Kasreman",
+      "url": "https://kiyonten.kabngawi.id",
+      "url_lama": "https://kiyonten.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://kiyonten.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Kiyonten Kecamatan Kasreman Kabupaten Ngawi",
+      "last_post": {
+        "title": "POPDA XV dan PEPARPEDA III Jawa Timur Tahun 2026 Digelar di Ngawi, Tuan Rumah Targetkan 50 Medali dan Tembus 15 Besar",
+        "href": "https://kiyonten.kabngawi.id/artikel/2026/11/06/popda-xv-dan-peparpeda-iii-jawa-timur-tahun-2026-digelar-di-ngawi-tuan-rumah-targetkan-50-medali-dan-tembus-15-besar",
+        "date": "2026-11-06 15:23:59"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Ngawi Ngawi",
+      "category": "DESA",
+      "kecamatan": "Ngawi",
+      "url": "https://ngawi-purba.kabngawi.id",
+      "url_lama": "https://ngawi-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://ngawi-purba.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Ngawi",
+      "last_post": {
+        "title": "Kelas Ibu Hamil Desa Ngawi Tahun 2026",
+        "href": "https://ngawi-purba.kabngawi.id/artikel/2026/11/06/kelas-ibu-hamil-desa-ngawi-tahun-2026",
+        "date": "2026-11-06 11:12:52"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Gunungsari Ngawi",
+      "category": "DESA",
+      "kecamatan": "Kasreman",
+      "url": "https://gunungsari.kabngawi.id",
+      "url_lama": "https://gunungsari-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://gunungsari.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Gunungsari Desa GUNUNGSARI Kecamatan KASREMAN Kabupaten NGAWI",
+      "last_post": {
+        "title": "30.000 Liter Bantuan Air Bersih dari Gubernur Jatim Disalurkan untuk Warga Gunungsari",
+        "href": "https://gunungsari.kabngawi.id/artikel/2026/11/06/30000-liter-bantuan-air-bersih-dari-gubernur-jatim-disalurkan-untuk-warga-gunungsari",
+        "date": "2026-11-06 10:50:20"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Jatipuro",
       "category": "DESA",
@@ -86,10 +210,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://gemarang.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Gemarang",
       "last_post": {
@@ -158,37 +282,6 @@
         "title": "Pemdes Gendingan Buka Layanan Posbankum",
         "href": "https://gendingan.kabngawi.id/artikel/2026/11/03/pemdes-gendingan-buka-layanan-posbankum",
         "date": "2026-11-03 09:29:42"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Gunungsari Ngawi",
-      "category": "DESA",
-      "kecamatan": "Kasreman",
-      "url": "https://gunungsari.kabngawi.id",
-      "url_lama": "https://gunungsari-ngawi.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://gunungsari.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Gunungsari Desa GUNUNGSARI Kecamatan KASREMAN Kabupaten NGAWI",
-      "last_post": {
-        "title": "Perkim Ngawi Bangun Sumur Bor 100 Meter untuk Atasi Krisis Air Bersih di Desa Gunungsari",
-        "href": "https://gunungsari.kabngawi.id/artikel/2026/11/02/perkim-ngawi-bangun-sumur-bor-100-meter-untuk-atasi-krisis-air-bersih-di-desa-gunungsari",
-        "date": "2026-11-02 16:59:31"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -506,6 +599,37 @@
       "foreign_scripts": []
     },
     {
+      "name": "Guyung",
+      "category": "DESA",
+      "kecamatan": "Gerih",
+      "url": "https://guyung.desa.id",
+      "url_lama": "https://guyung.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2401.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": null,
+        "akismet": false,
+        "comment_admin_url": ""
+      },
+      "title": "Website Resmi Desa Guyung Kecamatan Gerih Kabupaten Ngawi",
+      "last_post": {
+        "title": "DESA GUYUNG SELAMAT HARI SUMPAH PEMUDA",
+        "href": "https://guyung.desa.id/artikel/2026/10/28/desa-guyung-selamat-hari-sumpah-pemuda",
+        "date": "2026-10-28 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Sukowiyono",
       "category": "DESA",
       "kecamatan": "Padas",
@@ -599,6 +723,37 @@
       "foreign_scripts": []
     },
     {
+      "name": "Kedungputri",
+      "category": "DESA",
+      "kecamatan": "Paron",
+      "url": "https://kedungputri.desa.id",
+      "url_lama": "https://kedungputri.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2403.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": null,
+        "akismet": false,
+        "comment_admin_url": ""
+      },
+      "title": "Website Resmi Desa Kedungputri",
+      "last_post": {
+        "title": "Tim Verifikasi dan Validasi Koperasi Desa Merah Putih Kunjungi KDKMP Kedungputri, Pastikan Kesiapan Launching Serentak di Kabupaten Ngawi",
+        "href": "https://kedungputri.desa.id/artikel/2026/10/19/tim-verifikasi-dan-validasi-koperasi-desa-merah-putih-kunjungi-kdkmp-kedungputri-pastikan-kesiapan-launching-serentak-di-kabupaten-ngawi",
+        "date": "2026-10-19 12:20:20"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Sumber Ngawi",
       "category": "DESA",
       "kecamatan": "Pangkur",
@@ -613,47 +768,16 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://sumber-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Sumber Kecamatan Pangkur Kabupaten Ngawi",
       "last_post": {
         "title": "MUSDESUS DAN MUSRENBANGDESUS BAHAS PERUBAHAN PRIORITAS PENGGUNAAN DANA DESA DAN PERUBAHAN RKPDESA TAHUN 2026",
         "href": "https://sumber-ngawi.desa.id/artikel/2026/10/15/musdesus-dan-musrenbangdesus-bahas-perubahan-prioritas-penggunaan-dana-desa-dan-perubahan-rkpdesa-tahun-2026",
-        "date": "2026-10-15 14:20:53"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Kiyonten",
-      "category": "DESA",
-      "kecamatan": "Kasreman",
-      "url": "https://kiyonten.kabngawi.id",
-      "url_lama": "https://kiyonten.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://kiyonten.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Kiyonten Kecamatan Kasreman Kabupaten Ngawi",
-      "last_post": {
-        "title": "Tuntaskan Pembangunan Di Akhir Tahun 2026, Pemdes Kiyonten &amp; BPD Menggelar Musyawarah",
-        "href": "https://kiyonten.kabngawi.id/artikel/2026/10/14/tuntaskan-pembangunan-di-akhir-tahun-2026-pemdes-kiyonten-bpd-menggelar-musyawarah",
-        "date": "2026-10-14 09:23:24"
+        "date": "2026-10-15 00:00:00"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -706,10 +830,10 @@
       "opensid_version": "2401.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://kedungprahu.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Kedungprahu Kecamatan Padas Kabupaten Ngawi",
       "last_post": {
@@ -909,37 +1033,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Ngawi Ngawi",
-      "category": "DESA",
-      "kecamatan": "Ngawi",
-      "url": "https://ngawi-purba.kabngawi.id",
-      "url_lama": "https://ngawi-ngawi.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://ngawi-purba.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Ngawi",
-      "last_post": {
-        "title": "Perpustakaan CERPIN Gelar Sosialisasi Literasi Keuangan untuk Siswa SDN Ngawi Purba 2",
-        "href": "https://ngawi-purba.kabngawi.id/artikel/2026/09/28/perpustakaan-cerpin-gelar-sosialisasi-literasi-keuangan-untuk-siswa-sdn-ngawi-purba-2",
-        "date": "2026-09-28 11:30:10"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Tawun",
       "category": "DESA",
       "kecamatan": "Kasreman",
@@ -985,10 +1078,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://jururejo.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Jururejo",
       "last_post": {
@@ -1312,37 +1405,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Sumbersari Ngawi",
-      "category": "DESA",
-      "kecamatan": "Sine",
-      "url": "https://sumbersari-ngawi.desa.id",
-      "url_lama": "https://sumbersari-ngawi.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2406.0.0",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": null,
-        "akismet": false,
-        "comment_admin_url": ""
-      },
-      "title": "Website Resmi Desa Sumbersari Kecamatan Sine Kabupaten Ngawi",
-      "last_post": {
-        "title": "Peta Desa",
-        "href": "https://sumbersari-ngawi.desa.id/artikel/2026/9/14/peta-desa",
-        "date": "2026-09-14 00:00:00"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Pakah",
       "category": "DESA",
       "kecamatan": "Mantingan",
@@ -1388,10 +1450,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://tambakboyo-ngawi.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Tambakboyo Kecamatan Mantingan Kabupaten Ngawi",
       "last_post": {
@@ -1419,10 +1481,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://sidokerto-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Sidokerto Kecamatan Karangjati Kabupaten Ngawi",
       "last_post": {
@@ -1460,37 +1522,6 @@
         "title": "Mahasiswa KKN 182 UNS Kenalkan Budidaya Maggot sebagai Solusi Pengelolaan Sampah Organik di Desa Dempel",
         "href": "https://dempel.kabngawi.id/artikel/2026/09/01/mahasiswa-kkn-182-uns-kenalkan-budidaya-maggot-sebagai-solusi-pengelolaan-sampah-organik-di-desa-dempel",
         "date": "2026-09-01 10:01:11"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Rejuno",
-      "category": "DESA",
-      "kecamatan": "Karangjati",
-      "url": "https://rejuno.desa.id",
-      "url_lama": "https://rejuno.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2406.0.0",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": null,
-        "akismet": false,
-        "comment_admin_url": ""
-      },
-      "title": "Website Resmi Desa Rejuno",
-      "last_post": {
-        "title": "Road Show Sholawatan Desa Rejuno Meriahkan Peringatan Maulid Nabi di Masjid Sunan Ampel",
-        "href": "https://rejuno.desa.id/artikel/2026/8/31/road-show-sholawatan-desa-rejuno-meriahkan-peringatan-maulid-nabi-di-masjid-sunan-ampel",
-        "date": "2026-08-31 12:26:35"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1553,6 +1584,37 @@
         "title": "Jalan Sehat Desa Tepas Meriahkan HUT ke-81 Kemerdekaan Republik Indonesia",
         "href": "https://tepas-ngawi.desa.id/artikel/2026/8/30/jalan-sehat-desa-tepas-meriahkan-hut-ke-81-kemerdekaan-republik-indonesia",
         "date": "2026-08-30 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Jatirejo Ngawi",
+      "category": "DESA",
+      "kecamatan": "Kasreman",
+      "url": "https://jatirejo-ngawi.desa.id",
+      "url_lama": "https://jatirejo-ngawi.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2405.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": null,
+        "akismet": false,
+        "comment_admin_url": ""
+      },
+      "title": "Website Resmi Desa Jatirejo Kecamatan Kasreman Kabupaten Ngawi",
+      "last_post": {
+        "title": "PLENO PKK Desa Jatirejo Diwarnai Momentum Istimewa Pemeriksaan Kesehatan Gratis",
+        "href": "https://jatirejo-ngawi.desa.id/artikel/2026/8/28/pleno-pkk-desa-jatirejo-diwarnai-momentum-istimewa-pemeriksaan-kesehatan-gratis",
+        "date": "2026-08-28 11:48:01"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1746,11 +1808,11 @@
       "foreign_scripts": []
     },
     {
-      "name": "Sidorejo Geneng",
+      "name": "Karangsono Ngawi",
       "category": "DESA",
-      "kecamatan": "Geneng",
-      "url": "https://sidorejo-geneng.desa.id",
-      "url_lama": "https://sidorejo-geneng.desa.id",
+      "kecamatan": "Kwadungan",
+      "url": "https://karangsono-ngawi.desa.id",
+      "url_lama": "https://karangsono-ngawi.desa.id",
       "domain": "desa.id",
       "domain_migrated": false,
       "status": "AMAN",
@@ -1765,11 +1827,11 @@
         "akismet": false,
         "comment_admin_url": ""
       },
-      "title": "Website Resmi DESA Sidorejo",
+      "title": "Website Resmi Desa Karangsono Kecamatan Kwadungan Kabupaten Ngawi",
       "last_post": {
-        "title": "TP-PKK Desa Sidorejo Tampilkan Inovasi Kuliner pada Lomba Memasak Tingkat Kecamatan.",
-        "href": "https://sidorejo-geneng.desa.id/artikel/2026/7/20/tp-pkk-desa-sidorejo-tampilkan-inovasi-kuliner-pada-lomba-memasak-tingkat-kecamatan",
-        "date": "2026-07-20 14:43:05"
+        "title": "PELATIHAN EKONOMI PRODUKTIF: HOMEMADE KRIPIK TEMPE SAGU",
+        "href": "https://karangsono-ngawi.desa.id/artikel/2026/7/17/pelatihan-ekonomi-produktif-homemade-kripik-tempe-sagu",
+        "date": "2026-07-17 09:46:14"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -2111,6 +2173,37 @@
         "title": "17 Mahasiswa KKN UIN Sunan Ampel Surabaya Resmi Memulai Pengabdian di Desa Kandangan",
         "href": "https://kandangan.kabngawi.id/artikel/2026/06/17/17-mahasiswa-kkn-uin-sunan-ampel-surabaya-resmi-memulai-pengabdian-di-desa-kandangan",
         "date": "2026-06-17 14:13:31"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Karangjati Ngawi",
+      "category": "DESA",
+      "kecamatan": "Karangjati",
+      "url": "https://karangjati.kabngawi.id",
+      "url_lama": "https://karangjati-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://karangjati.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Karangjati Kecamatan Karangjati Kabupaten Ngawi",
+      "last_post": {
+        "title": "KELAS IBU BALITA",
+        "href": "https://karangjati.kabngawi.id/artikel/2026/05/25/kelas-ibu-balita",
+        "date": "2026-05-25 12:19:37"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -2521,6 +2614,37 @@
       "foreign_scripts": []
     },
     {
+      "name": "Sekarjati",
+      "category": "DESA",
+      "kecamatan": "Karanganyar",
+      "url": "https://sekarjati.desa.id",
+      "url_lama": "https://sekarjati.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2405.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://sekarjati.desa.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Sekarjati Kecamatan Karanganyar Kabupaten Ngawi",
+      "last_post": {
+        "title": "POKTAN SUMBER WIDODO DESA SEKARJATI KECAMATAN KARANGANYAR MERAIH JUARA I KATEGORI PETERNAKAN SAPI SISTEM KOLONI BERPRESTASI TINGKAT PROVINSI JAWA TIMUR",
+        "href": "https://sekarjati.desa.id/artikel/2025/10/15/poktan-sumber-widodo-desa-sekarjati-kecamatan-karanganyar-meraih-juara-i-kategori-peternakan-sapi-sistem-koloni-berprestasi-tingkat-provinsi-jawa-timur",
+        "date": "2025-10-15 11:35:07"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Campurasri",
       "category": "DESA",
       "kecamatan": "Karangjati",
@@ -2690,10 +2814,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://kendal-ngawi.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Kendal Kecamatan Kendal Kabupaten Ngawi",
       "last_post": {
@@ -2731,6 +2855,37 @@
         "title": "PEMKAB NGAWI PERKUAT TATA KELOLA PEMERINTAHAN DESA MELALUI APLIKASI SRIGATI",
         "href": "https://randusongo.kabngawi.id/artikel/2025/07/30/pemkab-ngawi-perkuat-tata-kelola-pemerintahan-desa-melalui-aplikasi-srigati",
         "date": "2025-07-30 16:56:35"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Pocol",
+      "category": "DESA",
+      "kecamatan": "Sine",
+      "url": "https://pocol.desa.id",
+      "url_lama": "https://pocol.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2404.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": null,
+        "akismet": false,
+        "comment_admin_url": ""
+      },
+      "title": "Website Resmi Desa Pocol Kecamatan Sine Kabupaten Ngawi",
+      "last_post": {
+        "title": "Yuk Nabung dari Sekarang - Literasi Keuangan Seru Bersama KKN Kelompok 137 UINSA",
+        "href": "https://pocol.desa.id/artikel/2025/7/24/yuk-nabung-dari-sekarang-literasi-keuangan-seru-bersama-kkn-kelompok-137-uinsa",
+        "date": "2025-07-24 18:09:03"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -2969,10 +3124,10 @@
       "opensid_version": "2401.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://mengger.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Mengger Kecamatan Karanganyar Kabupaten Ngawi",
       "last_post": {
@@ -3141,6 +3296,37 @@
       "foreign_scripts": []
     },
     {
+      "name": "Dawung",
+      "category": "DESA",
+      "kecamatan": "Jogorogo",
+      "url": "https://dawung.desa.id",
+      "url_lama": "https://dawung.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2405.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": null,
+        "akismet": false,
+        "comment_admin_url": ""
+      },
+      "title": "Website Resmi Desa Dawung Kecamatan Jogorogo Kabupaten Ngawi",
+      "last_post": {
+        "title": "Megengan Tradisi Sambut Datangnya Bulan Ramadhan 1445 H",
+        "href": "https://dawung.desa.id/artikel/2024/3/11/megengan-tradisi-sambut-datangnya-bulan-ramadhan-1445-h",
+        "date": "2024-03-11 10:42:21"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Tungkulrejo",
       "category": "DESA",
       "kecamatan": "Padas",
@@ -3165,6 +3351,37 @@
         "title": "Rutinan KP-ASI",
         "href": "https://tungkulrejo.kabngawi.id/artikel/2024/03/09/rutinan-kp-asi",
         "date": "2024-03-09 12:27:52"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Keraskulon",
+      "category": "DESA",
+      "kecamatan": "Gerih",
+      "url": "https://keraskulon.desa.id",
+      "url_lama": "https://keraskulon.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2401.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": false,
+        "system": null,
+        "akismet": false,
+        "comment_admin_url": ""
+      },
+      "title": "Website Resmi Desa Keraskulon Kecamatan Gerih Kabupaten Ngawi",
+      "last_post": {
+        "title": "Subuh Bergerak Forkopimcam Gerih",
+        "href": "https://keraskulon.desa.id/artikel/2023/9/8/subuh-bergerak-forkopimcam-gerih-1",
+        "date": "2023-09-08 05:19:27"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -3227,6 +3444,37 @@
         "title": "Penyaluran Bantuan Pangan",
         "href": "https://kwadunganlor.kabngawi.id/artikel/2023/06/01/penyaluran-bantuan-pangan",
         "date": "2023-06-01 13:19:44"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Gentong Ngawi",
+      "category": "DESA",
+      "kecamatan": "Paron",
+      "url": "https://gentong.kabngawi.id",
+      "url_lama": "https://gentong-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://gentong.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Gentong Kecamatan Paron Kabupaten Ngawi",
+      "last_post": {
+        "title": "Penetapan APBDes Desa Gentong Tahun 2023 Berjalan Lancar dan Sukses",
+        "href": "https://gentong.kabngawi.id/artikel/2023/03/02/penetapan-apbdes-desa-gentong-tahun-2023-berjalan-lancar-dan-sukses",
+        "date": "2023-03-02 21:29:07"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -3351,6 +3599,37 @@
         "title": "TIDAK PERLU KE DISPENDUKCAPIL, CETAK KTP-EL CUKUP DI KECAMATAN MASING - MASING.",
         "href": "https://krandegan.kabngawi.id/artikel/2023/01/08/tidak-perlu-ke-dispendukcapil-cetak-ktp-el-cukup-di-kecamatan-masing-masing",
         "date": "2023-01-08 06:27:30"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Rejomulyo",
+      "category": "DESA",
+      "kecamatan": "Karangjati",
+      "url": "https://rejomulyo.kabngawi.id",
+      "url_lama": "https://rejomulyo.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://rejomulyo.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Rejomulyo Kecamatan Karangjati Kabupaten Ngawi",
+      "last_post": {
+        "title": "Penyaluran Bantuan Langsung Tunai Bulan Ke Sepuluh, Sebelas Dan Dua Belas Tahun 2022 Desa Rejomulyo",
+        "href": "https://rejomulyo.kabngawi.id/artikel/2022/12/14/penyaluran-bantuan-langsung-tunai-bulan-ke-sepuluh-sebelas-dan-dua-belas-tahun-2022-desa-rejomulyo",
+        "date": "2022-12-14 08:41:45"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -3637,37 +3916,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Kedungputri",
-      "category": "DESA",
-      "kecamatan": "Paron",
-      "url": "https://kedungputri.desa.id",
-      "url_lama": "https://kedungputri.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2403.0.0",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": false,
-        "system": null,
-        "akismet": false,
-        "comment_admin_url": ""
-      },
-      "title": "Website Resmi Desa Kedungputri",
-      "last_post": {
-        "title": "Statistik",
-        "href": "https://kedungputri.desa.id/first/statistik/4",
-        "date": null
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Gembol",
       "category": "DESA",
       "kecamatan": "Karanganyar",
@@ -3687,7 +3935,7 @@
         "akismet": false,
         "comment_admin_url": ""
       },
-      "title": "Website Resmi Desa",
+      "title": "Website Resmi Desa Gembol",
       "last_post": {
         "title": "Statistik",
         "href": "https://gembol.kabngawi.id/data-statistik/jenis-kelamin",
@@ -3853,6 +4101,28 @@
       "foreign_scripts": []
     },
     {
+      "name": "Sumbersari Ngawi",
+      "category": "DESA",
+      "kecamatan": "Sine",
+      "url": "https://sumbersari-ngawi.desa.id",
+      "url_lama": "https://sumbersari-ngawi.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Sumberejo Ngawi",
       "category": "DESA",
       "kecamatan": "Sine",
@@ -3985,6 +4255,28 @@
       "foreign_scripts": []
     },
     {
+      "name": "Sidorejo Geneng",
+      "category": "DESA",
+      "kecamatan": "Geneng",
+      "url": "https://sidorejo-geneng.desa.id",
+      "url_lama": "https://sidorejo-geneng.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "OFFLINE",
+      "http_status": null,
+      "error": "Offline / Connection Timeout",
+      "platform": null,
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": null,
+      "title": "",
+      "last_post": null,
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Sidomulyo Ngawi",
       "category": "DESA",
       "kecamatan": "Ngrambe",
@@ -4073,28 +4365,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Sekarjati",
-      "category": "DESA",
-      "kecamatan": "Karanganyar",
-      "url": "https://sekarjati.desa.id",
-      "url_lama": "https://sekarjati.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Sekaralas",
       "category": "DESA",
       "kecamatan": "Widodaren",
@@ -4171,50 +4441,6 @@
       "status": "OFFLINE",
       "http_status": 200,
       "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Rejomulyo",
-      "category": "DESA",
-      "kecamatan": "Karangjati",
-      "url": "https://rejomulyo.desa.id",
-      "url_lama": "https://rejomulyo.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": 200,
-      "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Pocol",
-      "category": "DESA",
-      "kecamatan": "Sine",
-      "url": "https://pocol.desa.id",
-      "url_lama": "https://pocol.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
       "platform": null,
       "opensid_version": null,
       "spam_comments": [],
@@ -4711,28 +4937,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Keraskulon",
-      "category": "DESA",
-      "kecamatan": "Gerih",
-      "url": "https://keraskulon.desa.id",
-      "url_lama": "https://keraskulon.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Kenongorejo",
       "category": "DESA",
       "kecamatan": "Bringin",
@@ -4931,50 +5135,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Karangsono Ngawi",
-      "category": "DESA",
-      "kecamatan": "Kwadungan",
-      "url": "https://karangsono-ngawi.desa.id",
-      "url_lama": "https://karangsono-ngawi.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Karangjati Ngawi",
-      "category": "DESA",
-      "kecamatan": "Karangjati",
-      "url": "https://karangjati-ngawi.desa.id",
-      "url_lama": "https://karangjati-ngawi.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": 200,
-      "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Karanggeneng Ngawi",
       "category": "DESA",
       "kecamatan": "Pitu",
@@ -5063,28 +5223,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Jatirejo Ngawi",
-      "category": "DESA",
-      "kecamatan": "Kasreman",
-      "url": "https://jatirejo-ngawi.desa.id",
-      "url_lama": "https://jatirejo-ngawi.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Jatimulyo Ngawi",
       "category": "DESA",
       "kecamatan": "Mantingan",
@@ -5129,55 +5267,11 @@
       "foreign_scripts": []
     },
     {
-      "name": "Guyung",
-      "category": "DESA",
-      "kecamatan": "Gerih",
-      "url": "https://guyung.desa.id",
-      "url_lama": "https://guyung.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Girikerto Ngawi",
       "category": "DESA",
       "kecamatan": "Sine",
       "url": "https://girikerto-ngawi.desa.id",
       "url_lama": "https://girikerto-ngawi.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": 200,
-      "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Gentong Ngawi",
-      "category": "DESA",
-      "kecamatan": "Paron",
-      "url": "https://gentong-ngawi.desa.id",
-      "url_lama": "https://gentong-ngawi.desa.id",
       "domain": "desa.id",
       "domain_migrated": false,
       "status": "OFFLINE",
@@ -5359,28 +5453,6 @@
       "status": "OFFLINE",
       "http_status": 200,
       "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Dawung",
-      "category": "DESA",
-      "kecamatan": "Jogorogo",
-      "url": "https://dawung.desa.id",
-      "url_lama": "https://dawung.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": null,
-      "error": "Offline / Connection Timeout",
       "platform": null,
       "opensid_version": null,
       "spam_comments": [],
