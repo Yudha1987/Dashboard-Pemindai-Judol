@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-13T01:07:15.165246",
+  "scanned_at": "2026-11-14T00:58:03.775047",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -9,6 +9,37 @@
     "critical": 0
   },
   "results": [
+    {
+      "name": "Kiyonten",
+      "category": "DESA",
+      "kecamatan": "Kasreman",
+      "url": "https://kiyonten.kabngawi.id",
+      "url_lama": "https://kiyonten.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://kiyonten.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Kiyonten Kecamatan Kasreman Kabupaten Ngawi",
+      "last_post": {
+        "title": "Targetkan Promosi Liga 2, Berikut Jadwal Pertandingan Persinga Ngawi pada Liga 3 Nusantara 2026/2027",
+        "href": "https://kiyonten.kabngawi.id/artikel/2026/11/13/targetkan-promosi-liga-2-berikut-jadwal-pertandingan-persinga-ngawi-pada-liga-3-nusantara-20262027",
+        "date": "2026-11-13 14:06:36"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Rejuno",
       "category": "DESA",
@@ -21,7 +52,7 @@
       "http_status": 200,
       "error": null,
       "platform": "OpenSID",
-      "opensid_version": null,
+      "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
         "has_comments": true,
@@ -29,11 +60,11 @@
         "akismet": false,
         "comment_admin_url": "https://rejuno.desa.id/index.php/comment"
       },
-      "title": "Website Resmi Desa Rejuno",
+      "title": "Website Resmi Desa R E J U N O",
       "last_post": {
-        "title": "Sambut Hari Desa Nasional, DPMD dan Komdigi Kabupaten Ngawi Gelar Rembuk Bersama Ikut Lomba Website Desa Nasional",
-        "href": "https://rejuno.desa.id/artikel/2026/11/12/sambut-hari-desa-nasional-dpmd-dan-komdigi-kabupaten-ngawi-gelar-rembuk-bersama-ikut-lomba-website-desa-nasional",
-        "date": "2026-11-12 11:54:03"
+        "title": "SAMBUT DATANGNYA MUSIM HUJAN, MASYARAKAT DESA REJUNO GELAR TRADISI LABUHAN",
+        "href": "https://rejuno.desa.id/artikel/2026/11/13/sambut-datangnya-musim-hujan-masyarakat-desa-rejuno-gelar-tradisi-labuhan",
+        "date": "2026-11-13 11:51:52"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -251,37 +282,6 @@
         "title": "Sosialisasi Hukum dan Bencana Alam",
         "href": "https://jaten.desa.id/artikel/2026/11/10/sosialisasi-hukum-dan-bencana-alam",
         "date": "2026-11-10 10:53:46"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Kiyonten",
-      "category": "DESA",
-      "kecamatan": "Kasreman",
-      "url": "https://kiyonten.kabngawi.id",
-      "url_lama": "https://kiyonten.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://kiyonten.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Kiyonten Kecamatan Kasreman Kabupaten Ngawi",
-      "last_post": {
-        "title": "POPDA XV dan PEPARPEDA III Jawa Timur Tahun 2026 Digelar di Ngawi, Tuan Rumah Targetkan 50 Medali dan Tembus 15 Besar",
-        "href": "https://kiyonten.kabngawi.id/artikel/2026/11/06/popda-xv-dan-peparpeda-iii-jawa-timur-tahun-2026-digelar-di-ngawi-tuan-rumah-targetkan-50-medali-dan-tembus-15-besar",
-        "date": "2026-11-06 15:23:59"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1636,10 +1636,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://tepas-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Tepas Kecamatan Geneng Kabupaten Ngawi",
       "last_post": {
@@ -3062,10 +3062,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://campurasri.kabngawi.id/index.php/comment"
       },
       "title": "Website Resmi Desa Campurasri",
       "last_post": {
