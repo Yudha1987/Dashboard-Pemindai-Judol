@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-14T00:58:03.775047",
+  "scanned_at": "2026-11-14T23:57:02.880959",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -9,6 +9,68 @@
     "critical": 0
   },
   "results": [
+    {
+      "name": "Dero",
+      "category": "DESA",
+      "kecamatan": "Bringin",
+      "url": "https://dero.kabngawi.id",
+      "url_lama": "https://dero.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://dero.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Dero Kecamatan Bringin Kabupaten Ngawi",
+      "last_post": {
+        "title": "Wujud Nyata Memayu Hayuning Bawana, PSHT Ranting Bringin Bersinergi dengan Forkopimcam Gelar Kerja Bakti Massal",
+        "href": "https://dero.kabngawi.id/artikel/2026/11/14/wujud-nyata-memayu-hayuning-bawana-psht-ranting-bringin-bersinergi-dengan-forkopimcam-gelar-kerja-bakti-massal",
+        "date": "2026-11-14 12:12:11"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Walikukun",
+      "category": "DESA",
+      "kecamatan": "Widodaren",
+      "url": "https://walikukun.desa.id",
+      "url_lama": "https://walikukun.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://walikukun.desa.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Walikukun",
+      "last_post": {
+        "title": "Semarak Pekan Peduli Sampah Nasional di Pasar Walikukun: Pemkab Ngawi Bersama Forkopimcam, DPRD, Pemdes Walikukun dan PSHT Gelar Kerja Bakti Massal Dukung Rekor MURI",
+        "href": "https://walikukun.desa.id/artikel/2026/11/14/semarak-pekan-peduli-sampah-nasional-di-pasar-walikukun-pemkab-ngawi-bersama-forkopimcam-dprd-pemdes-walikukun-dan-psht-gelar-kerja-bakti-massal-dukung-rekor-muri",
+        "date": "2026-11-14 08:49:27"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Kiyonten",
       "category": "DESA",
@@ -72,6 +134,37 @@
       "foreign_scripts": []
     },
     {
+      "name": "Pitu",
+      "category": "DESA",
+      "kecamatan": "Pitu",
+      "url": "https://pitu.kabngawi.id",
+      "url_lama": "https://pitu.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://pitu.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Pitu Kecamatan Pitu Kabupaten Ngawi",
+      "last_post": {
+        "title": "DESA PITU KEMBANGKAN SDM PERTANIANS: SUKSES GELAR PELATIHAN TEKNOLOGI TEPAT GUNA PEMBUATAN AGENS HAYATI",
+        "href": "https://pitu.kabngawi.id/artikel/2026/11/13/desa-pitu-kembangkan-sdm-pertanians-sukses-gelar-pelatihan-teknologi-tepat-guna-pembuatan-agens-hayati",
+        "date": "2026-11-13 10:57:25"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Gunungsari Ngawi",
       "category": "DESA",
       "kecamatan": "Kasreman",
@@ -86,10 +179,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://gunungsari.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Gunungsari Desa GUNUNGSARI Kecamatan KASREMAN Kabupaten NGAWI",
       "last_post": {
@@ -220,37 +313,6 @@
         "title": "Desa Sumberbening Kembali Raih Juara Untuk Ketiga Kalinya Lomba Website Desa Kabupaten Ngawi",
         "href": "https://sumberbening.desa.id/artikel/2026/11/11/desa-sumberbening-kembali-raih-juara-untuk-ketiga-kalinya-lomba-website-desa-kabupaten-ngawi",
         "date": "2026-11-11 10:14:44"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Walikukun",
-      "category": "DESA",
-      "kecamatan": "Widodaren",
-      "url": "https://walikukun.desa.id",
-      "url_lama": "https://walikukun.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://walikukun.desa.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Walikukun",
-      "last_post": {
-        "title": "Desa Walikukun Sukses Sabet Juara 1 WebDesa Srigati Competition Kabupaten Ngawi 2026",
-        "href": "https://walikukun.desa.id/artikel/2026/11/10/desa-walikukun-sukses-sabet-juara-1-webdesa-srigati-competition-kabupaten-ngawi-2026",
-        "date": "2026-11-10 12:35:53"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -458,10 +520,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://karangrejo.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Karangrejo Kecamatan Kendal Kabupaten Ngawi",
       "last_post": {
@@ -499,37 +561,6 @@
         "title": "PENGUMUMAN LOLOS SELEKSI BERKAS",
         "href": "https://banyuurip.kabngawi.id/artikel/2026/11/02/pengumuman-lolos-seleksi-berkas",
         "date": "2026-11-02 10:05:42"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Dero",
-      "category": "DESA",
-      "kecamatan": "Bringin",
-      "url": "https://dero.kabngawi.id",
-      "url_lama": "https://dero.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://dero.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Dero Kecamatan Bringin Kabupaten Ngawi",
-      "last_post": {
-        "title": "Saat Rebana dan Shalawat Menghidupkan Suasana Hajatan: Damai, Sakral, dan Penuh Berkah",
-        "href": "https://dero.kabngawi.id/artikel/2026/10/30/saat-rebana-dan-shalawat-menghidupkan-suasana-hajatan-damai-sakral-dan-penuh-berkah",
-        "date": "2026-10-30 22:39:16"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1188,37 +1219,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Pitu",
-      "category": "DESA",
-      "kecamatan": "Pitu",
-      "url": "https://pitu.kabngawi.id",
-      "url_lama": "https://pitu.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://pitu.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Pitu Kecamatan Pitu Kabupaten Ngawi",
-      "last_post": {
-        "title": "Desa Pitu Gelar Musrenbangdes Rancangan RKPDesa 2027 dan DURKP 2028 untuk Dorong Pembangunan Terarah",
-        "href": "https://pitu.kabngawi.id/artikel/2026/09/25/desa-pitu-gelar-musrenbangdes-rancangan-rkpdesa-2027-dan-durkp-2028-untuk-dorong-pembangunan-terarah",
-        "date": "2026-09-25 10:28:26"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Kedunggudel",
       "category": "DESA",
       "kecamatan": "Widodaren",
@@ -1636,10 +1636,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://tepas-ngawi.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Tepas Kecamatan Geneng Kabupaten Ngawi",
       "last_post": {
@@ -1667,10 +1667,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://jatirejo-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Jatirejo Kecamatan Kasreman Kabupaten Ngawi",
       "last_post": {
@@ -2690,10 +2690,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://kartoharjo.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Official Website Desa Kartoharjo Kecamatan Ngawi Kabupaten Ngawi",
       "last_post": {
@@ -3248,10 +3248,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://randusongo.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Randusongo",
       "last_post": {
