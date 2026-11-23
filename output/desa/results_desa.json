@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-22T00:24:22.934767",
+  "scanned_at": "2026-11-23T00:55:04.794047",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -31,9 +31,40 @@
       },
       "title": "Website Resmi Desa REJUNO",
       "last_post": {
-        "title": "Pemeriksaan Pap Smear dan Kanker Payudara Dini di Desa Rejuno",
-        "href": "https://rejuno.desa.id/artikel/2026/11/21/pemeriksaan-pap-smear-dan-kanker-payudara-dini-di-desa-rejuno",
-        "date": "2026-11-21 12:15:47"
+        "title": "PJ Kepala Desa Rejuno Imbau Warga Berhati-hati, Pengerjaan dan Pelebaran Ruas Jalan Karangjati - Rejuno Mulai Dilaksanakan",
+        "href": "https://rejuno.desa.id/artikel/2026/11/23/pj-kepala-desa-rejuno-imbau-warga-berhati-hati-pengerjaan-dan-pelebaran-ruas-jalan-karangjati-rejuno-mulai-dilaksanakan",
+        "date": "2026-11-23 03:59:10"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Gunungsari Ngawi",
+      "category": "DESA",
+      "kecamatan": "Kasreman",
+      "url": "https://gunungsari.kabngawi.id",
+      "url_lama": "https://gunungsari-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://gunungsari.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Gunungsari Desa GUNUNGSARI Kecamatan KASREMAN Kabupaten NGAWI",
+      "last_post": {
+        "title": "Kodim 0805 Ngawi Bantu Pengeboran Sumur Dalam di Gunungsari, Jadi Solusi Cadangan Saat Kemarau",
+        "href": "https://gunungsari.kabngawi.id/artikel/2026/11/21/kodim-0805-ngawi-bantu-pengeboran-sumur-dalam-di-gunungsari-jadi-solusi-cadangan-saat-kemarau",
+        "date": "2026-11-21 23:56:36"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -568,37 +599,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Gunungsari Ngawi",
-      "category": "DESA",
-      "kecamatan": "Kasreman",
-      "url": "https://gunungsari.kabngawi.id",
-      "url_lama": "https://gunungsari-ngawi.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://gunungsari.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Gunungsari Desa GUNUNGSARI Kecamatan KASREMAN Kabupaten NGAWI",
-      "last_post": {
-        "title": "Forkopimcam Kasreman Gelar Program Subuh Bersinergi di Desa Gunungsari",
-        "href": "https://gunungsari.kabngawi.id/artikel/2026/11/14/forkopimcam-kasreman-gelar-program-subuh-bersinergi-di-desa-gunungsari",
-        "date": "2026-11-14 20:45:52"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Kiyonten",
       "category": "DESA",
       "kecamatan": "Kasreman",
@@ -737,10 +737,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://teguhan.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Teguhan",
       "last_post": {
@@ -1171,10 +1171,10 @@
       "opensid_version": "2403.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://kedungputri.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Kedungputri",
       "last_post": {
@@ -1264,10 +1264,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://tulakan.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Tulakan Kecamatan Sine Kabupaten Ngawi",
       "last_post": {
@@ -2008,10 +2008,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://tepas-ngawi.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Tepas Kecamatan Geneng Kabupaten Ngawi",
       "last_post": {
@@ -2566,10 +2566,10 @@
       "opensid_version": "2406.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://sidorejo-geneng.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi DESA Sidorejo",
       "last_post": {
@@ -5790,10 +5790,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://setono.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Senggig1 Kecamatan Batulay4r Kabupaten Lombok Bart",
       "last_post": {
