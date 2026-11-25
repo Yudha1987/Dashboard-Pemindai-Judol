@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-24T04:52:13.630598",
+  "scanned_at": "2026-11-25T03:39:39.495175",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -9,6 +9,37 @@
     "critical": 0
   },
   "results": [
+    {
+      "name": "Karangasri",
+      "category": "DESA",
+      "kecamatan": "Ngawi",
+      "url": "https://karangasri.kabngawi.id",
+      "url_lama": "https://karangasri.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://karangasri.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Karangasri",
+      "last_post": {
+        "title": "JEJAK PENGABDIAN GURU",
+        "href": "https://karangasri.kabngawi.id/artikel/2026/11/25/jejak-pengabdian-guru-1",
+        "date": "2026-11-25 09:45:27"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Karanggupito",
       "category": "DESA",
@@ -592,37 +623,6 @@
         "title": "Bangun Desa Sadar Hukum, Purwosari Gandeng Polsek Kwadungan dalam Penyuluhan Hukum",
         "href": "https://purwosari.kabngawi.id/artikel/2026/11/18/bangun-desa-sadar-hukum-purwosari-gandeng-polsek-kwadungan-dalam-penyuluhan-hukum",
         "date": "2026-11-18 11:28:17"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Karangasri",
-      "category": "DESA",
-      "kecamatan": "Ngawi",
-      "url": "https://karangasri.kabngawi.id",
-      "url_lama": "https://karangasri.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://karangasri.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Karangasri",
-      "last_post": {
-        "title": "PELARI MARATON",
-        "href": "https://karangasri.kabngawi.id/artikel/2026/11/18/pelari-maraton-2",
-        "date": "2026-11-18 10:37:43"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -3217,10 +3217,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://widodaren-gerih.kabngawi.id/index.php/comment"
       },
       "title": "Website Resmi Desa Widodaren Kecamatan Gerih Kabupaten Ngawi",
       "last_post": {
@@ -3403,10 +3403,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://sambiroto.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Sambiroto Kecamatan Padas Kabupaten Ngawi",
       "last_post": {
@@ -5480,10 +5480,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://soco.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Soco Kecamatan Jogorogo Kabupaten Ngawi",
       "last_post": {
@@ -5914,10 +5914,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://setono.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Senggig1 Kecamatan Batulay4r Kabupaten Lombok Bart",
       "last_post": {
