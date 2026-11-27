@@ -1,14 +1,107 @@
 {
-  "scanned_at": "2026-11-26T02:55:15.528087",
+  "scanned_at": "2026-11-27T02:55:16.388585",
   "profile": "desa",
   "summary": {
     "total": 213,
     "detected": 0,
-    "safe": 197,
-    "offline": 16,
+    "safe": 201,
+    "offline": 12,
     "critical": 0
   },
   "results": [
+    {
+      "name": "Padas",
+      "category": "DESA",
+      "kecamatan": "Padas",
+      "url": "https://padas.kabngawi.id",
+      "url_lama": "https://padas.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://padas.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Padas Desa Padas Kecamatan Padas Kabupaten Ngawi",
+      "last_post": {
+        "title": "Pemdes Padas Bahas Rencana Kesehatan 2027 ( REMBUG STUNTING ), Fokus Turunkan Stunting dan Perkuat 2 Posyandu",
+        "href": "https://padas.kabngawi.id/artikel/2026/11/26/pemdes-padas-bahas-rencana-kesehatan-2027-rembug-stunting-fokus-turunkan-stunting-dan-perkuat-2-posyandu",
+        "date": "2026-11-26 16:53:05"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Jatigembol",
+      "category": "DESA",
+      "kecamatan": "Kedunggalar",
+      "url": "https://jatigembol.kabngawi.id",
+      "url_lama": "https://jatigembol.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://jatigembol.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Jatigembol",
+      "last_post": {
+        "title": "Warga Desa Jatigembol Kini Bisa Daftar Mandiri PERLINSOS dengan IKD",
+        "href": "https://jatigembol.kabngawi.id/artikel/2026/11/26/warga-desa-jatigembol-kini-bisa-daftar-mandiri-perlinsos-dengan-ikd",
+        "date": "2026-11-26 11:35:44"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Dero",
+      "category": "DESA",
+      "kecamatan": "Bringin",
+      "url": "https://dero.kabngawi.id",
+      "url_lama": "https://dero.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://dero.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Dero Kecamatan Bringin Kabupaten Ngawi",
+      "last_post": {
+        "title": "Perkuat Ketangguhan Masyarakat Hadapi Ancaman Alam, Pemdes Dero Gelar Sosialisasi Mitigasi Bencana Bersama SAR Sikatan Ngawi",
+        "href": "https://dero.kabngawi.id/artikel/2026/11/26/perkuat-ketangguhan-masyarakat-hadapi-ancaman-alam-pemdes-dero-gelar-sosialisasi-mitigasi-bencana-bersama-sar-sikatan-ngawi",
+        "date": "2026-11-26 10:24:33"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Wonokerto Ngawi",
       "category": "DESA",
@@ -148,10 +241,10 @@
       "opensid_version": null,
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://sukowiyono.desa.id/index.php/comment"
       },
       "title": "Website Resmi Desa Sukowiyono",
       "last_post": {
@@ -289,37 +382,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Jatigembol",
-      "category": "DESA",
-      "kecamatan": "Kedunggalar",
-      "url": "https://jatigembol.kabngawi.id",
-      "url_lama": "https://jatigembol.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://jatigembol.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Jatigembol",
-      "last_post": {
-        "title": "Wujudkan Pemberdayaan Ekonomi Masyarakat, Pemdes Jatigembol Selenggarakan Pelatihan TTG Budidaya Ikan Lele",
-        "href": "https://jatigembol.kabngawi.id/artikel/2026/11/23/wujudkan-pemberdayaan-ekonomi-masyarakat-pemdes-jatigembol-selenggarakan-pelatihan-ttg-budidaya-ikan-lele",
-        "date": "2026-11-23 12:33:06"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Ngawi Ngawi",
       "category": "DESA",
       "kecamatan": "Ngawi",
@@ -344,37 +406,6 @@
         "title": "Pos Gizi Desa Ngawi Tahun 2026",
         "href": "https://ngawi-purba.kabngawi.id/artikel/2026/11/23/pos-gizi-desa-ngawi-tahun-2026",
         "date": "2026-11-23 09:26:58"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Dero",
-      "category": "DESA",
-      "kecamatan": "Bringin",
-      "url": "https://dero.kabngawi.id",
-      "url_lama": "https://dero.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://dero.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Dero Kecamatan Bringin Kabupaten Ngawi",
-      "last_post": {
-        "title": "Jaga Mata, Jaga Masa Depan: Ratusan Warga Padati Pendopo Kantor Desa Dero dalam Peringatan WSD 2026 dan HKN ke-62",
-        "href": "https://dero.kabngawi.id/artikel/2026/11/21/jaga-mata-jaga-masa-depan-ratusan-warga-padati-pendopo-kantor-desa-dero-dalam-peringatan-wsd-2026-dan-hkn-ke-62",
-        "date": "2026-11-21 08:04:18"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -754,37 +785,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Padas",
-      "category": "DESA",
-      "kecamatan": "Padas",
-      "url": "https://padas.kabngawi.id",
-      "url_lama": "https://padas.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://padas.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Padas Desa Padas Kecamatan Padas Kabupaten Ngawi",
-      "last_post": {
-        "title": "PEMDES PADAS HADIRI SOSIALISASI OPSEN PAJAK KENDARAAN BERMOTOR DI HOTEL NATA AZANA NGAWI PADAS Jajaran Pemerintah Desa Padas turut serta menghadiri kegiatan Sosialisasi Opsen Pajak Kendaraan Bermotor",
-        "href": "https://padas.kabngawi.id/artikel/2026/11/16/pemdes-padas-hadiri-sosialisasi-opsen-pajak-kendaraan-bermotor-di-hotel-nata-azana-ngawi-padas-jajaran-pemerintah-desa-padas-turut-serta-menghadiri-kegiatan-sosialisasi-opsen-pajak-kendaraan-bermotor",
-        "date": "2026-11-16 08:11:19"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Kiyonten",
       "category": "DESA",
       "kecamatan": "Kasreman",
@@ -830,10 +830,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://pitu.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Pitu Kecamatan Pitu Kabupaten Ngawi",
       "last_post": {
@@ -902,6 +902,37 @@
         "title": "Sosialisasi Hukum dan Bencana Alam",
         "href": "https://jaten.desa.id/artikel/2026/11/10/sosialisasi-hukum-dan-bencana-alam",
         "date": "2026-11-10 10:53:46"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Guyung",
+      "category": "DESA",
+      "kecamatan": "Gerih",
+      "url": "https://guyung.desa.id",
+      "url_lama": "https://guyung.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2401.0.0",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://guyung.desa.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Guyung Kecamatan Gerih Kabupaten Ngawi",
+      "last_post": {
+        "title": "SELAMAT HARI PAHLAWAN 10 NOVEMBER 2026",
+        "href": "https://guyung.desa.id/artikel/2026/11/10/selamat-hari-pahlawan-10-november-2026",
+        "date": "2026-11-10 10:15:39"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -1188,37 +1219,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Guyung",
-      "category": "DESA",
-      "kecamatan": "Gerih",
-      "url": "https://guyung.desa.id",
-      "url_lama": "https://guyung.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2401.0.0",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://guyung.desa.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Guyung Kecamatan Gerih Kabupaten Ngawi",
-      "last_post": {
-        "title": "DESA GUYUNG SELAMAT HARI SUMPAH PEMUDA",
-        "href": "https://guyung.desa.id/artikel/2026/10/28/desa-guyung-selamat-hari-sumpah-pemuda",
-        "date": "2026-10-28 10:03:45"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Selopuro",
       "category": "DESA",
       "kecamatan": "Pitu",
@@ -1398,6 +1398,37 @@
         "title": "&quot;Subuh Bergerak&quot; Program Andalan Kecamatan Mantingan",
         "href": "https://sambirejo-mantingan.kabngawi.id/artikel/2026/10/09/subuh-bergerak-program-andalan-kecamatan-mantingan",
         "date": "2026-10-09 17:31:38"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Simo Kendal",
+      "category": "DESA",
+      "kecamatan": "Kendal",
+      "url": "https://simo-kendal.kabngawi.id",
+      "url_lama": "https://simo-kendal.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://simo-kendal.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Simo Kecamatan Kendal Kabupaten Ngawi",
+      "last_post": {
+        "title": "KARANG TARUNA DUSUN JETAK DESA SIMO SUKSES MENGGELAR BUMI MANUNGGAL CUP II 2026",
+        "href": "https://simo-kendal.kabngawi.id/artikel/2026/10/05/karang-taruna-dusun-jetak-desa-simo-sukses-menggelar-bumi-manunggal-cup-ii-2026",
+        "date": "2026-10-05 09:52:01"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -2111,6 +2142,37 @@
         "title": "Jalan Sehat Desa Tepas Meriahkan HUT ke-81 Kemerdekaan Republik Indonesia",
         "href": "https://tepas-ngawi.desa.id/artikel/2026/8/30/jalan-sehat-desa-tepas-meriahkan-hut-ke-81-kemerdekaan-republik-indonesia",
         "date": "2026-08-30 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Ngompro",
+      "category": "DESA",
+      "kecamatan": "Pangkur",
+      "url": "https://ngompro.kabngawi.id",
+      "url_lama": "https://ngompro.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://ngompro.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Ngompro Kecamatan Pangkur Kabupaten Ngawi",
+      "last_post": {
+        "title": "Sudah 20 Tahun Vakum Lomba Klompencapir Pertanian Pangkur Desa Ngompro Juara 1",
+        "href": "https://ngompro.kabngawi.id/artikel/2026/08/28/sudah-20-tahun-vakum-lomba-klompencapir-pertanian-pangkur-desa-ngompro-juara-1",
+        "date": "2026-08-28 16:23:20"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -3248,10 +3310,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://jagir.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Jagir Kecamatan Sine Kabupaten Ngawi",
       "last_post": {
@@ -3682,10 +3744,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://bangunrejo.kabngawi.id/index.php/comment"
       },
       "title": "Website Resmi Desa Bangunrejo Kecamatan Karanganyar Kabupaten Ngawi",
       "last_post": {
@@ -5108,10 +5170,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://kenongorejo.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Kenongorejo Kecamatan Bringin Kabupaten Ngawi",
       "last_post": {
@@ -5149,6 +5211,37 @@
         "title": "Penyaluran Bantuan Pangan",
         "href": "https://kwadunganlor.kabngawi.id/artikel/2023/06/01/penyaluran-bantuan-pangan",
         "date": "2023-06-01 13:19:44"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Karanganyar Ngawi",
+      "category": "DESA",
+      "kecamatan": "Karanganyar",
+      "url": "https://karanganyar.kabngawi.id",
+      "url_lama": "https://karanganyar-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://karanganyar.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Karanganyar Kecamatan Karanganyar Kabupaten Ngawi",
+      "last_post": {
+        "title": "Permudah Akses Warga, Pemdes Karanganyar Realisasikan Infrastruktur Jalan Cor Beton",
+        "href": "https://karanganyar.kabngawi.id/artikel/2023/03/29/permudah-akses-warga-pemdes-karanganyar-realisasikan-infrastruktur-jalan-cor-beton",
+        "date": "2023-03-29 09:30:17"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -5697,10 +5790,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://simo-kwadungan.kabngawi.id/index.php/comment"
       },
       "title": "Website Resmi Desa Simo Kecamatan Kwadungan Kabupaten Ngawi",
       "last_post": {
@@ -5861,6 +5954,37 @@
       "last_post": {
         "title": "Sejarah Desa",
         "href": "https://dawu.kabngawi.id/artikel/2016/08/26/sejarah-desa",
+        "date": "2016-08-26 00:00:00"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Babadan Ngrambe",
+      "category": "DESA",
+      "kecamatan": "Ngrambe",
+      "url": "https://babadan-ngrambe.kabngawi.id",
+      "url_lama": "https://babadan-ngrambe.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://babadan-ngrambe.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Babadan Kecamatan Ngrambe Kabupaten Ngawi",
+      "last_post": {
+        "title": "Sejarah Desa",
+        "href": "https://babadan-ngrambe.kabngawi.id/artikel/2016/08/26/sejarah-desa",
         "date": "2016-08-26 00:00:00"
       },
       "repeated_posts": [],
@@ -6139,28 +6263,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Simo Kendal",
-      "category": "DESA",
-      "kecamatan": "Kendal",
-      "url": "https://simo-kendal.desa.id",
-      "url_lama": "https://simo-kendal.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": 200,
-      "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Sidorejo Kendal",
       "category": "DESA",
       "kecamatan": "Kendal",
@@ -6249,28 +6351,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Ngompro",
-      "category": "DESA",
-      "kecamatan": "Pangkur",
-      "url": "https://ngompro.desa.id",
-      "url_lama": "https://ngompro.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": 200,
-      "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Kebon",
       "category": "DESA",
       "kecamatan": "Paron",
@@ -6320,28 +6400,6 @@
       "kecamatan": "Geneng",
       "url": "https://kasreman-geneng.desa.id",
       "url_lama": "https://kasreman-geneng.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": 200,
-      "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Karanganyar Ngawi",
-      "category": "DESA",
-      "kecamatan": "Karanganyar",
-      "url": "https://karanganyar-ngawi.desa.id",
-      "url_lama": "https://karanganyar-ngawi.desa.id",
       "domain": "desa.id",
       "domain_migrated": false,
       "status": "OFFLINE",
@@ -6430,28 +6488,6 @@
       "kecamatan": "Paron",
       "url": "https://babadan-paron.desa.id",
       "url_lama": "https://babadan-paron.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "OFFLINE",
-      "http_status": 200,
-      "error": "Offline / Domain lama dialihkan ke landing Kominfo (Situs Dalam Pengawasan)",
-      "platform": null,
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": null,
-      "title": "",
-      "last_post": null,
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Babadan Ngrambe",
-      "category": "DESA",
-      "kecamatan": "Ngrambe",
-      "url": "https://babadan-ngrambe.desa.id",
-      "url_lama": "https://babadan-ngrambe.desa.id",
       "domain": "desa.id",
       "domain_migrated": false,
       "status": "OFFLINE",
