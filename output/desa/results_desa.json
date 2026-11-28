@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-27T02:55:16.388585",
+  "scanned_at": "2026-11-28T02:46:09.117882",
   "profile": "desa",
   "summary": {
     "total": 213,
@@ -9,6 +9,99 @@
     "critical": 0
   },
   "results": [
+    {
+      "name": "Gunungsari Ngawi",
+      "category": "DESA",
+      "kecamatan": "Kasreman",
+      "url": "https://gunungsari.kabngawi.id",
+      "url_lama": "https://gunungsari-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://gunungsari.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Gunungsari Desa GUNUNGSARI Kecamatan KASREMAN Kabupaten NGAWI",
+      "last_post": {
+        "title": "Pemdes Gunungsari Gelar Mitigasi Bencana, BPBD Ngawi Berikan Edukasi dan Praktik Penanganan Kebakaran",
+        "href": "https://gunungsari.kabngawi.id/artikel/2026/11/27/pemdes-gunungsari-gelar-mitigasi-bencana-bpbd-ngawi-berikan-edukasi-dan-praktik-penanganan-kebakaran",
+        "date": "2026-11-27 14:15:51"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Rejuno",
+      "category": "DESA",
+      "kecamatan": "Karangjati",
+      "url": "https://rejuno.desa.id",
+      "url_lama": "https://rejuno.desa.id",
+      "domain": "desa.id",
+      "domain_migrated": false,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": null,
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://rejuno.desa.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa REJUNO",
+      "last_post": {
+        "title": "Kabupaten Ngawi Raih Terbaik II Pertumbuhan Ekonomi Regional Jawa-Bali, Terima Apresiasi Rp1 Miliar",
+        "href": "https://rejuno.desa.id/artikel/2026/11/27/kabupaten-ngawi-raih-terbaik-ii-pertumbuhan-ekonomi-regional-jawa-bali-terima-apresiasi-rp1-miliar",
+        "date": "2026-11-27 10:46:25"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
+      "name": "Mangunharjo Ngawi",
+      "category": "DESA",
+      "kecamatan": "Ngawi",
+      "url": "https://mangunharjo.kabngawi.id",
+      "url_lama": "https://mangunharjo-ngawi.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://mangunharjo.kabngawi.id/index.php/comment"
+      },
+      "title": "Website Resmi Desa Mangunharjo Kecamatan Ngawi Kabupaten Ngawi",
+      "last_post": {
+        "title": "PROFIL",
+        "href": "https://mangunharjo.kabngawi.id/artikel/2026/11/27/profil",
+        "date": "2026-11-27 10:28:22"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
     {
       "name": "Padas",
       "category": "DESA",
@@ -103,6 +196,37 @@
       "foreign_scripts": []
     },
     {
+      "name": "Semen",
+      "category": "DESA",
+      "kecamatan": "Paron",
+      "url": "https://semen.kabngawi.id",
+      "url_lama": "https://semen.desa.id",
+      "domain": "kabngawi.id",
+      "domain_migrated": true,
+      "status": "AMAN",
+      "http_status": 200,
+      "error": null,
+      "platform": "OpenSID",
+      "opensid_version": "2607.0.1",
+      "spam_comments": [],
+      "comment_system": {
+        "has_comments": true,
+        "system": "opensid",
+        "akismet": false,
+        "comment_admin_url": "https://semen.kabngawi.id/index.php/comment"
+      },
+      "title": "Desa Semen",
+      "last_post": {
+        "title": "Sosialisasi Bantuan Listrik Gratis, Desa Semen Mendapatkan 11 Titik Pemasangan untuk Masyarakat",
+        "href": "https://semen.kabngawi.id/artikel/2026/11/26/sosialisasi-bantuan-listrik-gratis-desa-semen-mendapatkan-11-titik-pemasangan-untuk-masyarakat",
+        "date": "2026-11-26 10:20:07"
+      },
+      "repeated_posts": [],
+      "keywords": [],
+      "critical": false,
+      "foreign_scripts": []
+    },
+    {
       "name": "Wonokerto Ngawi",
       "category": "DESA",
       "kecamatan": "Kedunggalar",
@@ -134,37 +258,6 @@
       "foreign_scripts": []
     },
     {
-      "name": "Rejuno",
-      "category": "DESA",
-      "kecamatan": "Karangjati",
-      "url": "https://rejuno.desa.id",
-      "url_lama": "https://rejuno.desa.id",
-      "domain": "desa.id",
-      "domain_migrated": false,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": null,
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://rejuno.desa.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa REJUNO",
-      "last_post": {
-        "title": "Perlindungan Data Pribadi Warga Desa Rejuno",
-        "href": "https://rejuno.desa.id/artikel/2026/11/26/perlindungan-data-pribadi-warga-desa-rejuno",
-        "date": "2026-11-26 07:56:48"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
       "name": "Walikukun",
       "category": "DESA",
       "kecamatan": "Widodaren",
@@ -189,37 +282,6 @@
         "title": "Sinergi Lintas Sektor di Widodaren, Pemkab Ngawi Gelar Aksi Pruning di Ruas Walikukun sampai Kedunggudel",
         "href": "https://walikukun.desa.id/artikel/2026/11/25/sinergi-lintas-sektor-di-widodaren-pemkab-ngawi-gelar-aksi-pruning-di-ruas-walikukun-sampai-kedunggudel",
         "date": "2026-11-25 22:13:13"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Gunungsari Ngawi",
-      "category": "DESA",
-      "kecamatan": "Kasreman",
-      "url": "https://gunungsari.kabngawi.id",
-      "url_lama": "https://gunungsari-ngawi.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://gunungsari.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Gunungsari Desa GUNUNGSARI Kecamatan KASREMAN Kabupaten NGAWI",
-      "last_post": {
-        "title": "Kades Gunungsari Minta Pendataan Linmas Segera Rampung, Pengukuhan Ditargetkan Desember",
-        "href": "https://gunungsari.kabngawi.id/artikel/2026/11/25/kades-gunungsari-minta-pendataan-linmas-segera-rampung-pengukuhan-ditargetkan-desember",
-        "date": "2026-11-25 21:17:19"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -437,37 +499,6 @@
         "title": "Pemdes Gendingan Buka Layanan Jemput Bola Pendaftaran Perlinsos di Dusun Gendingan Kidul",
         "href": "https://gendingan.kabngawi.id/artikel/2026/11/20/pemdes-gendingan-buka-layanan-jemput-bola-pendaftaran-perlinsos-di-dusun-gendingan-kidul",
         "date": "2026-11-20 10:26:29"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Semen",
-      "category": "DESA",
-      "kecamatan": "Paron",
-      "url": "https://semen.kabngawi.id",
-      "url_lama": "https://semen.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://semen.kabngawi.id/index.php/comment"
-      },
-      "title": "Desa Semen",
-      "last_post": {
-        "title": "Prakiraan Cuaca Desa Semen 20 sd 25 November 2026",
-        "href": "https://semen.kabngawi.id/artikel/2026/11/20/prakiraan-cuaca-desa-semen-20-sd-25-november-2026",
-        "date": "2026-11-20 10:05:23"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -830,10 +861,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://pitu.kabngawi.id/index.php/comment"
       },
       "title": "Website Resmi Desa Pitu Kecamatan Pitu Kabupaten Ngawi",
       "last_post": {
@@ -1460,37 +1491,6 @@
         "title": "INFORMASI PENDAFTARAN PERANGKAT DESA BEGAL TAHUN 2026",
         "href": "https://begal.kabngawi.id/artikel/2026/10/01/informasi-pendaftaran-perangkat-desa-begal-tahun-2026",
         "date": "2026-10-01 21:54:24"
-      },
-      "repeated_posts": [],
-      "keywords": [],
-      "critical": false,
-      "foreign_scripts": []
-    },
-    {
-      "name": "Mangunharjo Ngawi",
-      "category": "DESA",
-      "kecamatan": "Ngawi",
-      "url": "https://mangunharjo.kabngawi.id",
-      "url_lama": "https://mangunharjo-ngawi.desa.id",
-      "domain": "kabngawi.id",
-      "domain_migrated": true,
-      "status": "AMAN",
-      "http_status": 200,
-      "error": null,
-      "platform": "OpenSID",
-      "opensid_version": "2607.0.1",
-      "spam_comments": [],
-      "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
-        "akismet": false,
-        "comment_admin_url": "https://mangunharjo.kabngawi.id/index.php/comment"
-      },
-      "title": "Website Resmi Desa Mangunharjo Kecamatan Ngawi Kabupaten Ngawi",
-      "last_post": {
-        "title": "Rekrutmen Perangkat Desa Kasi Pelayanan Desa Mangunharjo Tahun 2026",
-        "href": "https://mangunharjo.kabngawi.id/artikel/2026/09/30/rekrutmen-perangkat-desa-kasi-pelayanan-desa-mangunharjo-tahun-2026",
-        "date": "2026-09-30 22:20:13"
       },
       "repeated_posts": [],
       "keywords": [],
@@ -3310,10 +3310,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://jagir.kabngawi.id/index.php/comment"
       },
       "title": "Website Resmi Desa Jagir Kecamatan Sine Kabupaten Ngawi",
       "last_post": {
@@ -3992,10 +3992,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://girimulyo.kabngawi.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Girimulyo Kecamatan Jogorogo Kabupaten Ngawi",
       "last_post": {
@@ -4922,10 +4922,10 @@
       "opensid_version": "2405.0.0",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": true,
-        "system": "opensid",
+        "has_comments": false,
+        "system": null,
         "akismet": false,
-        "comment_admin_url": "https://dawung.desa.id/index.php/comment"
+        "comment_admin_url": ""
       },
       "title": "Website Resmi Desa Dawung Kecamatan Jogorogo Kabupaten Ngawi",
       "last_post": {
@@ -5170,10 +5170,10 @@
       "opensid_version": "2607.0.1",
       "spam_comments": [],
       "comment_system": {
-        "has_comments": false,
-        "system": null,
+        "has_comments": true,
+        "system": "opensid",
         "akismet": false,
-        "comment_admin_url": ""
+        "comment_admin_url": "https://kenongorejo.kabngawi.id/index.php/comment"
       },
       "title": "Website Resmi Desa Kenongorejo Kecamatan Bringin Kabupaten Ngawi",
       "last_post": {
